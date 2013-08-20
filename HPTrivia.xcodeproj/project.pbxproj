@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCCB36117C408FA00777E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36017C408FA00777E71 /* Foundation.framework */; };
+		CBCCB36317C408FA00777E71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36217C408FA00777E71 /* CoreGraphics.framework */; };
+		CBCCB36517C408FA00777E71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36417C408FA00777E71 /* UIKit.framework */; };
+		CBCCB36B17C408FA00777E71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBCCB36917C408FA00777E71 /* InfoPlist.strings */; };
+		CBCCB36D17C408FA00777E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCCB36C17C408FA00777E71 /* main.m */; };
+		CBCCB37117C408FA00777E71 /* HPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCCB37017C408FA00777E71 /* HPTAppDelegate.m */; };
+		CBCCB37317C408FA00777E71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCCB37217C408FA00777E71 /* Images.xcassets */; };
+		CBCCB37A17C408FA00777E71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB37917C408FA00777E71 /* XCTest.framework */; };
+		CBCCB37B17C408FA00777E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36017C408FA00777E71 /* Foundation.framework */; };
+		CBCCB37C17C408FA00777E71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36417C408FA00777E71 /* UIKit.framework */; };
+		CBCCB38417C408FA00777E71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBCCB38217C408FA00777E71 /* InfoPlist.strings */; };
+		CBCCB38617C408FA00777E71 /* HPTriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCCB38517C408FA00777E71 /* HPTriviaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCCB37D17C408FA00777E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCCB35517C408FA00777E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCCB35C17C408FA00777E71;
+			remoteInfo = HPTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCCB35D17C408FA00777E71 /* HPTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCCB36017C408FA00777E71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBCCB36217C408FA00777E71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBCCB36417C408FA00777E71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBCCB36817C408FA00777E71 /* HPTrivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPTrivia-Info.plist"; sourceTree = "<group>"; };
+		CBCCB36A17C408FA00777E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBCCB36C17C408FA00777E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCCB36E17C408FA00777E71 /* HPTrivia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPTrivia-Prefix.pch"; sourceTree = "<group>"; };
+		CBCCB36F17C408FA00777E71 /* HPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTAppDelegate.h; sourceTree = "<group>"; };
+		CBCCB37017C408FA00777E71 /* HPTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTAppDelegate.m; sourceTree = "<group>"; };
+		CBCCB37217C408FA00777E71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBCCB37817C408FA00777E71 /* HPTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCCB37917C408FA00777E71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBCCB38117C408FA00777E71 /* HPTriviaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPTriviaTests-Info.plist"; sourceTree = "<group>"; };
+		CBCCB38317C408FA00777E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBCCB38517C408FA00777E71 /* HPTriviaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTriviaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCCB35A17C408FA00777E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB36317C408FA00777E71 /* CoreGraphics.framework in Frameworks */,
+				CBCCB36517C408FA00777E71 /* UIKit.framework in Frameworks */,
+				CBCCB36117C408FA00777E71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCCB37517C408FA00777E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB37A17C408FA00777E71 /* XCTest.framework in Frameworks */,
+				CBCCB37C17C408FA00777E71 /* UIKit.framework in Frameworks */,
+				CBCCB37B17C408FA00777E71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCCB35417C408FA00777E71 = {
+			isa = PBXGroup;
+			children = (
+				CBCCB36617C408FA00777E71 /* HPTrivia */,
+				CBCCB37F17C408FA00777E71 /* HPTriviaTests */,
+				CBCCB35F17C408FA00777E71 /* Frameworks */,
+				CBCCB35E17C408FA00777E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCCB35E17C408FA00777E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB35D17C408FA00777E71 /* HPTrivia.app */,
+				CBCCB37817C408FA00777E71 /* HPTriviaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCCB35F17C408FA00777E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB36017C408FA00777E71 /* Foundation.framework */,
+				CBCCB36217C408FA00777E71 /* CoreGraphics.framework */,
+				CBCCB36417C408FA00777E71 /* UIKit.framework */,
+				CBCCB37917C408FA00777E71 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCCB36617C408FA00777E71 /* HPTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB36F17C408FA00777E71 /* HPTAppDelegate.h */,
+				CBCCB37017C408FA00777E71 /* HPTAppDelegate.m */,
+				CBCCB37217C408FA00777E71 /* Images.xcassets */,
+				CBCCB36717C408FA00777E71 /* Supporting Files */,
+			);
+			path = HPTrivia;
+			sourceTree = "<group>";
+		};
+		CBCCB36717C408FA00777E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB36817C408FA00777E71 /* HPTrivia-Info.plist */,
+				CBCCB36917C408FA00777E71 /* InfoPlist.strings */,
+				CBCCB36C17C408FA00777E71 /* main.m */,
+				CBCCB36E17C408FA00777E71 /* HPTrivia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCCB37F17C408FA00777E71 /* HPTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB38517C408FA00777E71 /* HPTriviaTests.m */,
+				CBCCB38017C408FA00777E71 /* Supporting Files */,
+			);
+			path = HPTriviaTests;
+			sourceTree = "<group>";
+		};
+		CBCCB38017C408FA00777E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB38117C408FA00777E71 /* HPTriviaTests-Info.plist */,
+				CBCCB38217C408FA00777E71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCCB35C17C408FA00777E71 /* HPTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCCB38917C408FA00777E71 /* Build configuration list for PBXNativeTarget "HPTrivia" */;
+			buildPhases = (
+				CBCCB35917C408FA00777E71 /* Sources */,
+				CBCCB35A17C408FA00777E71 /* Frameworks */,
+				CBCCB35B17C408FA00777E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPTrivia;
+			productName = HPTrivia;
+			productReference = CBCCB35D17C408FA00777E71 /* HPTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCCB37717C408FA00777E71 /* HPTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCCB38C17C408FA00777E71 /* Build configuration list for PBXNativeTarget "HPTriviaTests" */;
+			buildPhases = (
+				CBCCB37417C408FA00777E71 /* Sources */,
+				CBCCB37517C408FA00777E71 /* Frameworks */,
+				CBCCB37617C408FA00777E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCCB37E17C408FA00777E71 /* PBXTargetDependency */,
+			);
+			name = HPTriviaTests;
+			productName = HPTriviaTests;
+			productReference = CBCCB37817C408FA00777E71 /* HPTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCCB35517C408FA00777E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HPT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "James Hicklin";
+				TargetAttributes = {
+					CBCCB37717C408FA00777E71 = {
+						TestTargetID = CBCCB35C17C408FA00777E71;
+					};
+				};
+			};
+			buildConfigurationList = CBCCB35817C408FA00777E71 /* Build configuration list for PBXProject "HPTrivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBCCB35417C408FA00777E71;
+			productRefGroup = CBCCB35E17C408FA00777E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCCB35C17C408FA00777E71 /* HPTrivia */,
+				CBCCB37717C408FA00777E71 /* HPTriviaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCCB35B17C408FA00777E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB36B17C408FA00777E71 /* InfoPlist.strings in Resources */,
+				CBCCB37317C408FA00777E71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCCB37617C408FA00777E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB38417C408FA00777E71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCCB35917C408FA00777E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB36D17C408FA00777E71 /* main.m in Sources */,
+				CBCCB37117C408FA00777E71 /* HPTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCCB37417C408FA00777E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCB38617C408FA00777E71 /* HPTriviaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCCB37E17C408FA00777E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCCB35C17C408FA00777E71 /* HPTrivia */;
+			targetProxy = CBCCB37D17C408FA00777E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCCB36917C408FA00777E71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCCB36A17C408FA00777E71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBCCB38217C408FA00777E71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCCB38317C408FA00777E71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCCB38717C408FA00777E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBCCB38817C408FA00777E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCCB38A17C408FA00777E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
+				INFOPLIST_FILE = "HPTrivia/HPTrivia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBCCB38B17C408FA00777E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
+				INFOPLIST_FILE = "HPTrivia/HPTrivia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBCCB38D17C408FA00777E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTrivia.app/HPTrivia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HPTriviaTests/HPTriviaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBCCB38E17C408FA00777E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPTrivia.app/HPTrivia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
+				INFOPLIST_FILE = "HPTriviaTests/HPTriviaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCCB35817C408FA00777E71 /* Build configuration list for PBXProject "HPTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCB38717C408FA00777E71 /* Debug */,
+				CBCCB38817C408FA00777E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCCB38917C408FA00777E71 /* Build configuration list for PBXNativeTarget "HPTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCB38A17C408FA00777E71 /* Debug */,
+				CBCCB38B17C408FA00777E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCCB38C17C408FA00777E71 /* Build configuration list for PBXNativeTarget "HPTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCB38D17C408FA00777E71 /* Debug */,
+				CBCCB38E17C408FA00777E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCCB35517C408FA00777E71 /* Project object */;
+}
