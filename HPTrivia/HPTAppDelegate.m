@@ -14,9 +14,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"iphone" bundle:[NSBundle mainBundle]];
+  UIViewController *vc =[storyboard instantiateInitialViewController];
+  
+  // Set root view controller and make windows visible
+  self.window.rootViewController = vc;
+  [self.window makeKeyAndVisible];
+  
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

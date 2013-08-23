@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Easy</key>
+  <array>
+    <dict>
+      <key>Question</key>
+      <string>What is the shape of the scar on Harry's forehead?</string>
+      <key>Correct Answer</key>
+      <string>Lightning Bolt</string>
+      <key>Answer 1</key>
+      <string>Lightning Bolt</string>
+      <key>Answer 2</key>
+      <string>Square</string>
+      <key>Answer 3</key>
+      <string>Skull</string>
+      <key>Answer 4</key>
+      <string>Circle</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who is Harry Potter's Godfather?</string>
+      <key>Correct Answer</key>
+      <string>Sirius Black</string>
+      <key>Answer 1</key>
+      <string>Lord Voldemort</string>
+      <key>Answer 2</key>
+      <string>Sirius Black</string>
+      <key>Answer 3</key>
+      <string>Dobby the House Elf</string>
+      <key>Answer 4</key>
+      <string>Remus Lupin</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is the name of Lucius Malfoy's son?</string>
+      <key>Correct Answer</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 1</key>
+      <string>Bob Malfoy</string>
+      <key>Answer 2</key>
+      <string>Abraxas Malfoy</string>
+      <key>Answer 3</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 4</key>
+      <string>Lucius Malfoy Jr</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is Wormtail's real name?</string>
+      <key>Correct Answer</key>
+      <string>Peter Pettigrew</string>
+      <key>Answer 1</key>
+      <string>Sirius Black</string>
+      <key>Answer 2</key>
+      <string>James Potter</string>
+      <key>Answer 3</key>
+      <string>Remus Lupin</string>
+      <key>Answer 4</key>
+      <string>Peter Pettigrew</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was Lord Voldemort's most feared Death Eater?</string>
+      <key>Correct Answer</key>
+      <string>Bellatrix Lestrange</string>
+      <key>Answer 1</key>
+      <string>Bellatrix Lestrange</string>
+      <key>Answer 2</key>
+      <string>Delores Umbridge</string>
+      <key>Answer 3</key>
+      <string>Severus Snape</string>
+      <key>Answer 4</key>
+      <string>Sir Cadogan</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who guarded the entrance to Gryffindor Tower?</string>
+      <key>Correct Answer</key>
+      <string>The Fat Lady</string>
+      <key>Answer 1</key>
+      <string>Violet</string>
+      <key>Answer 2</key>
+      <string>Nearly Headless Nick</string>
+      <key>Answer 3</key>
+      <string>Minerva Mcgonagall</string>
+      <key>Answer 4</key>
+      <string>The Fat Lady</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was Harry Potter's Uncle?</string>
+      <key>Correct Answer</key>
+      <string>Vernon Dursley</string>
+      <key>Answer 1</key>
+      <string>Filius Flitwick</string>
+      <key>Answer 2</key>
+      <string>Vernon Dursley</string>
+      <key>Answer 3</key>
+      <string>Dudley Dursley</string>
+      <key>Answer 4</key>
+      <string>James Potter</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Which one isn't the name of Harry Potter's children?</string>
+      <key>Correct Answer</key>
+      <string>Rose</string>
+      <key>Answer 1</key>
+      <string>Lily</string>
+      <key>Answer 2</key>
+      <string>James</string>
+      <key>Answer 3</key>
+      <string>Albus Severus</string>
+      <key>Answer 4</key>
+      <string>Rose</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who married Harry Potter?</string>
+      <key>Correct Answer</key>
+      <string>Ginny Weasley</string>
+      <key>Answer 1</key>
+      <string>Ginny Weasley</string>
+      <key>Answer 2</key>
+      <string>Hermione Granger</string>
+      <key>Answer 3</key>
+      <string>Fleur Delacour</string>
+      <key>Answer 4</key>
+      <string>Cho Chang</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who isn't a Hogwarts Founder?</string>
+      <key>Correct Answer</key>
+      <string>Bathilda Bagshot</string>
+      <key>Answer 1</key>
+      <string>Godric Gryffindor</string>
+      <key>Answer 2</key>
+      <string>Salazar Slytherin</string>
+      <key>Answer 3</key>
+      <string>Helga Hufflepuff</string>
+      <key>Answer 4</key>
+      <string>Bathilda Bagshot</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the Defence against the Dark Arts Teacher in Harry's fifth year?</string>
+      <key>Correct Answer</key>
+      <string>Delores Umbridge</string>
+      <key>Answer 1</key>
+      <string>Mad Eye Moody</string>
+      <key>Answer 2</key>
+      <string>Delores Umbridge</string>
+      <key>Answer 3</key>
+      <string>Remus Lupin</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was Harry's least favourite professor at Hogwarts?</string>
+      <key>Correct Answer</key>
+      <string>Severus Snape</string>
+      <key>Answer 1</key>
+      <string>Horace Slughorn</string>
+      <key>Answer 2</key>
+      <string>Sybill Trelawney</string>
+      <key>Answer 3</key>
+      <string>Rebeus Hagrid</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is the name of Harry's Owl?</string>
+      <key>Correct Answer</key>
+      <string>Hedwig</string>
+      <key>Answer 1</key>
+      <string>Errol</string>
+      <key>Answer 2</key>
+      <string>Pigwidgeon</string>
+      <key>Answer 3</key>
+      <string>Hedwig</string>
+      <key>Answer 4</key>
+      <string>Hermes</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the leader of Dumbledore's Army?</string>
+      <key>Correct Answer</key>
+      <string>Harry Potter</string>
+      <key>Answer 1</key>
+      <string>Albus Dumbledore</string>
+      <key>Answer 2</key>
+      <string>Aberforth Dumbledore</string>
+      <key>Answer 3</key>
+      <string>Fawkes</string>
+      <key>Answer 4</key>
+      <string>Harry Potter</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who is Lord Voldemort's mortal enemy?</string>
+      <key>Correct Answer</key>
+      <string>Harry Potter</string>
+      <key>Answer 1</key>
+      <string>Peter Pettigrew</string>
+      <key>Answer 2</key>
+      <string>Harry Potter</string>
+      <key>Answer 3</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 4</key>
+      <string>The Sorting Hat</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is the name of Lucius Malfoy's ex-house elf?</string>
+      <key>Correct Answer</key>
+      <string>Dobby</string>
+      <key>Answer 1</key>
+      <string>Winky</string>
+      <key>Answer 2</key>
+      <string>Kreacher</string>
+      <key>Answer 3</key>
+      <string>Dobby</string>
+      <key>Answer 4</key>
+      <string>Aragog</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What Harry Potter's middle name?</string>
+      <key>Correct Answer</key>
+      <string>James</string>
+      <key>Answer 1</key>
+      <string>Sirius</string>
+      <key>Answer 2</key>
+      <string>James</string>
+      <key>Answer 3</key>
+      <string>Charles</string>
+      <key>Answer 4</key>
+      <string>Ed</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What form does Harry's Patronus take?</string>
+      <key>Correct Answer</key>
+      <string>Stag</string>
+      <key>Answer 1</key>
+      <string>Phoenix</string>
+      <key>Answer 2</key>
+      <string>Lighting Bolt</string>
+      <key>Answer 3</key>
+      <string>Stag</string>
+      <key>Answer 4</key>
+      <string>Dog</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Where did Harry live for the first 10 years at the Dursley's?</string>
+      <key>Correct Answer</key>
+      <string>Cupboard under the Stairs</string>
+      <key>Answer 1</key>
+      <string>Shed</string>
+      <key>Answer 2</key>
+      <string>Garage</string>
+      <key>Answer 3</key>
+      <string>Malfoy Mansion</string>
+      <key>Answer 4</key>
+      <string>Cupboard under the Stairs</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What animal does Remus Lupin transform into?</string>
+      <key>Correct Answer</key>
+      <string>Werewolf</string>
+      <key>Answer 1</key>
+      <string>Bat</string>
+      <key>Answer 2</key>
+      <string>Werewolf</string>
+      <key>Answer 3</key>
+      <string>Dog</string>
+      <key>Answer 4</key>
+      <string>Rat</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What house is Harry sorted into at Hogwarts?</string>
+      <key>Correct Answer</key>
+      <string>Gryffindor</string>
+      <key>Answer 1</key>
+      <string>Ravenclaw</string>
+      <key>Answer 2</key>
+      <string>Gryffindor</string>
+      <key>Answer 3</key>
+      <string>Slytherin</string>
+      <key>Answer 4</key>
+      <string>Hufflepuff</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the Potions Professor for the most of Harry's time at Hogwarts?</string>
+      <key>Correct Answer</key>
+      <string>Severus Snape</string>
+      <key>Answer 1</key>
+      <string>Horace Slughorn</string>
+      <key>Answer 2</key>
+      <string>Rita Skeeter</string>
+      <key>Answer 3</key>
+      <string>Nicolas Flamel</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the Gryffindor Quidditch Captain for Harry's first three years?</string>
+      <key>Correct Answer</key>
+      <string>Oliver Wood</string>
+      <key>Answer 1</key>
+      <string>Oliver Wood</string>
+      <key>Answer 2</key>
+      <string>George Weasley</string>
+      <key>Answer 3</key>
+      <string>Angelina Johnson</string>
+      <key>Answer 4</key>
+      <string>Viktor Krum</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who isn't a member of the Weasley Family?</string>
+      <key>Correct Answer</key>
+      <string>Neville</string>
+      <key>Answer 1</key>
+      <string>Arthur</string>
+      <key>Answer 2</key>
+      <string>Neville</string>
+      <key>Answer 3</key>
+      <string>Ron</string>
+      <key>Answer 4</key>
+      <string>Fred</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is name of Dumbledore's phoenix?</string>
+      <key>Correct Answer</key>
+      <string>Fawkes</string>
+      <key>Answer 1</key>
+      <string>Hedwig</string>
+      <key>Answer 2</key>
+      <string>Tom</string>
+      <key>Answer 3</key>
+      <string>Fawkes</string>
+      <key>Answer 4</key>
+      <string>Fluffy</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who is not a Death Eater?</string>
+      <key>Correct Answer</key>
+      <string>Hermione Granger</string>
+      <key>Answer 1</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 2</key>
+      <string>Bellatrix Lestrange</string>
+      <key>Answer 3</key>
+      <string>Barty Crouch jr</string>
+      <key>Answer 4</key>
+      <string>Hermione Granger</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who escaped from Azkaban in Harry Potter and the Prisoner of Azkaban?</string>
+      <key>Correct Answer</key>
+      <string>Sirius Black</string>
+      <key>Answer 1</key>
+      <string>Peter Pettigrew</string>
+      <key>Answer 2</key>
+      <string>Winky</string>
+      <key>Answer 3</key>
+      <string>Grindelwald</string>
+      <key>Answer 4</key>
+      <string>Sirius Black</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who is not one of Ron's brothers?</string>
+      <key>Correct Answer</key>
+      <string>Lee</string>
+      <key>Answer 1</key>
+      <string>Fred</string>
+      <key>Answer 2</key>
+      <string>George</string>
+      <key>Answer 3</key>
+      <string>Lee</string>
+      <key>Answer 4</key>
+      <string>Percy</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was Harry's Hogwart's enemy?</string>
+      <key>Correct Answer</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 1</key>
+      <string>Fred Weasley</string>
+      <key>Answer 2</key>
+      <string>Cedric Diggory</string>
+      <key>Answer 3</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 4</key>
+      <string>Colin Creevey</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Which Champion was murdered by Lord Voldemort at the end of the Triwizard Tournament?</string>
+      <key>Correct Answer</key>
+      <string>Cedric Diggory</string>
+      <key>Answer 1</key>
+      <string>Viktor Krum</string>
+      <key>Answer 2</key>
+      <string>Cedric Diggory</string>
+      <key>Answer 3</key>
+      <string>Fleur Delacour</string>
+      <key>Answer 4</key>
+      <string>Harry Potter</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What house at Hogwarts was Draco Malfoy in?</string>
+      <key>Correct Answer</key>
+      <string>Slytherin</string>
+      <key>Answer 1</key>
+      <string>Slytherin</string>
+      <key>Answer 2</key>
+      <string>Ravenclaw</string>
+      <key>Answer 3</key>
+      <string>Hufflepuff</string>
+      <key>Answer 4</key>
+      <string>Gryffindor</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the Defence against the Dark Arts Teacher in Harry's second year?</string>
+      <key>Correct Answer</key>
+      <string>Gilderoy Lockhart</string>
+      <key>Answer 1</key>
+      <string>Mad Eye Moody</string>
+      <key>Answer 2</key>
+      <string>Delores Umbridge</string>
+      <key>Answer 3</key>
+      <string>Remus Lupin</string>
+      <key>Answer 4</key>
+      <string>Gilderoy Lockhart</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the Headmaster of Hogwarts in Harry's first year?</string>
+      <key>Correct Answer</key>
+      <string>Albus Dumbledore</string>
+      <key>Answer 1</key>
+      <string>Minerva Mcgonagall</string>
+      <key>Answer 2</key>
+      <string>Aberforth Dumbledore</string>
+      <key>Answer 3</key>
+      <string>Albus Dumbledore</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What his Lord Voldemort's real name?</string>
+      <key>Correct Answer</key>
+      <string>Tom Marvolo Riddle</string>
+      <key>Answer 1</key>
+      <string>Harry Potter</string>
+      <key>Answer 2</key>
+      <string>Draco Malfoy</string>
+      <key>Answer 3</key>
+      <string>Morfin Gaunt</string>
+      <key>Answer 4</key>
+      <string>Tom Marvolo Riddle</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who teaches Transfiguration at Hogwarts?</string>
+      <key>Correct Answer</key>
+      <string>Minerva Mcgonagall</string>
+      <key>Answer 1</key>
+      <string>Filius Flitwick</string>
+      <key>Answer 2</key>
+      <string>Amelia Bones</string>
+      <key>Answer 3</key>
+      <string>Minerva Mcgonagall</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was the head of Slytherin House in Harry's second year?</string>
+      <key>Correct Answer</key>
+      <string>Severus Snape</string>
+      <key>Answer 1</key>
+      <string>Lucius Malfoy</string>
+      <key>Answer 2</key>
+      <string>Kreacher</string>
+      <key>Answer 3</key>
+      <string>Gilderoy Lockhart</string>
+      <key>Answer 4</key>
+      <string>Severus Snape</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who is not in Gryffindor House?</string>
+      <key>Correct Answer</key>
+      <string>Luna Lovegood</string>
+      <key>Answer 1</key>
+      <string>Katie Bell</string>
+      <key>Answer 2</key>
+      <string>Harry Potter</string>
+      <key>Answer 3</key>
+      <string>Ron Weasley</string>
+      <key>Answer 4</key>
+      <string>Luna Lovegood</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What house is Ron Weasley sorted into?</string>
+      <key>Correct Answer</key>
+      <string>Gryffindor</string>
+      <key>Answer 1</key>
+      <string>Gryffindor</string>
+      <key>Answer 2</key>
+      <string>Slytherin</string>
+      <key>Answer 3</key>
+      <string>Hufflepuff</string>
+      <key>Answer 4</key>
+      <string>Ravenclaw</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What house is Hermione Granger sorted into?</string>
+      <key>Correct Answer</key>
+      <string>Gryffindor</string>
+      <key>Answer 1</key>
+      <string>Ravenclaw</string>
+      <key>Answer 2</key>
+      <string>Slytherin</string>
+      <key>Answer 3</key>
+      <string>Hufflepuff</string>
+      <key>Answer 4</key>
+      <string>Gryffindor</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is Hermione's last name?</string>
+      <key>Correct Answer</key>
+      <string>Granger</string>
+      <key>Answer 1</key>
+      <string>Weasley</string>
+      <key>Answer 2</key>
+      <string>Smith</string>
+      <key>Answer 3</key>
+      <string>Jones</string>
+      <key>Answer 4</key>
+      <string>Granger</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What is the name of Hermione's cat?</string>
+      <key>Correct Answer</key>
+      <string>Crookshanks</string>
+      <key>Answer 1</key>
+      <string>Arnold</string>
+      <key>Answer 2</key>
+      <string>Mrs Norris</string>
+      <key>Answer 3</key>
+      <string>Lord Voldemort</string>
+      <key>Answer 4</key>
+      <string>Crookshanks</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Who was not a champion in the Triwizard Tournament?</string>
+      <key>Correct Answer</key>
+      <string>Ludo Bagman</string>
+      <key>Answer 1</key>
+      <string>Harry Potter</string>
+      <key>Answer 2</key>
+      <string>Fleur Delacour</string>
+      <key>Answer 3</key>
+      <string>Ludo Bagman</string>
+      <key>Answer 4</key>
+      <string>Cedric Diggory</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What animal did Peter Pettigrew transform into?</string>
+      <key>Correct Answer</key>
+      <string>Rat</string>
+      <key>Answer 1</key>
+      <string>Dog</string>
+      <key>Answer 2</key>
+      <string>Stag</string>
+      <key>Answer 3</key>
+      <string>Worm</string>
+      <key>Answer 4</key>
+      <string>Rat</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What animal does Sirius Black transform into?</string>
+      <key>Correct Answer</key>
+      <string>Dog</string>
+      <key>Answer 1</key>
+      <string>Wolf</string>
+      <key>Answer 2</key>
+      <string>Raven</string>
+      <key>Answer 3</key>
+      <string>Stag</string>
+      <key>Answer 4</key>
+      <string>Dog</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Dudley Dursley is Harry Potter's ...?</string>
+      <key>Correct Answer</key>
+      <string>Cousin</string>
+      <key>Answer 1</key>
+      <string>Uncle</string>
+      <key>Answer 2</key>
+      <string>Best Friend</string>
+      <key>Answer 3</key>
+      <string>Mortal Enemy</string>
+      <key>Answer 4</key>
+      <string>Cousin</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Vernon Dursley is Harry Potter's ...?</string>
+      <key>Correct Answer</key>
+      <string>Uncle</string>
+      <key>Answer 1</key>
+      <string>Cousin</string>
+      <key>Answer 2</key>
+      <string>Neighour</string>
+      <key>Answer 3</key>
+      <string>Potions Professor</string>
+      <key>Answer 4</key>
+      <string>Uncle</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Which characters are the subject of the prophecy in the Department of Mysteries?</string>
+      <key>Correct Answer</key>
+      <string>Lord Voldemort and Harry Potter</string>
+      <key>Answer 1</key>
+      <string>Albus Dumbledore and Gellert Grindelwald</string>
+      <key>Answer 2</key>
+      <string>Ron Weasley and Severus Snape</string>
+      <key>Answer 3</key>
+      <string>Hermione Granger and Dobby the House elf</string>
+      <key>Answer 4</key>
+      <string>Lord Voldemort and Harry Potter</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>Which character fell through the Veil and died?</string>
+      <key>Correct Answer</key>
+      <string>Sirius Black</string>
+      <key>Answer 1</key>
+      <string>Griphook</string>
+      <key>Answer 2</key>
+      <string>Remus Lupin</string>
+      <key>Answer 3</key>
+      <string>Kingsley Shacklebolt</string>
+      <key>Answer 4</key>
+      <string>Sirius Black</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What type of creature is Fawkes?</string>
+      <key>Correct Answer</key>
+      <string>Phoenix</string>
+      <key>Answer 1</key>
+      <string>Owl</string>
+      <key>Answer 2</key>
+      <string>Human</string>
+      <key>Answer 3</key>
+      <string>Phoenix</string>
+      <key>Answer 4</key>
+      <string>Peacock</string>
+    </dict>
+    <dict>
+      <key>Question</key>
+      <string>What animal is Umbridge supposed to resemble?</string>
+      <key>Correct Answer</key>
+      <string>Toad</string>
+      <key>Answer 1</key>
+      <string>Toad</string>
+      <key>Answer 2</key>
+      <string>Owl</string>
+      <key>Answer 3</key>
+      <string>Bat</string>
+      <key>Answer 4</key>
+      <string>Fly</string>
+    </dict>
+  </array>
+</dict>
+</plist>

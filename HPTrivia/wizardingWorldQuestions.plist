@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Easy</key>
+    <array>
+      <dict>
+        <key>Question</key>
+        <string>What is the name of the village that Hogwarts students are allowed to visit on occasion?</string>
+        <key>Correct Answer</key>
+        <string>Hogsmeade</string>
+        <key>Answer 1</key>
+        <string>Diagon Alley</string>
+        <key>Answer 2</key>
+        <string>Hogsmeade</string>
+        <key>Answer 3</key>
+        <string>Knockturn Alley</string>
+        <key>Answer 4</key>
+        <string>Durmstrang</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Which of these is not a Hogwarts House?</string>
+        <key>Correct Answer</key>
+        <string>Zenophar</string>
+        <key>Answer 1</key>
+        <string>Zenophar</string>
+        <key>Answer 2</key>
+        <string>Gryffindor</string>
+        <key>Answer 3</key>
+        <string>Slytherin</string>
+        <key>Answer 4</key>
+        <string>Hufflepuff</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Which platform does the Hogwarts Express leave from at King's Cross Station?</string>
+        <key>Correct Answer</key>
+        <string>9 &amp; 3/4</string>
+        <key>Answer 1</key>
+        <string>9 &amp; 1/2</string>
+        <key>Answer 2</key>
+        <string>9 &amp; 3/4</string>
+        <key>Answer 3</key>
+        <string>9</string>
+        <key>Answer 4</key>
+        <string>9 &amp; 1/3</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>How many years do Hogwarts students stay in school?</string>
+        <key>Correct Answer</key>
+        <string>7</string>
+        <key>Answer 1</key>
+        <string>2</string>
+        <key>Answer 2</key>
+        <string>6</string>
+        <key>Answer 3</key>
+        <string>7</string>
+        <key>Answer 4</key>
+        <string>4</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Which of these is not a Hogwarts course?</string>
+        <key>Correct Answer</key>
+        <string>Quidditch</string>
+        <key>Answer 1</key>
+        <string>Quidditch</string>
+        <key>Answer 2</key>
+        <string>Potions</string>
+        <key>Answer 3</key>
+        <string>Muggle Studies</string>
+        <key>Answer 4</key>
+        <string>Defense Against the Dark Arts</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>How is mail delivered in the Wizarding World?</string>
+        <key>Correct Answer</key>
+        <string>Owl</string>
+        <key>Answer 1</key>
+        <string>Owl</string>
+        <key>Answer 2</key>
+        <string>Post-man</string>
+        <key>Answer 3</key>
+        <string>Teleportation</string>
+        <key>Answer 4</key>
+        <string>E-Mail</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Which of these creatures does not exist in the Wizarding World?</string>
+        <key>Correct Answer</key>
+        <string>Minotaur</string>
+        <key>Answer 1</key>
+        <string>Dragon</string>
+        <key>Answer 2</key>
+        <string>Goblin</string>
+        <key>Answer 3</key>
+        <string>Grindylow</string>
+        <key>Answer 4</key>
+        <string>Minotaur</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>What is Hagrid's profession?</string>
+        <key>Correct Answer</key>
+        <string>Groundskeeper</string>
+        <key>Answer 1</key>
+        <string>Groundskeeper</string>
+        <key>Answer 2</key>
+        <string>Herbology professor</string>
+        <key>Answer 3</key>
+        <string>Actor</string>
+        <key>Answer 4</key>
+        <string>Musician</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>What kind of animal does Hagrid acquire in the first novel?</string>
+        <key>Correct Answer</key>
+        <string>Dragon</string>
+        <key>Answer 1</key>
+        <string>Dragon</string>
+        <key>Answer 2</key>
+        <string>Troll</string>
+        <key>Answer 3</key>
+        <string>Dwarf</string>
+        <key>Answer 4</key>
+        <string>House Elf</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>What drink is primarily consumed at The Three Broomsticks in Hogsmeade?</string>
+        <key>Correct Answer</key>
+        <string>Butterbeer</string>
+        <key>Answer 1</key>
+        <string>Butterbeer</string>
+        <key>Answer 2</key>
+        <string>Orange Juice</string>
+        <key>Answer 3</key>
+        <string>Firewhiskey</string>
+        <key>Answer 4</key>
+        <string>Wine</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
