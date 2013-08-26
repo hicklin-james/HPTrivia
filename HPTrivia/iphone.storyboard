@@ -84,6 +84,51 @@
             </objects>
             <point key="canvasLocation" x="945" y="-333"/>
         </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="0cp-bg-8lq">
+            <objects>
+                <viewController id="Nrg-ZI-Oma" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mee-uj-E1J">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parchment.png" id="tn5-Jc-XSv">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KMA-Kq-UEF">
+                                <rect key="frame" x="20" y="271" width="97" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Back" backgroundImage="buttonBackground_small.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToMainMenu:" destination="iMt-Qa-8Ki" eventType="touchUpInside" id="KKN-il-ysl"/>
+                                    <segue destination="ddA-FA-EKn" kind="unwind" unwindAction="unwindToMainMenu:" id="z79-ra-dLy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bVd-gl-k5B">
+                                <rect key="frame" x="45" y="27" width="478" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="imageView" destination="tn5-Jc-XSv" id="1cu-df-nSe"/>
+                        <outlet property="titleLabel" destination="bVd-gl-k5B" id="O7M-kt-SCP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snB-0W-wKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ddA-FA-EKn" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="439"/>
+        </scene>
         <!--Question View Controller-->
         <scene sceneID="Exi-YJ-fyK">
             <objects>
@@ -580,6 +625,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="psQ-DS-mii">
+                                <rect key="frame" x="500" y="269" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="SettingsTabIcon.png" backgroundImage="buttonBackground_tiny.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Nrg-ZI-Oma" kind="modal" identifier="" id="ORN-Di-T1G"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -587,6 +644,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="imageView" destination="tdG-NH-f31" id="w06-QJ-Oww"/>
+                        <outlet property="settingsButton" destination="psQ-DS-mii" id="Fdc-oM-AW3"/>
                         <outlet property="titleLabel" destination="7rr-Gt-6oS" id="w7r-qz-yse"/>
                     </connections>
                 </viewController>
@@ -596,6 +654,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SettingsTabIcon.png" width="30" height="30"/>
         <image name="buttonBackground_large.png" width="452" height="165"/>
         <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_small.png" width="291" height="87"/>
