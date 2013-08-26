@@ -104,20 +104,6 @@
       </dict>
       <dict>
         <key>Question</key>
-        <string>What is Hagrid's profession?</string>
-        <key>Correct Answer</key>
-        <string>Groundskeeper</string>
-        <key>Answer 1</key>
-        <string>Groundskeeper</string>
-        <key>Answer 2</key>
-        <string>Herbology professor</string>
-        <key>Answer 3</key>
-        <string>Actor</string>
-        <key>Answer 4</key>
-        <string>Musician</string>
-      </dict>
-      <dict>
-        <key>Question</key>
         <string>What kind of animal does Hagrid acquire in the first novel?</string>
         <key>Correct Answer</key>
         <string>Dragon</string>
@@ -143,6 +129,48 @@
         <string>Firewhiskey</string>
         <key>Answer 4</key>
         <string>Wine</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Which of the following institutions does not participate in the Triwizard Tournament?</string>
+        <key>Correct Answer</key>
+        <string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
+        <key>Answer 1</key>
+        <string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
+        <key>Answer 2</key>
+        <string>Hogwarts School of Witchcraft and Wizardry</string>
+        <key>Answer 3</key>
+        <string>Durmstrang Institute</string>
+        <key>Answer 4</key>
+        <string>Beauxbatons Academy of Magic</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>The Ministry of Magic is:</string>
+        <key>Correct Answer</key>
+        <string>The government of the magical community</string>
+        <key>Answer 1</key>
+        <string>The government of the magical community</string>
+        <key>Answer 2</key>
+        <string>The aurors who are protecting Harry from Voldemort</string>
+        <key>Answer 3</key>
+        <string>Voldemort’s followers</string>
+        <key>Answer 4</key>
+        <string>The administration at Hogwarts</string>
+      </dict>
+      <dict>
+        <key>Question</key>
+        <string>Why is Sunday the best day of the week for Vernon Dursley?</string>
+        <key>Correct Answer</key>
+        <string>No post</string>
+        <key>Answer 1</key>
+        <string>No post</string>
+        <key>Answer 2</key>
+        <string>No work</string>
+        <key>Answer 3</key>
+        <string>Free pancakes</string>
+        <key>Answer 4</key>
+        <string>Sunday tea</string>
       </dict>
     </array>
   </dict>

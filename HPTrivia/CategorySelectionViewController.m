@@ -41,6 +41,8 @@
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
   }
   
+  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  
 }
 
 - (void)didReceiveMemoryWarning

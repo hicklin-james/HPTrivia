@@ -48,10 +48,11 @@
   incorrectAnswerLabel.text = @"Incorrect!";
   incorrectAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
   correctAnswerLabel.text = correctAnswer;
-  correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:25
+  correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:20
                              ];
-  if ([gameController questionNumber] > 10) {
-    [nextViewButton setImage:[UIImage imageNamed:@"finishGameButton.png"] forState:UIControlStateNormal];
+  correctAnswerLabel.adjustsFontSizeToFitWidth = YES;
+  if ([gameController questionNumber] > [gameController numOfQuestions]) {
+    [nextViewButton setTitle:@"Finish Game" forState:UIControlStateNormal];
   }
 }
 

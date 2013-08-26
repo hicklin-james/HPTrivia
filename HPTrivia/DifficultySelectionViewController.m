@@ -46,6 +46,7 @@
   }
   NSLog([NSString stringWithFormat:@"The category is %@", category], nil);
   [self setUpButtons];
+  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
 }
 
 - (void)didReceiveMemoryWarning

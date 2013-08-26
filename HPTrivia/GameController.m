@@ -58,6 +58,23 @@
       [allQuestions addObject:fullQuestion];
     }
     
+    /* This is here so I can check if any questions don't have a possible answer! DON'T DELETE
+     
+    for (int i = 0; i < [allQuestions count]; i++) {
+      GameQuestion *question = [allQuestions objectAtIndex:i];
+      NSString *answer = [question correctAnswer];
+      int count = 0;
+      for (int s = 0; s < 4; s++) {
+        NSString *aAnswer = [[question possibleAnswers] objectAtIndex:s];
+        if (![aAnswer isEqual:answer])
+          count++;
+      }
+      if (count == 4) {
+        NSLog(@"We couldn't find an answer");
+        NSLog([question question], nil);
+      }
+    }
+    */
     if (numOfQuestions == 0)
       numOfQuestions = [allQuestions count];
     

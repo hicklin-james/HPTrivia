@@ -16,15 +16,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="categoryTitle.png" id="aP7-il-VXU">
-                                <rect key="frame" x="128" y="45" width="312" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="39D-9k-h5U">
-                                <rect key="frame" x="184" y="121" width="201" height="41"/>
+                                <rect key="frame" x="207" y="121" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="charactersButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Characters" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -32,10 +28,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dwF-Rg-haZ">
-                                <rect key="frame" x="184" y="170" width="201" height="41"/>
+                                <rect key="frame" x="207" y="169" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="spellsButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Magic" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -43,10 +39,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qAK-jv-2y1">
-                                <rect key="frame" x="184" y="219" width="201" height="41"/>
+                                <rect key="frame" x="207" y="217" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="wizardingWorldButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="16"/>
+                                <state key="normal" title="Wizarding World" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,14 +52,20 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GhW-Gr-asZ">
                                 <rect key="frame" x="20" y="271" width="97" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="backToMainMenuButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Back" backgroundImage="buttonBackground_small.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="backToMainMenu:" destination="iMt-Qa-8Ki" eventType="touchUpInside" id="0de-Zh-cpS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N2Q-99-OMO">
+                                <rect key="frame" x="45" y="35" width="478" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -73,6 +75,7 @@
                         <outlet property="charactersButton" destination="39D-9k-h5U" id="g49-bV-GVp"/>
                         <outlet property="imageView" destination="wUB-tH-4J7" id="J42-tt-isB"/>
                         <outlet property="spellsButton" destination="dwF-Rg-haZ" id="WZb-zZ-WWe"/>
+                        <outlet property="titleLabel" destination="N2Q-99-OMO" id="uMq-P7-10B"/>
                         <outlet property="wizardingWorldButton" destination="qAK-jv-2y1" id="MHY-Qo-iEy"/>
                         <segue destination="0N3-rc-2Ep" kind="modal" identifier="difficultySelectionSegue" modalTransitionStyle="flipHorizontal" id="bOU-NZ-5tm"/>
                     </connections>
@@ -97,7 +100,7 @@
                                 <rect key="frame" x="349" y="179" width="181" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" backgroundImage="buttonBackground.png">
+                                <state key="normal" backgroundImage="buttonBackground_large.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -109,7 +112,7 @@
                                 <rect key="frame" x="38" y="179" width="181" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" backgroundImage="buttonBackground.png">
+                                <state key="normal" backgroundImage="buttonBackground_large.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -121,7 +124,7 @@
                                 <rect key="frame" x="349" y="99" width="181" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" backgroundImage="buttonBackground.png">
+                                <state key="normal" backgroundImage="buttonBackground_large.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -130,10 +133,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zIm-r8-r3x">
-                                <rect key="frame" x="20" y="271" width="96" height="29"/>
+                                <rect key="frame" x="20" y="271" width="97" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="giveUpButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Give Up" backgroundImage="buttonBackground_small.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -144,7 +147,7 @@
                                 <rect key="frame" x="38" y="99" width="181" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" backgroundImage="buttonBackground.png">
+                                <state key="normal" backgroundImage="buttonBackground_large.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -202,10 +205,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mFy-Aw-wXH">
-                                <rect key="frame" x="184" y="234" width="201" height="41"/>
+                                <rect key="frame" x="207" y="232" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="nextQuestionButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                <state key="normal" title="Next Question" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -250,10 +253,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T63-gL-2F1">
-                                <rect key="frame" x="184" y="240" width="201" height="41"/>
+                                <rect key="frame" x="207" y="240" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="mainMenuButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Main Menu" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -305,10 +308,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6rc-b3-czT">
-                                <rect key="frame" x="184" y="231" width="201" height="41"/>
+                                <rect key="frame" x="207" y="231" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="nextQuestionButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                <state key="normal" title="Next Question" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -371,8 +374,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="saK-Wk-lRl">
                                 <rect key="frame" x="20" y="271" width="97" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="backToDifficultySelectionButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Back" backgroundImage="buttonBackground_small.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -384,8 +387,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pD5-MZ-Jb1">
                                 <rect key="frame" x="389" y="191" width="59" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="allButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="All" backgroundImage="buttonBackground_tiny.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -395,8 +398,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zvp-Up-gea">
                                 <rect key="frame" x="299" y="191" width="59" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="fiftyButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="50" backgroundImage="buttonBackground_tiny.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -406,33 +409,31 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pwr-Z7-aXc">
                                 <rect key="frame" x="208" y="191" width="59" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="twentyFiveButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="25" backgroundImage="buttonBackground_tiny.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="beginGameWithNumberOfQuestions:" destination="y74-bi-otQ" eventType="touchUpInside" id="pgn-TR-Eyo"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionsOneTitle.png" id="vv7-cl-Khv">
-                                <rect key="frame" x="116" y="20" width="336" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionsTwoTitle.png" id="X5j-R8-dG5">
-                                <rect key="frame" x="116" y="75" width="336" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="deF-Dy-1Qq">
                                 <rect key="frame" x="116" y="191" width="59" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="tenButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="10" backgroundImage="buttonBackground_tiny.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="beginGameWithNumberOfQuestions:" destination="y74-bi-otQ" eventType="touchUpInside" id="aMC-9F-r9F"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many questions would you like?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="52t-j7-1AR">
+                                <rect key="frame" x="106" y="13" width="357" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -443,6 +444,7 @@
                         <outlet property="fiftyButton" destination="zvp-Up-gea" id="eaR-wL-2sz"/>
                         <outlet property="imageView" destination="WJ1-Ia-lyE" id="q1z-gp-0OX"/>
                         <outlet property="tenButton" destination="deF-Dy-1Qq" id="22G-nT-cdJ"/>
+                        <outlet property="titleLabel" destination="52t-j7-1AR" id="Sfj-dB-gP3"/>
                         <outlet property="twentyFiveButton" destination="pwr-Z7-aXc" id="XrS-ac-mu2"/>
                         <segue destination="7sF-zU-f8a" kind="modal" identifier="beginGameSegue" modalTransitionStyle="flipHorizontal" id="tzk-Hy-uDS"/>
                     </connections>
@@ -466,8 +468,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2Qm-mc-eVM">
                                 <rect key="frame" x="20" y="271" width="97" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="backToCategorySelectionButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Back" backgroundImage="buttonBackground_small.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -476,10 +478,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2N6-g4-u8k">
-                                <rect key="frame" x="184" y="117" width="201" height="41"/>
+                                <rect key="frame" x="207" y="118" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="easyButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Easy" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -488,10 +490,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zj0-CI-xPY">
-                                <rect key="frame" x="184" y="166" width="201" height="41"/>
+                                <rect key="frame" x="207" y="166" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="mediumButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Medium" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -500,10 +502,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NYj-RM-a7m">
-                                <rect key="frame" x="184" y="215" width="201" height="41"/>
+                                <rect key="frame" x="207" y="214" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="hardButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Hard" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -511,10 +513,12 @@
                                     <action selector="transitionToDifficultySelection:" destination="iMt-Qa-8Ki" eventType="touchUpInside" id="sbl-ri-fkj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="difficultyTitle.png" id="tEa-2a-PwV">
-                                <rect key="frame" x="124" y="36" width="320" height="73"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Difficulty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qgE-2x-ajn">
+                                <rect key="frame" x="45" y="35" width="478" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -525,6 +529,7 @@
                         <outlet property="hardButton" destination="NYj-RM-a7m" id="8Ys-NS-69a"/>
                         <outlet property="imageView" destination="orx-O9-u8R" id="PWz-qO-4gX"/>
                         <outlet property="mediumButton" destination="zj0-CI-xPY" id="goZ-cQ-7mD"/>
+                        <outlet property="titleLabel" destination="qgE-2x-ajn" id="5mW-ea-mFk"/>
                         <segue destination="y74-bi-otQ" kind="modal" identifier="numberOfQuestionsSegue" modalTransitionStyle="flipHorizontal" id="0nm-BJ-iP3"/>
                     </connections>
                 </viewController>
@@ -545,10 +550,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4iv-vv-PcR">
-                                <rect key="frame" x="186" y="132" width="196" height="39"/>
+                                <rect key="frame" x="207" y="131" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="newGameButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="New Game" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -558,8 +563,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h9r-UG-P3T">
                                 <rect key="frame" x="207" y="179" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="highScoresButton.png">
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="High Scores" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -569,10 +574,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleImage.png" id="nHQ-FZ-b8v">
-                                <rect key="frame" x="141" y="45" width="286" height="68"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harry Potter Trivia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7rr-Gt-6oS">
+                                <rect key="frame" x="45" y="35" width="478" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -580,6 +587,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="imageView" destination="tdG-NH-f31" id="w06-QJ-Oww"/>
+                        <outlet property="titleLabel" destination="7rr-Gt-6oS" id="w7r-qz-yse"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Il7-0R-sjN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -588,31 +596,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="allButton.png" width="55" height="41"/>
-        <image name="backToCategorySelectionButton.png" width="120" height="29"/>
-        <image name="backToDifficultySelectionButton.png" width="141" height="29"/>
-        <image name="backToMainMenuButton.png" width="94" height="29"/>
-        <image name="buttonBackground.png" width="155" height="41"/>
-        <image name="categoryTitle.png" width="451" height="120"/>
-        <image name="charactersButton.png" width="155" height="41"/>
-        <image name="difficultyTitle.png" width="499" height="120"/>
-        <image name="easyButton.png" width="155" height="41"/>
-        <image name="fiftyButton.png" width="55" height="41"/>
-        <image name="giveUpButton.png" width="50" height="29"/>
-        <image name="hardButton.png" width="155" height="41"/>
-        <image name="highScoresButton.png" width="154" height="40"/>
-        <image name="mainMenuButton.png" width="169" height="41"/>
-        <image name="mediumButton.png" width="155" height="41"/>
-        <image name="newGameButton.png" width="150" height="39"/>
-        <image name="nextQuestionButton.png" width="201" height="41"/>
+        <image name="buttonBackground_large.png" width="452" height="165"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_small.png" width="291" height="87"/>
+        <image name="buttonBackground_tiny.png" width="177" height="123"/>
         <image name="parchment.png" width="320" height="480"/>
-        <image name="questionsOneTitle.png" width="488" height="102"/>
-        <image name="questionsTwoTitle.png" width="380" height="129"/>
-        <image name="spellsButton.png" width="155" height="41"/>
-        <image name="tenButton.png" width="55" height="41"/>
-        <image name="titleImage.png" width="480" height="111"/>
-        <image name="twentyFiveButton.png" width="55" height="41"/>
-        <image name="wizardingWorldButton.png" width="155" height="41"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

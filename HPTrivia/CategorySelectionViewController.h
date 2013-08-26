@@ -16,6 +16,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *charactersButton;
 @property (strong, nonatomic) IBOutlet UIButton *spellsButton;
 @property (strong, nonatomic) IBOutlet UIButton *wizardingWorldButton;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 
 - (IBAction)backToMainMenu:(id)sender;
 - (IBAction)transitionToDifficultySelection:(id)sender;

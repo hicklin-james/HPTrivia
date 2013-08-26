@@ -288,7 +288,7 @@
         <key>Question</key>
         <string>What spell does Lockhart attempt to curse Harry and Ron with but backfires?</string>
         <key>Correct Answer</key>
-        <string>Memory charm</string>
+        <string>Memory Charm</string>
         <key>Answer 1</key>
         <string>Killing curse</string>
         <key>Answer 2</key>
@@ -704,6 +704,24 @@
         <key>Answer 4</key>
         <string>Snape's Potions Textbook</string>
       </dict>
+      <dict>
+        <key>Question</key>
+        <string>Harry develops an affinity for which class?</string>
+        <key>Correct Answer</key>
+        <string>Defense Against the Dark Arts</string>
+        <key>Answer 1</key>
+        <string>Defense Against the Dark Arts</string>
+        <key>Answer 2</key>
+        <string>Herbology</string>
+        <key>Answer 3</key>
+        <string>Charms</string>
+        <key>Answer 4</key>
+        <string>History of Magic</string>
+      </dict>
+    </array>
+    <key>Medium</key>
+    <array>
+      
     </array>
   </dict>
 </plist>

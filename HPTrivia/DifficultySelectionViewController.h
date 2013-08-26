@@ -19,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *easyButton;
 @property (strong, nonatomic) IBOutlet UIButton *mediumButton;
 @property (strong, nonatomic) IBOutlet UIButton *hardButton;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 
 - (IBAction)backToCategorySelection:(id)sender;
 - (IBAction)beginGame:(id)sender;

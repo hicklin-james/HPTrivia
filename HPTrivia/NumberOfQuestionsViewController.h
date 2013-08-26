@@ -23,6 +23,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *twentyFiveButton;
 @property (strong, nonatomic) IBOutlet UIButton *fiftyButton;
 @property (strong, nonatomic) IBOutlet UIButton *allButton;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 
 - (IBAction)beginGameWithNumberOfQuestions:(id)sender;
 - (IBAction)backToDifficultySelection:(id)sender;

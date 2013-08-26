@@ -45,8 +45,8 @@
   correctAnswerLabel.text = @"Correct!";
   correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
   
-  if ([gameController questionNumber] > 10) {
-    [nextViewButton setImage:[UIImage imageNamed:@"finishGameButton.png"] forState:UIControlStateNormal];
+  if ([gameController questionNumber] > [gameController numOfQuestions]) {
+    [nextViewButton setTitle:@"Finish Game" forState:UIControlStateNormal];
   }
   
 }
