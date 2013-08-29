@@ -27,17 +27,17 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+  if (self) {
+    // Custom initialization
+  }
+  return self;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view.
   // Use correct image for screen size
   if(IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
@@ -47,12 +47,13 @@
   NSLog([NSString stringWithFormat:@"The category is %@", category], nil);
   [self setUpButtons];
   [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 // Hides status bar
@@ -75,7 +76,7 @@
 
 - (IBAction)backToCategorySelection:(id)sender {
   
-   [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
+  [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
   
 }
 
@@ -102,17 +103,22 @@
   
   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
   NSInteger allowedDifficlty = [defaults integerForKey:[NSString stringWithFormat:@"%@ Difficulty Allowed", category]];
-  if (allowedDifficlty >= 1) {
-    [mediumButton setEnabled:YES];
+  if ([defaults boolForKey:@"unlockAllLevels"]) {
+    
   }
   else {
-    [mediumButton setEnabled:NO];
-  }
-  if (allowedDifficlty >= 2) {
-    [hardButton setEnabled:YES];
-  }
-  else {
-    [hardButton setEnabled:NO];
+    if (allowedDifficlty >= 1) {
+      [mediumButton setEnabled:YES];
+    }
+    else {
+      [mediumButton setEnabled:NO];
+    }
+    if (allowedDifficlty >= 2) {
+      [hardButton setEnabled:YES];
+    }
+    else {
+      [hardButton setEnabled:NO];
+    }
   }
 }
 @end

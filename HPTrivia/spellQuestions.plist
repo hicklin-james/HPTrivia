@@ -1,727 +1,768 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>Easy</key>
-    <array>
-      <dict>
-        <key>Question</key>
-        <string>What is the spell that Harry used to defeat Voldemort in their final encounter?</string>
-        <key>Correct Answer</key>
-        <string>Expelliarmus</string>
-        <key>Answer 1</key>
-        <string>Expelliarmus</string>
-        <key>Answer 2</key>
-        <string>Accio</string>
-        <key>Answer 3</key>
-        <string>Crucio</string>
-        <key>Answer 4</key>
-        <string>Diffindo</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of the Wingardium Leviosa spell?</string>
-        <key>Correct Answer</key>
-        <string>Levitation</string>
-        <key>Answer 1</key>
-        <string>Pain</string>
-        <key>Answer 2</key>
-        <string>Levitation</string>
-        <key>Answer 3</key>
-        <string>Summoning</string>
-        <key>Answer 4</key>
-        <string>Death</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these spells is not an unforgivable curse?</string>
-        <key>Correct Answer</key>
-        <string>Lumos</string>
-        <key>Answer 1</key>
-        <string>Lumos</string>
-        <key>Answer 2</key>
-        <string>Imperio</string>
-        <key>Answer 3</key>
-        <string>Crucio</string>
-        <key>Answer 4</key>
-        <string>Avada Kedavra</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the punishment for using an unforgivable curse?</string>
-        <key>Correct Answer</key>
-        <string>A life sentence in Askaban</string>
-        <key>Answer 1</key>
-        <string>Detention</string>
-        <key>Answer 2</key>
-        <string>A life sentence in Askaban</string>
-        <key>Answer 3</key>
-        <string>No punishment</string>
-        <key>Answer 4</key>
-        <string>Execution</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the spell that unlocks a locked door?</string>
-        <key>Correct Answer</key>
-        <string>Alohamora</string>
-        <key>Answer 1</key>
-        <string>Levicorpus</string>
-        <key>Answer 2</key>
-        <string>Expulso</string>
-        <key>Answer 3</key>
-        <string>Alohamora</string>
-        <key>Answer 4</key>
-        <string>Incendio</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the spell that Hermione uses to fix Harry's glasses in the first novel?</string>
-        <key>Correct Answer</key>
-        <string>Reparo</string>
-        <key>Answer 1</key>
-        <string>Reparo</string>
-        <key>Answer 2</key>
-        <string>Sectumsempra</string>
-        <key>Answer 3</key>
-        <string>Reducto</string>
-        <key>Answer 4</key>
-        <string>Stupefy</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of the Stupefy spell?</string>
-        <key>Correct Answer</key>
-        <string>Stunning</string>
-        <key>Answer 1</key>
-        <string>Explosion</string>
-        <key>Answer 2</key>
-        <string>Stinging</string>
-        <key>Answer 3</key>
-        <string>Stunning</string>
-        <key>Answer 4</key>
-        <string>Transfiguration</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which spell does Remus Lupin teach the class to fight off a Boggart?</string>
-        <key>Correct Answer</key>
-        <string>Riddikulus</string>
-        <key>Answer 1</key>
-        <string>Riddikulus</string>
-        <key>Answer 2</key>
-        <string>Scourgify</string>
-        <key>Answer 3</key>
-        <string>Sonorus</string>
-        <key>Answer 4</key>
-        <string>Imperio</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the spell that Harry learns from Snape's old Potions textbook?</string>
-        <key>Correct Answer</key>
-        <string>Sectumsempra</string>
-        <key>Answer 1</key>
-        <string>Portus</string>
-        <key>Answer 2</key>
-        <string>Alakazam</string>
-        <key>Answer 3</key>
-        <string>Sectumsempra</string>
-        <key>Answer 4</key>
-        <string>Periculum</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which spell is effective when fighting off Dementors?</string>
-        <key>Correct Answer</key>
-        <string>Expecto Patronum</string>
-        <key>Answer 1</key>
-        <string>Expecto Patronum</string>
-        <key>Answer 2</key>
-        <string>Erecto</string>
-        <key>Answer 3</key>
-        <string>Dissendium</string>
-        <key>Answer 4</key>
-        <string>Confundo</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which spell causes the victim to become confused and befuddled?</string>
-        <key>Correct Answer</key>
-        <string>Confundo</string>
-        <key>Answer 1</key>
-        <string>Muffliato</string>
-        <key>Answer 2</key>
-        <string>Lumos</string>
-        <key>Answer 3</key>
-        <string>Ferula</string>
-        <key>Answer 4</key>
-        <string>Confundo</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which spell does Ginny have a reputation for being good at?</string>
-        <key>Correct Answer</key>
-        <string>Bat-Bogey Hex</string>
-        <key>Answer 1</key>
-        <string>The Summoning Charm</string>
-        <key>Answer 2</key>
-        <string>Bat-Bogey Hex</string>
-        <key>Answer 3</key>
-        <string>Jelly Legs Jinx</string>
-        <key>Answer 4</key>
-        <string>The Killing Curse</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What spell does Harry use in the first task of the Triwizard Tournament?</string>
-        <key>Correct Answer</key>
-        <string>The Summoning Charm</string>
-        <key>Answer 1</key>
-        <string>The Killing Curse</string>
-        <key>Answer 2</key>
-        <string>Bat Bogey Hex</string>
-        <key>Answer 3</key>
-        <string>The Patronus Charm</string>
-        <key>Answer 4</key>
-        <string>The Summoning Charm</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>The Patronus Charm is used to defeat what?</string>
-        <key>Correct Answer</key>
-        <string>Dementors</string>
-        <key>Answer 1</key>
-        <string>Lord Voldemort</string>
-        <key>Answer 2</key>
-        <string>Dementors</string>
-        <key>Answer 3</key>
-        <string>Boggarts</string>
-        <key>Answer 4</key>
-        <string>Goblins</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the first transfiguration students attempt?</string>
-        <key>Correct Answer</key>
-        <string>Matchsticks into needles</string>
-        <key>Answer 1</key>
-        <string>Ravens into goblets</string>
-        <key>Answer 2</key>
-        <string>Matchsticks into needles</string>
-        <key>Answer 3</key>
-        <string>Quill into ink</string>
-        <key>Answer 4</key>
-        <string>Conjuring water</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>The Aguamenti incantation conjures what?</string>
-        <key>Correct Answer</key>
-        <string>Water</string>
-        <key>Answer 1</key>
-        <string>Gold</string>
-        <key>Answer 2</key>
-        <string>Wine</string>
-        <key>Answer 3</key>
-        <string>Water</string>
-        <key>Answer 4</key>
-        <string>Fire</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What spell is Harry Potter the only known survivor of?</string>
-        <key>Correct Answer</key>
-        <string>Avada Kedavra</string>
-        <key>Answer 1</key>
-        <string>Wingardium Leviosa</string>
-        <key>Answer 2</key>
-        <string>Expecto Patronum</string>
-        <key>Answer 3</key>
-        <string>Crucio</string>
-        <key>Answer 4</key>
-        <string>Avada Kedavra</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the most powerful truth potion?</string>
-        <key>Correct Answer</key>
-        <string>Veritaserum</string>
-        <key>Answer 1</key>
-        <string>Veritaserum</string>
-        <key>Answer 2</key>
-        <string>Amortentia</string>
-        <key>Answer 3</key>
-        <string>Polyjuice</string>
-        <key>Answer 4</key>
-        <string>Elixir of Life</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>The Philosophers Stone allows for the creation of?</string>
-        <key>Correct Answer</key>
-        <string>Elixir of Life</string>
-        <key>Answer 1</key>
-        <string>Polyjuice Potion</string>
-        <key>Answer 2</key>
-        <string>Skelgrow</string>
-        <key>Answer 3</key>
-        <string>Firewhiskey</string>
-        <key>Answer 4</key>
-        <string>Elixir of Life</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Where would you look for a Bezoar?</string>
-        <key>Correct Answer</key>
-        <string>Stomach of a Goat</string>
-        <key>Answer 1</key>
-        <string>Draco Malfoy's hair</string>
-        <key>Answer 2</key>
-        <string>Foot of a Troll</string>
-        <key>Answer 3</key>
-        <string>Stomach of a Goat</string>
-        <key>Answer 4</key>
-        <string>Wings of a Hippogriff</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What spell does Lockhart attempt to curse Harry and Ron with but backfires?</string>
-        <key>Correct Answer</key>
-        <string>Memory Charm</string>
-        <key>Answer 1</key>
-        <string>Killing curse</string>
-        <key>Answer 2</key>
-        <string>Memory Charm</string>
-        <key>Answer 3</key>
-        <string>Stunning Spell</string>
-        <key>Answer 4</key>
-        <string>Bat Bogey Hex</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which plant is one of the obstacles guarding the Philosopher's Stone?'?</string>
-        <key>Correct Answer</key>
-        <string>Devil's Snare</string>
-        <key>Answer 1</key>
-        <string>Devil's Snare</string>
-        <key>Answer 2</key>
-        <string>Mandrake</string>
-        <key>Answer 3</key>
-        <string>Fanged Geranium</string>
-        <key>Answer 4</key>
-        <string>Puffapod</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which potion do Harry, Ron and Hermione use to sneak into the Slytherin House common room in The Chamber of Secrets?</string>
-        <key>Correct Answer</key>
-        <string>Polyjuice Potion</string>
-        <key>Answer 1</key>
-        <string>Draught of Living Death</string>
-        <key>Answer 2</key>
-        <string>Wolfsbane Potion</string>
-        <key>Answer 3</key>
-        <string>Polyjuice Potion</string>
-        <key>Answer 4</key>
-        <string>Murtlap Essence</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which Potion does Horace Slughorn award to Harry in his sixth year at Hogwarts?</string>
-        <key>Correct Answer</key>
-        <string>Felix Felicis</string>
-        <key>Answer 1</key>
-        <string>Babbling Beverage</string>
-        <key>Answer 2</key>
-        <string>Felix Felicis</string>
-        <key>Answer 3</key>
-        <string>Essence of Dittany</string>
-        <key>Answer 4</key>
-        <string>Invisibility Potion</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of Essence of Dittany?</string>
-        <key>Correct Answer</key>
-        <string>Regrow skin over a wound</string>
-        <key>Answer 1</key>
-        <string>Regrow skin over a wound</string>
-        <key>Answer 2</key>
-        <string>Extend the taker's life</string>
-        <key>Answer 3</key>
-        <string>Relieve anxiety</string>
-        <key>Answer 4</key>
-        <string>Remove acne</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of the spell that Ron attempts to curse Malfoy with in Harry Potter and the Chamber of Secrets?</string>
-        <key>Correct Answer</key>
-        <string>He vomits slugs</string>
-        <key>Answer 1</key>
-        <string>He vomits slugs</string>
-        <key>Answer 2</key>
-        <string>He gets knocked out</string>
-        <key>Answer 3</key>
-        <string>He loses his memory</string>
-        <key>Answer 4</key>
-        <string>He vanishes his own bones</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these cannot be conjured?</string>
-        <key>Correct Answer</key>
-        <string>Food</string>
-        <key>Answer 1</key>
-        <string>Food</string>
-        <key>Answer 2</key>
-        <string>Flames</string>
-        <key>Answer 3</key>
-        <string>Christmas Decorations</string>
-        <key>Answer 4</key>
-        <string>Shackles</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>In what year to Hogwarts students learn to Apparate?</string>
-        <key>Correct Answer</key>
-        <string>6th year</string>
-        <key>Answer 1</key>
-        <string>5th year</string>
-        <key>Answer 2</key>
-        <string>4th year</string>
-        <key>Answer 3</key>
-        <string>3rd year</string>
-        <key>Answer 4</key>
-        <string>6th year</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What type of creatures pull the carriages from the Hogwarts Express up to Hogwarts?</string>
-        <key>Correct Answer</key>
-        <string>Thestrals</string>
-        <key>Answer 1</key>
-        <string>Thestrals</string>
-        <key>Answer 2</key>
-        <string>Dragons</string>
-        <key>Answer 3</key>
-        <string>Unicorns</string>
-        <key>Answer 4</key>
-        <string>Horses</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of consuming Unicorn blood?</string>
-        <key>Correct Answer</key>
-        <string>Extended life</string>
-        <key>Answer 1</key>
-        <string>Extended life</string>
-        <key>Answer 2</key>
-        <string>Shrunken head</string>
-        <key>Answer 3</key>
-        <string>Eternal happiness</string>
-        <key>Answer 4</key>
-        <string>No effect</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>When is the trace lifted?</string>
-        <key>Correct Answer</key>
-        <string>At age 17</string>
-        <key>Answer 1</key>
-        <string>At age 17</string>
-        <key>Answer 2</key>
-        <string>At age 18</string>
-        <key>Answer 3</key>
-        <string>After graduating from Hogwarts</string>
-        <key>Answer 4</key>
-        <string>After cursing yourself</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>How to Fred and George attempt to trick the Goblet of Fire in to accepting their names?</string>
-        <key>Correct Answer</key>
-        <string>Ageing Potion</string>
-        <key>Answer 1</key>
-        <string>Ageing Potion</string>
-        <key>Answer 2</key>
-        <string>Get a friend to submit their names</string>
-        <key>Answer 3</key>
-        <string>Levitate their names into the goblet</string>
-        <key>Answer 4</key>
-        <string>Change their birthdays</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Why are Mandrakes dangerous?</string>
-        <key>Correct Answer</key>
-        <string>Their scream can kill a human</string>
-        <key>Answer 1</key>
-        <string>Their scream can kill a human</string>
-        <key>Answer 2</key>
-        <string>They have extremely sharp teeth</string>
-        <key>Answer 3</key>
-        <string>They shoot poisonous goo</string>
-        <key>Answer 4</key>
-        <string>They release toxic fumes</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of the spell Hagrid casts on Dudley in the first novel?</string>
-        <key>Correct Answer</key>
-        <string>He grows a tail</string>
-        <key>Answer 1</key>
-        <string>He grows a tail</string>
-        <key>Answer 2</key>
-        <string>He dies</string>
-        <key>Answer 3</key>
-        <string>He grows an extra foot</string>
-        <key>Answer 4</key>
-        <string>He grows ears</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What spell can Witches and Wizards use to produce light?</string>
-        <key>Correct Answer</key>
-        <string>Lumos</string>
-        <key>Answer 1</key>
-        <string>Lumos</string>
-        <key>Answer 2</key>
-        <string>Lumio</string>
-        <key>Answer 3</key>
-        <string>Lome</string>
-        <key>Answer 4</key>
-        <string>Expelliarmus</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>How does Dumbledore enforce the age restriction imposed on the Triwizard Tournament?</string>
-        <key>Correct Answer</key>
-        <string>Age Line around the Goblet</string>
-        <key>Answer 1</key>
-        <string>Age Line around the Goblet</string>
-        <key>Answer 2</key>
-        <string>Filch guards the Goblet</string>
-        <key>Answer 3</key>
-        <string>Disillusionment Charm to hide the Goblet</string>
-        <key>Answer 4</key>
-        <string>Circle of flames around the Goblet</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What creature attacks Draco in Hagrid's Care of Magical Creatures class?</string>
-        <key>Correct Answer</key>
-        <string>Hippogriff</string>
-        <key>Answer 1</key>
-        <string>Hippogriff</string>
-        <key>Answer 2</key>
-        <string>Acromantula</string>
-        <key>Answer 3</key>
-        <string>Dragon</string>
-        <key>Answer 4</key>
-        <string>Troll</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which Hogwarts course is taught by a ghost?</string>
-        <key>Correct Answer</key>
-        <string>History of Magic</string>
-        <key>Answer 1</key>
-        <string>History of Magic</string>
-        <key>Answer 2</key>
-        <string>Charms</string>
-        <key>Answer 3</key>
-        <string>Transfiguration</string>
-        <key>Answer 4</key>
-        <string>Divination</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>In their fourth year at Hogwarts, what creature did students raise as a project throughout the year?</string>
-        <key>Correct Answer</key>
-        <string>Blast-Ended Skrewts</string>
-        <key>Answer 1</key>
-        <string>Blast-Ended Skrewts</string>
-        <key>Answer 2</key>
-        <string>Nifflers</string>
-        <key>Answer 3</key>
-        <string>Bowtruckles</string>
-        <key>Answer 4</key>
-        <string>Fire crabs</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What Christmas present does Harry recieve annonymously in his first year at Hogwarts?</string>
-        <key>Correct Answer</key>
-        <string>Invisibility Cloak</string>
-        <key>Answer 1</key>
-        <string>Invisibility Cloak</string>
-        <key>Answer 2</key>
-        <string>Bertie Bott's Every Flavour Beans</string>
-        <key>Answer 3</key>
-        <string>Chocolate Frogs</string>
-        <key>Answer 4</key>
-        <string>Elder Wand</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these is not a core course in the Hogwarts syllabus?</string>
-        <key>Correct Answer</key>
-        <string>Divination</string>
-        <key>Answer 1</key>
-        <string>Divination</string>
-        <key>Answer 2</key>
-        <string>History of Magic</string>
-        <key>Answer 3</key>
-        <string>Herbology</string>
-        <key>Answer 4</key>
-        <string>Charms</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is a dangerous side-effect that can happen when Apparating?</string>
-        <key>Correct Answer</key>
-        <string>Splinching</string>
-        <key>Answer 1</key>
-        <string>Splinching</string>
-        <key>Answer 2</key>
-        <string>Memory Loss</string>
-        <key>Answer 3</key>
-        <string>Dementia</string>
-        <key>Answer 4</key>
-        <string>Dragon Pox</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What type of spell is the one that spreads through Dumbledore's finger?</string>
-        <key>Correct Answer</key>
-        <string>Curse</string>
-        <key>Answer 1</key>
-        <string>Curse</string>
-        <key>Answer 2</key>
-        <string>Hex</string>
-        <key>Answer 3</key>
-        <string>Jinx</string>
-        <key>Answer 4</key>
-        <string>Charm</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What creatures guard the Wizard prison, Askaban?</string>
-        <key>Correct Answer</key>
-        <string>Dementors</string>
-        <key>Answer 1</key>
-        <string>Dementors</string>
-        <key>Answer 2</key>
-        <string>Dragons</string>
-        <key>Answer 3</key>
-        <string>Bowtruckles</string>
-        <key>Answer 4</key>
-        <string>Giants</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the effect of a Dementor's Kiss?</string>
-        <key>Correct Answer</key>
-        <string>Loss of Soul</string>
-        <key>Answer 1</key>
-        <string>Loss of Soul</string>
-        <key>Answer 2</key>
-        <string>Death</string>
-        <key>Answer 3</key>
-        <string>Euphoria</string>
-        <key>Answer 4</key>
-        <string>Pain</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which Unforgivable Curse(s) does Harry use?</string>
-        <key>Correct Answer</key>
-        <string>Imperio and Crucio</string>
-        <key>Answer 1</key>
-        <string>Imperio and Crucio</string>
-        <key>Answer 2</key>
-        <string>Imperio, Crucio, and Avada Kedavra</string>
-        <key>Answer 3</key>
-        <string>Avada Kedavra</string>
-        <key>Answer 4</key>
-        <string>He never uses an Unforgivable curse</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>How does the Sorting Hat aid Harry in the Chamber of Secrets?</string>
-        <key>Correct Answer</key>
-        <string>It presents him with Gryffindor's sword</string>
-        <key>Answer 1</key>
-        <string>It kills the Basilisk</string>
-        <key>Answer 2</key>
-        <string>It presents him with Gryffindor's sword</string>
-        <key>Answer 3</key>
-        <string>It pokes out the Basilisk's eye</string>
-        <key>Answer 4</key>
-        <string>It shouts words of encouragement</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What do Ron and Hermione find in the Chamber of Secrets that can kill Horcruxes?</string>
-        <key>Correct Answer</key>
-        <string>Basilisk Fangs</string>
-        <key>Answer 1</key>
-        <string>Basilisk Fangs</string>
-        <key>Answer 2</key>
-        <string>Sword of Gryffindor</string>
-        <key>Answer 3</key>
-        <string>Stinging Nettles</string>
-        <key>Answer 4</key>
-        <string>Blood-Soaked Dagger</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What deed must one perform to create a Horcrux?</string>
-        <key>Correct Answer</key>
-        <string>Murder Someone</string>
-        <key>Answer 1</key>
-        <string>Murder Someone</string>
-        <key>Answer 2</key>
-        <string>Love Someone</string>
-        <key>Answer 3</key>
-        <string>Give a blood sacrifice</string>
-        <key>Answer 4</key>
-        <string>Throw a party</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these is not one of Voldemort's Horcruxes?</string>
-        <key>Correct Answer</key>
-        <string>Snape's Potions Textbook</string>
-        <key>Answer 1</key>
-        <string>Tom Riddle's Diary</string>
-        <key>Answer 2</key>
-        <string>Gaunt's Ring</string>
-        <key>Answer 3</key>
-        <string>Slytherin's Locket</string>
-        <key>Answer 4</key>
-        <string>Snape's Potions Textbook</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Harry develops an affinity for which class?</string>
-        <key>Correct Answer</key>
-        <string>Defense Against the Dark Arts</string>
-        <key>Answer 1</key>
-        <string>Defense Against the Dark Arts</string>
-        <key>Answer 2</key>
-        <string>Herbology</string>
-        <key>Answer 3</key>
-        <string>Charms</string>
-        <key>Answer 4</key>
-        <string>History of Magic</string>
-      </dict>
-    </array>
-    <key>Medium</key>
-    <array>
-      
-    </array>
-  </dict>
+<dict>
+	<key>Easy</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>What is the spell that Harry used to defeat Voldemort in their final encounter?</string>
+			<key>Correct Answer</key>
+			<string>Expelliarmus</string>
+			<key>Answer 1</key>
+			<string>Expelliarmus</string>
+			<key>Answer 2</key>
+			<string>Accio</string>
+			<key>Answer 3</key>
+			<string>Crucio</string>
+			<key>Answer 4</key>
+			<string>Diffindo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of the Wingardium Leviosa spell?</string>
+			<key>Correct Answer</key>
+			<string>Levitation</string>
+			<key>Answer 1</key>
+			<string>Pain</string>
+			<key>Answer 2</key>
+			<string>Levitation</string>
+			<key>Answer 3</key>
+			<string>Summoning</string>
+			<key>Answer 4</key>
+			<string>Death</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these spells is not an unforgivable curse?</string>
+			<key>Correct Answer</key>
+			<string>Lumos</string>
+			<key>Answer 1</key>
+			<string>Lumos</string>
+			<key>Answer 2</key>
+			<string>Imperio</string>
+			<key>Answer 3</key>
+			<string>Crucio</string>
+			<key>Answer 4</key>
+			<string>Avada Kedavra</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the punishment for using an unforgivable curse?</string>
+			<key>Correct Answer</key>
+			<string>A life sentence in Askaban</string>
+			<key>Answer 1</key>
+			<string>Detention</string>
+			<key>Answer 2</key>
+			<string>A life sentence in Askaban</string>
+			<key>Answer 3</key>
+			<string>No punishment</string>
+			<key>Answer 4</key>
+			<string>Execution</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the spell that unlocks a locked door?</string>
+			<key>Correct Answer</key>
+			<string>Alohamora</string>
+			<key>Answer 1</key>
+			<string>Levicorpus</string>
+			<key>Answer 2</key>
+			<string>Expulso</string>
+			<key>Answer 3</key>
+			<string>Alohamora</string>
+			<key>Answer 4</key>
+			<string>Incendio</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the spell that Hermione uses to fix Harry&apos;s glasses in the first novel?</string>
+			<key>Correct Answer</key>
+			<string>Reparo</string>
+			<key>Answer 1</key>
+			<string>Reparo</string>
+			<key>Answer 2</key>
+			<string>Sectumsempra</string>
+			<key>Answer 3</key>
+			<string>Reducto</string>
+			<key>Answer 4</key>
+			<string>Stupefy</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of the Stupefy spell?</string>
+			<key>Correct Answer</key>
+			<string>Stunning</string>
+			<key>Answer 1</key>
+			<string>Explosion</string>
+			<key>Answer 2</key>
+			<string>Stinging</string>
+			<key>Answer 3</key>
+			<string>Stunning</string>
+			<key>Answer 4</key>
+			<string>Transfiguration</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Remus Lupin teach the class to fight off a Boggart?</string>
+			<key>Correct Answer</key>
+			<string>Riddikulus</string>
+			<key>Answer 1</key>
+			<string>Riddikulus</string>
+			<key>Answer 2</key>
+			<string>Scourgify</string>
+			<key>Answer 3</key>
+			<string>Sonorus</string>
+			<key>Answer 4</key>
+			<string>Imperio</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the spell that Harry learns from Snape&apos;s old Potions textbook?</string>
+			<key>Correct Answer</key>
+			<string>Sectumsempra</string>
+			<key>Answer 1</key>
+			<string>Portus</string>
+			<key>Answer 2</key>
+			<string>Alakazam</string>
+			<key>Answer 3</key>
+			<string>Sectumsempra</string>
+			<key>Answer 4</key>
+			<string>Periculum</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell is effective when fighting off Dementors?</string>
+			<key>Correct Answer</key>
+			<string>Expecto Patronum</string>
+			<key>Answer 1</key>
+			<string>Expecto Patronum</string>
+			<key>Answer 2</key>
+			<string>Erecto</string>
+			<key>Answer 3</key>
+			<string>Dissendium</string>
+			<key>Answer 4</key>
+			<string>Confundo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell causes the victim to become confused and befuddled?</string>
+			<key>Correct Answer</key>
+			<string>Confundo</string>
+			<key>Answer 1</key>
+			<string>Muffliato</string>
+			<key>Answer 2</key>
+			<string>Lumos</string>
+			<key>Answer 3</key>
+			<string>Ferula</string>
+			<key>Answer 4</key>
+			<string>Confundo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Ginny have a reputation for being good at?</string>
+			<key>Correct Answer</key>
+			<string>Bat-Bogey Hex</string>
+			<key>Answer 1</key>
+			<string>The Summoning Charm</string>
+			<key>Answer 2</key>
+			<string>Bat-Bogey Hex</string>
+			<key>Answer 3</key>
+			<string>Jelly Legs Jinx</string>
+			<key>Answer 4</key>
+			<string>The Killing Curse</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does Harry use in the first task of the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>The Summoning Charm</string>
+			<key>Answer 1</key>
+			<string>The Killing Curse</string>
+			<key>Answer 2</key>
+			<string>Bat Bogey Hex</string>
+			<key>Answer 3</key>
+			<string>The Patronus Charm</string>
+			<key>Answer 4</key>
+			<string>The Summoning Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Patronus Charm is used to defeat what?</string>
+			<key>Correct Answer</key>
+			<string>Dementors</string>
+			<key>Answer 1</key>
+			<string>Lord Voldemort</string>
+			<key>Answer 2</key>
+			<string>Dementors</string>
+			<key>Answer 3</key>
+			<string>Boggarts</string>
+			<key>Answer 4</key>
+			<string>Goblins</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the first transfiguration students attempt?</string>
+			<key>Correct Answer</key>
+			<string>Matchsticks into needles</string>
+			<key>Answer 1</key>
+			<string>Ravens into goblets</string>
+			<key>Answer 2</key>
+			<string>Matchsticks into needles</string>
+			<key>Answer 3</key>
+			<string>Quill into ink</string>
+			<key>Answer 4</key>
+			<string>Conjuring water</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Aguamenti incantation conjures what?</string>
+			<key>Correct Answer</key>
+			<string>Water</string>
+			<key>Answer 1</key>
+			<string>Gold</string>
+			<key>Answer 2</key>
+			<string>Wine</string>
+			<key>Answer 3</key>
+			<string>Water</string>
+			<key>Answer 4</key>
+			<string>Fire</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell is Harry Potter the only known survivor of?</string>
+			<key>Correct Answer</key>
+			<string>Avada Kedavra</string>
+			<key>Answer 1</key>
+			<string>Wingardium Leviosa</string>
+			<key>Answer 2</key>
+			<string>Expecto Patronum</string>
+			<key>Answer 3</key>
+			<string>Crucio</string>
+			<key>Answer 4</key>
+			<string>Avada Kedavra</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the most powerful truth potion?</string>
+			<key>Correct Answer</key>
+			<string>Veritaserum</string>
+			<key>Answer 1</key>
+			<string>Veritaserum</string>
+			<key>Answer 2</key>
+			<string>Amortentia</string>
+			<key>Answer 3</key>
+			<string>Polyjuice</string>
+			<key>Answer 4</key>
+			<string>Elixir of Life</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Philosophers Stone allows for the creation of?</string>
+			<key>Correct Answer</key>
+			<string>Elixir of Life</string>
+			<key>Answer 1</key>
+			<string>Polyjuice Potion</string>
+			<key>Answer 2</key>
+			<string>Skelgrow</string>
+			<key>Answer 3</key>
+			<string>Firewhiskey</string>
+			<key>Answer 4</key>
+			<string>Elixir of Life</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where would you look for a Bezoar?</string>
+			<key>Correct Answer</key>
+			<string>Stomach of a Goat</string>
+			<key>Answer 1</key>
+			<string>Draco Malfoy&apos;s hair</string>
+			<key>Answer 2</key>
+			<string>Foot of a Troll</string>
+			<key>Answer 3</key>
+			<string>Stomach of a Goat</string>
+			<key>Answer 4</key>
+			<string>Wings of a Hippogriff</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does Lockhart attempt to curse Harry and Ron with but backfires?</string>
+			<key>Correct Answer</key>
+			<string>Memory Charm</string>
+			<key>Answer 1</key>
+			<string>Killing curse</string>
+			<key>Answer 2</key>
+			<string>Memory Charm</string>
+			<key>Answer 3</key>
+			<string>Stunning Spell</string>
+			<key>Answer 4</key>
+			<string>Bat Bogey Hex</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which plant is one of the obstacles guarding the Philosopher&apos;s Stone?&apos;?</string>
+			<key>Correct Answer</key>
+			<string>Devil&apos;s Snare</string>
+			<key>Answer 1</key>
+			<string>Devil&apos;s Snare</string>
+			<key>Answer 2</key>
+			<string>Mandrake</string>
+			<key>Answer 3</key>
+			<string>Fanged Geranium</string>
+			<key>Answer 4</key>
+			<string>Puffapod</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which potion do Harry, Ron and Hermione use to sneak into the Slytherin House common room in The Chamber of Secrets?</string>
+			<key>Correct Answer</key>
+			<string>Polyjuice Potion</string>
+			<key>Answer 1</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 2</key>
+			<string>Wolfsbane Potion</string>
+			<key>Answer 3</key>
+			<string>Polyjuice Potion</string>
+			<key>Answer 4</key>
+			<string>Murtlap Essence</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Potion does Horace Slughorn award to Harry in his sixth year at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Felix Felicis</string>
+			<key>Answer 1</key>
+			<string>Babbling Beverage</string>
+			<key>Answer 2</key>
+			<string>Felix Felicis</string>
+			<key>Answer 3</key>
+			<string>Essence of Dittany</string>
+			<key>Answer 4</key>
+			<string>Invisibility Potion</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of Essence of Dittany?</string>
+			<key>Correct Answer</key>
+			<string>Regrow skin over a wound</string>
+			<key>Answer 1</key>
+			<string>Regrow skin over a wound</string>
+			<key>Answer 2</key>
+			<string>Extend the taker&apos;s life</string>
+			<key>Answer 3</key>
+			<string>Relieve anxiety</string>
+			<key>Answer 4</key>
+			<string>Remove acne</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of the spell that Ron attempts to curse Malfoy with in Harry Potter and the Chamber of Secrets?</string>
+			<key>Correct Answer</key>
+			<string>He vomits slugs</string>
+			<key>Answer 1</key>
+			<string>He vomits slugs</string>
+			<key>Answer 2</key>
+			<string>He gets knocked out</string>
+			<key>Answer 3</key>
+			<string>He loses his memory</string>
+			<key>Answer 4</key>
+			<string>He vanishes his own bones</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these cannot be conjured?</string>
+			<key>Correct Answer</key>
+			<string>Food</string>
+			<key>Answer 1</key>
+			<string>Food</string>
+			<key>Answer 2</key>
+			<string>Flames</string>
+			<key>Answer 3</key>
+			<string>Christmas Decorations</string>
+			<key>Answer 4</key>
+			<string>Shackles</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what year to Hogwarts students learn to Apparate?</string>
+			<key>Correct Answer</key>
+			<string>6th year</string>
+			<key>Answer 1</key>
+			<string>5th year</string>
+			<key>Answer 2</key>
+			<string>4th year</string>
+			<key>Answer 3</key>
+			<string>3rd year</string>
+			<key>Answer 4</key>
+			<string>6th year</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What type of creatures pull the carriages from the Hogwarts Express up to Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Thestrals</string>
+			<key>Answer 1</key>
+			<string>Thestrals</string>
+			<key>Answer 2</key>
+			<string>Dragons</string>
+			<key>Answer 3</key>
+			<string>Unicorns</string>
+			<key>Answer 4</key>
+			<string>Horses</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of consuming Unicorn blood?</string>
+			<key>Correct Answer</key>
+			<string>Extended life</string>
+			<key>Answer 1</key>
+			<string>Extended life</string>
+			<key>Answer 2</key>
+			<string>Shrunken head</string>
+			<key>Answer 3</key>
+			<string>Eternal happiness</string>
+			<key>Answer 4</key>
+			<string>No effect</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When is the trace lifted?</string>
+			<key>Correct Answer</key>
+			<string>At age 17</string>
+			<key>Answer 1</key>
+			<string>At age 17</string>
+			<key>Answer 2</key>
+			<string>At age 18</string>
+			<key>Answer 3</key>
+			<string>After graduating from Hogwarts</string>
+			<key>Answer 4</key>
+			<string>After cursing yourself</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How to Fred and George attempt to trick the Goblet of Fire in to accepting their names?</string>
+			<key>Correct Answer</key>
+			<string>Ageing Potion</string>
+			<key>Answer 1</key>
+			<string>Ageing Potion</string>
+			<key>Answer 2</key>
+			<string>Get a friend to submit their names</string>
+			<key>Answer 3</key>
+			<string>Levitate their names into the goblet</string>
+			<key>Answer 4</key>
+			<string>Change their birthdays</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Why are Mandrakes dangerous?</string>
+			<key>Correct Answer</key>
+			<string>Their scream can kill a human</string>
+			<key>Answer 1</key>
+			<string>Their scream can kill a human</string>
+			<key>Answer 2</key>
+			<string>They have extremely sharp teeth</string>
+			<key>Answer 3</key>
+			<string>They shoot poisonous goo</string>
+			<key>Answer 4</key>
+			<string>They release toxic fumes</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of the spell Hagrid casts on Dudley in the first novel?</string>
+			<key>Correct Answer</key>
+			<string>He grows a tail</string>
+			<key>Answer 1</key>
+			<string>He grows a tail</string>
+			<key>Answer 2</key>
+			<string>He dies</string>
+			<key>Answer 3</key>
+			<string>He grows an extra foot</string>
+			<key>Answer 4</key>
+			<string>He grows ears</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell can Witches and Wizards use to produce light?</string>
+			<key>Correct Answer</key>
+			<string>Lumos</string>
+			<key>Answer 1</key>
+			<string>Lumos</string>
+			<key>Answer 2</key>
+			<string>Lumio</string>
+			<key>Answer 3</key>
+			<string>Lome</string>
+			<key>Answer 4</key>
+			<string>Expelliarmus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How does Dumbledore enforce the age restriction imposed on the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>Age Line around the Goblet</string>
+			<key>Answer 1</key>
+			<string>Age Line around the Goblet</string>
+			<key>Answer 2</key>
+			<string>Filch guards the Goblet</string>
+			<key>Answer 3</key>
+			<string>Disillusionment Charm to hide the Goblet</string>
+			<key>Answer 4</key>
+			<string>Circle of flames around the Goblet</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What creature attacks Draco in Hagrid&apos;s Care of Magical Creatures class?</string>
+			<key>Correct Answer</key>
+			<string>Hippogriff</string>
+			<key>Answer 1</key>
+			<string>Hippogriff</string>
+			<key>Answer 2</key>
+			<string>Acromantula</string>
+			<key>Answer 3</key>
+			<string>Dragon</string>
+			<key>Answer 4</key>
+			<string>Troll</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Hogwarts course is taught by a ghost?</string>
+			<key>Correct Answer</key>
+			<string>History of Magic</string>
+			<key>Answer 1</key>
+			<string>History of Magic</string>
+			<key>Answer 2</key>
+			<string>Charms</string>
+			<key>Answer 3</key>
+			<string>Transfiguration</string>
+			<key>Answer 4</key>
+			<string>Divination</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In their fourth year at Hogwarts, what creature did students raise as a project throughout the year?</string>
+			<key>Correct Answer</key>
+			<string>Blast-Ended Skrewts</string>
+			<key>Answer 1</key>
+			<string>Blast-Ended Skrewts</string>
+			<key>Answer 2</key>
+			<string>Nifflers</string>
+			<key>Answer 3</key>
+			<string>Bowtruckles</string>
+			<key>Answer 4</key>
+			<string>Fire crabs</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What Christmas present does Harry recieve annonymously in his first year at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Invisibility Cloak</string>
+			<key>Answer 1</key>
+			<string>Invisibility Cloak</string>
+			<key>Answer 2</key>
+			<string>Bertie Bott&apos;s Every Flavour Beans</string>
+			<key>Answer 3</key>
+			<string>Chocolate Frogs</string>
+			<key>Answer 4</key>
+			<string>Elder Wand</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a core course in the Hogwarts syllabus?</string>
+			<key>Correct Answer</key>
+			<string>Divination</string>
+			<key>Answer 1</key>
+			<string>Divination</string>
+			<key>Answer 2</key>
+			<string>History of Magic</string>
+			<key>Answer 3</key>
+			<string>Herbology</string>
+			<key>Answer 4</key>
+			<string>Charms</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is a dangerous side-effect that can happen when Apparating?</string>
+			<key>Correct Answer</key>
+			<string>Splinching</string>
+			<key>Answer 1</key>
+			<string>Splinching</string>
+			<key>Answer 2</key>
+			<string>Memory Loss</string>
+			<key>Answer 3</key>
+			<string>Dementia</string>
+			<key>Answer 4</key>
+			<string>Dragon Pox</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What type of spell is the one that spreads through Dumbledore&apos;s finger?</string>
+			<key>Correct Answer</key>
+			<string>Curse</string>
+			<key>Answer 1</key>
+			<string>Curse</string>
+			<key>Answer 2</key>
+			<string>Hex</string>
+			<key>Answer 3</key>
+			<string>Jinx</string>
+			<key>Answer 4</key>
+			<string>Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What creatures guard the Wizard prison, Askaban?</string>
+			<key>Correct Answer</key>
+			<string>Dementors</string>
+			<key>Answer 1</key>
+			<string>Dementors</string>
+			<key>Answer 2</key>
+			<string>Dragons</string>
+			<key>Answer 3</key>
+			<string>Bowtruckles</string>
+			<key>Answer 4</key>
+			<string>Giants</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the effect of a Dementor&apos;s Kiss?</string>
+			<key>Correct Answer</key>
+			<string>Loss of Soul</string>
+			<key>Answer 1</key>
+			<string>Loss of Soul</string>
+			<key>Answer 2</key>
+			<string>Death</string>
+			<key>Answer 3</key>
+			<string>Euphoria</string>
+			<key>Answer 4</key>
+			<string>Pain</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Unforgivable Curse(s) does Harry use?</string>
+			<key>Correct Answer</key>
+			<string>Imperio and Crucio</string>
+			<key>Answer 1</key>
+			<string>Imperio and Crucio</string>
+			<key>Answer 2</key>
+			<string>Imperio, Crucio, and Avada Kedavra</string>
+			<key>Answer 3</key>
+			<string>Avada Kedavra</string>
+			<key>Answer 4</key>
+			<string>He never uses an Unforgivable curse</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How does the Sorting Hat aid Harry in the Chamber of Secrets?</string>
+			<key>Correct Answer</key>
+			<string>It presents him with Gryffindor&apos;s sword</string>
+			<key>Answer 1</key>
+			<string>It kills the Basilisk</string>
+			<key>Answer 2</key>
+			<string>It presents him with Gryffindor&apos;s sword</string>
+			<key>Answer 3</key>
+			<string>It pokes out the Basilisk&apos;s eye</string>
+			<key>Answer 4</key>
+			<string>It shouts words of encouragement</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What do Ron and Hermione find in the Chamber of Secrets that can kill Horcruxes?</string>
+			<key>Correct Answer</key>
+			<string>Basilisk Fangs</string>
+			<key>Answer 1</key>
+			<string>Basilisk Fangs</string>
+			<key>Answer 2</key>
+			<string>Sword of Gryffindor</string>
+			<key>Answer 3</key>
+			<string>Stinging Nettles</string>
+			<key>Answer 4</key>
+			<string>Blood-Soaked Dagger</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What deed must one perform to create a Horcrux?</string>
+			<key>Correct Answer</key>
+			<string>Murder Someone</string>
+			<key>Answer 1</key>
+			<string>Murder Someone</string>
+			<key>Answer 2</key>
+			<string>Love Someone</string>
+			<key>Answer 3</key>
+			<string>Give a blood sacrifice</string>
+			<key>Answer 4</key>
+			<string>Throw a party</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not one of Voldemort&apos;s Horcruxes?</string>
+			<key>Correct Answer</key>
+			<string>Snape&apos;s Potions Textbook</string>
+			<key>Answer 1</key>
+			<string>Tom Riddle&apos;s Diary</string>
+			<key>Answer 2</key>
+			<string>Gaunt&apos;s Ring</string>
+			<key>Answer 3</key>
+			<string>Slytherin&apos;s Locket</string>
+			<key>Answer 4</key>
+			<string>Snape&apos;s Potions Textbook</string>
+		</dict>
+	</array>
+	<key>Medium</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>What is the consequence of breaking an unbreakable vow?</string>
+			<key>Correct Answer</key>
+			<string>You Die</string>
+			<key>Answer 1</key>
+			<string>You Die</string>
+			<key>Answer 2</key>
+			<string>You&apos;re Cursed</string>
+			<key>Answer 3</key>
+			<string>You Shrink</string>
+			<key>Answer 4</key>
+			<string>You Disappear</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does Hermione use to set a flock of birds on Ron?</string>
+			<key>Correct Answer</key>
+			<string>Avis</string>
+			<key>Answer 1</key>
+			<string>Avis</string>
+			<key>Answer 2</key>
+			<string>Avifors</string>
+			<key>Answer 3</key>
+			<string>Avios</string>
+			<key>Answer 4</key>
+			<string>Avifo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which charm, which enforces the Hogsmeade curfew, produces a loud screech when someone steps into it&apos;s radius? </string>
+			<key>Correct Answer</key>
+			<string>Caterwauling Charm</string>
+			<key>Answer 1</key>
+			<string>Caterwauling Charm</string>
+			<key>Answer 2</key>
+			<string>Intruder Charm</string>
+			<key>Answer 3</key>
+			<string>Revealing Charm</string>
+			<key>Answer 4</key>
+			<string>Bubble-Head Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Hermione cast to freeze the pixies in Professor Lockhart&apos;s class?</string>
+			<key>Correct Answer</key>
+			<string>Immobolus</string>
+			<key>Answer 1</key>
+			<string>Immobolus</string>
+			<key>Answer 2</key>
+			<string>Impedimenta</string>
+			<key>Answer 3</key>
+			<string>Inanimatus Conjurus</string>
+			<key>Answer 4</key>
+			<string>Incarcerous</string>
+		</dict>
+	</array>
+</dict>
 </plist>

@@ -398,6 +398,20 @@
     </dict>
     <dict>
       <key>Question</key>
+      <string>Harry develops an affinity for which class?</string>
+      <key>Correct Answer</key>
+      <string>Defense Against the Dark Arts</string>
+      <key>Answer 1</key>
+      <string>Defense Against the Dark Arts</string>
+      <key>Answer 2</key>
+      <string>Herbology</string>
+      <key>Answer 3</key>
+      <string>Charms</string>
+      <key>Answer 4</key>
+      <string>History of Magic</string>
+    </dict>
+    <dict>
+      <key>Question</key>
       <string>Who was Harry's Hogwart's enemy?</string>
       <key>Correct Answer</key>
       <string>Draco Malfoy</string>

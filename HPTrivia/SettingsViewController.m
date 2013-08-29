@@ -38,6 +38,12 @@
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
   }
   [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if ([defaults boolForKey:@"unlockAllLevels"])
+    self.unlockQuestionsSegControl.selectedSegmentIndex = 0;
+  else
+    self.unlockQuestionsSegControl.selectedSegmentIndex = 1;
 }
 
 // Hides status bar
@@ -52,4 +58,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)unlockQuestionsSegValueChanged:(id)sender {
+  
+  UISegmentedControl *segControl = sender;
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if (segControl.selectedSegmentIndex == 0)
+      [defaults setBool:YES forKey:@"unlockAllLevels"];
+  else if (segControl.selectedSegmentIndex == 1)
+    [defaults setBool:NO forKey:@"unlockAllLevels"];
+  
+}
 @end

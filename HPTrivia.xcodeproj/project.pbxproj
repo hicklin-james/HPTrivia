@@ -27,7 +27,7 @@
 		CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB592F9417C5310200622D5D /* spellQuestions.plist */; };
 		CB5D49BE17CBA42A0079BDB6 /* SettingsTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5D49BD17CBA42A0079BDB6 /* SettingsTabIcon@2x.png */; };
 		CB5D49C117CBA5940079BDB6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5D49C017CBA5940079BDB6 /* SettingsViewController.m */; };
-		CBB2B56117C59F0A007BE06F /* wizardingWorldQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB592F9617C54D8000622D5D /* wizardingWorldQuestions.plist */; };
+		CB7BB5DF17CEE0DE00F80A27 /* wizardingWorldQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB7BB5DE17CEE0DE00F80A27 /* wizardingWorldQuestions.plist */; };
 		CBCCB36117C408FA00777E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36017C408FA00777E71 /* Foundation.framework */; };
 		CBCCB36317C408FA00777E71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36217C408FA00777E71 /* CoreGraphics.framework */; };
 		CBCCB36517C408FA00777E71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB36417C408FA00777E71 /* UIKit.framework */; };
@@ -84,10 +84,10 @@
 		CB592F8F17C51FAB00622D5D /* GameCompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCompleteViewController.h; sourceTree = "<group>"; };
 		CB592F9017C51FAB00622D5D /* GameCompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCompleteViewController.m; sourceTree = "<group>"; };
 		CB592F9417C5310200622D5D /* spellQuestions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = spellQuestions.plist; sourceTree = "<group>"; };
-		CB592F9617C54D8000622D5D /* wizardingWorldQuestions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wizardingWorldQuestions.plist; sourceTree = "<group>"; };
 		CB5D49BD17CBA42A0079BDB6 /* SettingsTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsTabIcon@2x.png"; sourceTree = "<group>"; };
 		CB5D49BF17CBA5940079BDB6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CB5D49C017CBA5940079BDB6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CB7BB5DE17CEE0DE00F80A27 /* wizardingWorldQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wizardingWorldQuestions.plist; sourceTree = "<group>"; };
 		CBCCB35D17C408FA00777E71 /* HPTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCCB36017C408FA00777E71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBCCB36217C408FA00777E71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -276,9 +276,9 @@
 		CBCCB39017C4094700777E71 /* Questions plists */ = {
 			isa = PBXGroup;
 			children = (
+				CB7BB5DE17CEE0DE00F80A27 /* wizardingWorldQuestions.plist */,
 				CBD6E2A317C44FFB007A6773 /* characterQuestions.plist */,
 				CB592F9417C5310200622D5D /* spellQuestions.plist */,
-				CB592F9617C54D8000622D5D /* wizardingWorldQuestions.plist */,
 			);
 			name = "Questions plists";
 			sourceTree = "<group>";
@@ -375,7 +375,6 @@
 			files = (
 				CBCCB36B17C408FA00777E71 /* InfoPlist.strings in Resources */,
 				CBD6E2B217C46413007A6773 /* characterQuestions.plist in Resources */,
-				CBB2B56117C59F0A007BE06F /* wizardingWorldQuestions.plist in Resources */,
 				CB51CAA117C41150002CDED0 /* parchment@2x.png in Resources */,
 				CB5D49BE17CBA42A0079BDB6 /* SettingsTabIcon@2x.png in Resources */,
 				CB57E60717C84E6E00490D9D /* buttonBackground_large.png in Resources */,
@@ -383,6 +382,7 @@
 				CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */,
 				CB57E60517C8486D00490D9D /* buttonBackground_tiny.png in Resources */,
 				CB51CA9A17C40EC6002CDED0 /* HPParchment@2x.png in Resources */,
+				CB7BB5DF17CEE0DE00F80A27 /* wizardingWorldQuestions.plist in Resources */,
 				CBCCB37317C408FA00777E71 /* Images.xcassets in Resources */,
 				CB57E60117C845F400490D9D /* buttonBackground_medium.png in Resources */,
 				CBCD588117C44EFE00584596 /* ParryHotter.ttf in Resources */,

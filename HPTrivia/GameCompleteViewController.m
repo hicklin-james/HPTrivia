@@ -20,6 +20,7 @@
 @synthesize gameController;
 @synthesize titleLabel;
 @synthesize unlockedLabel;
+@synthesize scoreLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -47,9 +48,10 @@
 
 -(void)setupLabels {
   
-  titleLabel.font = [UIFont fontWithName:@"ParryHotter" size:64];
-  unlockedLabel.font = [UIFont fontWithName:@"ParryHotter" size:15];
-  
+  titleLabel.font = [UIFont fontWithName:@"ParryHotter" size:45];
+  unlockedLabel.font = [UIFont fontWithName:@"ParryHotter" size:14];
+  scoreLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
+  scoreLabel.text = [NSString stringWithFormat:@"You scored %d/%d", gameController.correctAnswers, gameController.numOfQuestions];
   
   if (gameController.correctAnswers >= 7) { // You passed, so unlock next level in the category
     titleLabel.text = @"Congratulations!";

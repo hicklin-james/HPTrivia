@@ -11,5 +11,9 @@
 @interface SettingsViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *unlockQuestionsSegControl;
+
+- (IBAction)unlockQuestionsSegValueChanged:(id)sender;
+
 
 @end
