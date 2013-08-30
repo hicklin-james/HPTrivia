@@ -1,684 +1,798 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>Easy</key>
-    <array>
-      <dict>
-        <key>Question</key>
-        <string>What is the name of the village that Hogwarts students are allowed to visit on occasion?</string>
-        <key>Correct Answer</key>
-        <string>Hogsmeade</string>
-        <key>Answer 1</key>
-        <string>Diagon Alley</string>
-        <key>Answer 2</key>
-        <string>Hogsmeade</string>
-        <key>Answer 3</key>
-        <string>Knockturn Alley</string>
-        <key>Answer 4</key>
-        <string>Durmstrang</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these is not a Hogwarts House?</string>
-        <key>Correct Answer</key>
-        <string>Zenophar</string>
-        <key>Answer 1</key>
-        <string>Zenophar</string>
-        <key>Answer 2</key>
-        <string>Gryffindor</string>
-        <key>Answer 3</key>
-        <string>Slytherin</string>
-        <key>Answer 4</key>
-        <string>Hufflepuff</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which platform does the Hogwarts Express leave from at King's Cross Station?</string>
-        <key>Correct Answer</key>
-        <string>9 &amp; 3/4</string>
-        <key>Answer 1</key>
-        <string>9 &amp; 1/2</string>
-        <key>Answer 2</key>
-        <string>9 &amp; 3/4</string>
-        <key>Answer 3</key>
-        <string>9</string>
-        <key>Answer 4</key>
-        <string>9 &amp; 1/3</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>How many years do Hogwarts students stay in school?</string>
-        <key>Correct Answer</key>
-        <string>7</string>
-        <key>Answer 1</key>
-        <string>2</string>
-        <key>Answer 2</key>
-        <string>6</string>
-        <key>Answer 3</key>
-        <string>7</string>
-        <key>Answer 4</key>
-        <string>4</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these is not a Hogwarts course?</string>
-        <key>Correct Answer</key>
-        <string>Quidditch</string>
-        <key>Answer 1</key>
-        <string>Quidditch</string>
-        <key>Answer 2</key>
-        <string>Potions</string>
-        <key>Answer 3</key>
-        <string>Muggle Studies</string>
-        <key>Answer 4</key>
-        <string>Defense Against the Dark Arts</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>How is mail delivered in the Wizarding World?</string>
-        <key>Correct Answer</key>
-        <string>Owl</string>
-        <key>Answer 1</key>
-        <string>Owl</string>
-        <key>Answer 2</key>
-        <string>Post-man</string>
-        <key>Answer 3</key>
-        <string>Teleportation</string>
-        <key>Answer 4</key>
-        <string>E-Mail</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these creatures does not exist in the Wizarding World?</string>
-        <key>Correct Answer</key>
-        <string>Minotaur</string>
-        <key>Answer 1</key>
-        <string>Dragon</string>
-        <key>Answer 2</key>
-        <string>Goblin</string>
-        <key>Answer 3</key>
-        <string>Grindylow</string>
-        <key>Answer 4</key>
-        <string>Minotaur</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What kind of animal does Hagrid acquire in the first novel?</string>
-        <key>Correct Answer</key>
-        <string>Dragon</string>
-        <key>Answer 1</key>
-        <string>Dragon</string>
-        <key>Answer 2</key>
-        <string>Troll</string>
-        <key>Answer 3</key>
-        <string>Dwarf</string>
-        <key>Answer 4</key>
-        <string>House Elf</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What drink is primarily consumed at The Three Broomsticks in Hogsmeade?</string>
-        <key>Correct Answer</key>
-        <string>Butterbeer</string>
-        <key>Answer 1</key>
-        <string>Butterbeer</string>
-        <key>Answer 2</key>
-        <string>Orange Juice</string>
-        <key>Answer 3</key>
-        <string>Firewhiskey</string>
-        <key>Answer 4</key>
-        <string>Wine</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of the following institutions does not participate in the Triwizard Tournament?</string>
-        <key>Correct Answer</key>
-        <string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
-        <key>Answer 1</key>
-        <string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
-        <key>Answer 2</key>
-        <string>Hogwarts School of Witchcraft and Wizardry</string>
-        <key>Answer 3</key>
-        <string>Durmstrang Institute</string>
-        <key>Answer 4</key>
-        <string>Beauxbatons Academy of Magic</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>The Ministry of Magic is:</string>
-        <key>Correct Answer</key>
-        <string>The government of the magical community</string>
-        <key>Answer 1</key>
-        <string>The government of the magical community</string>
-        <key>Answer 2</key>
-        <string>The aurors who are protecting Harry from Voldemort</string>
-        <key>Answer 3</key>
-        <string>Voldemort’s followers</string>
-        <key>Answer 4</key>
-        <string>The administration at Hogwarts</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>Where do wizards and witches buy their wands from?</string>
-        <key>Correct Answer</key>
-        <string>Ollivanders</string>
-        <key>Answer 1</key>
-        <string>The Ministry of Magic</string>
-        <key>Answer 2</key>
-        <string>Madam Malkins</string>
-        <key>Answer 3</key>
-        <string>Ollivanders</string>
-        <key>Answer 4</key>
-        <string></string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>Quidditch is a sport with how many players?:</string>
-        <key>Correct Answer</key>
-        <string>Seven</string>
-        <key>Answer 1</key>
-        <string>Six</string>
-        <key>Answer 2</key>
-        <string>Eleven</string>
-        <key>Answer 3</key>
-        <string>Seven</string>
-        <key>Answer 4</key>
-        <string>Three</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>In a game of Quidditch catching the snitch is worth how many points?</string>
-        <key>Correct Answer</key>
-        <string>150</string>
-        <key>Answer 1</key>
-        <string>10</string>
-        <key>Answer 2</key>
-        <string>50</string>
-        <key>Answer 3</key>
-        <string>100</string>
-        <key>Answer 4</key>
-        <string>150</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>What is not a ball used in Quidditch:</string>
-        <key>Correct Answer</key>
-        <string>Quodpot</string>
-        <key>Answer 1</key>
-        <string>Bludger</string>
-        <key>Answer 2</key>
-        <string>Snitch</string>
-        <key>Answer 3</key>
-        <string>Quaffle</string>
-        <key>Answer 4</key>
-        <string>Quodpot</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>How many chasers are there on a Quidditch team?</string>
-        <key>Correct Answer</key>
-        <string>3</string>
-        <key>Answer 1</key>
-        <string>5</string>
-        <key>Answer 2</key>
-        <string>4</string>
-        <key>Answer 3</key>
-        <string>3</string>
-        <key>Answer 4</key>
-        <string>7</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>The Statute of … hides the wizarding world from the muggle?</string>
-        <key>Correct Answer</key>
-        <string>Secrecy</string>
-        <key>Answer 1</key>
-        <string>Secrecy</string>
-        <key>Answer 2</key>
-        <string>Seperation</string>
-        <key>Answer 3</key>
-        <string>Self Preservation</string>
-        <key>Answer 4</key>
-        <string>Wizards</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>What is the wizarding world's bank?</string>
-        <key>Correct Answer</key>
-        <string>Gringotts</string>
-        <key>Answer 1</key>
-        <string>Bank of England</string>
-        <key>Answer 2</key>
-        <string>Bank of Wizards</string>
-        <key>Answer 3</key>
-        <string>Goblins Magical Bank</string>
-        <key>Answer 4</key>
-        <string>Gringotts</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>What garment is typically worn by wizards and witches?</string>
-        <key>Correct Answer</key>
-        <string>Robes</string>
-        <key>Answer 1</key>
-        <string>Jeans and T-shirt</string>
-        <key>Answer 2</key>
-        <string>Armour</string>
-        <key>Answer 3</key>
-        <string>Robes</string>
-        <key>Answer 4</key>
-        <string>Suits</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>At what age do children first receive their Hogwarts letters?</string>
-        <key>Correct Answer</key>
-        <string>11</string>
-        <key>Answer 1</key>
-        <string>12</string>
-        <key>Answer 2</key>
-        <string>5</string>
-        <key>Answer 3</key>
-        <string>10</string>
-        <key>Answer 4</key>
-        <string>21</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>Approximately how long ago was Hogwarts founded?</string>
-        <key>Correct Answer</key>
-        <string>1000 Years</string>
-        <key>Answer 1</key>
-        <string>100 Years</string>
-        <key>Answer 2</key>
-        <string>500 Years</string>
-        <key>Answer 3</key>
-        <string>2000 Years</string>
-        <key>Answer 4</key>
-        <string>1000 Years</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>At Hogwarts what is awarded to the house with the most points at the end of the year?</string>
-        <key>Correct Answer</key>
-        <string>The House Cup</string>
-        <key>Answer 1</key>
-        <string>The Hogwarts Cup</string>
-        <key>Answer 2</key>
-        <string>The House Cup</string>
-        <key>Answer 3</key>
-        <string>The Quidditch Cup</string>
-        <key>Answer 4</key>
-        <string>The Headmasters Cup</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>What artifact was used to select champions for the Triwizard Tournament?</string>
-        <key>Correct Answer</key>
-        <string>The Goblet of Fire</string>
-        <key>Answer 1</key>
-        <string>The Triwizard Cup</string>
-        <key>Answer 2</key>
-        <string>The Philosophers Stone</string>
-        <key>Answer 3</key>
-        <string>The Sorting Hat</string>
-        <key>Answer 4</key>
-        <string>The Goblet of Fire</string>
-      </dict>
-  <dict>
-        <key>Question</key>
-        <string>What is the age of majority in the wizarding world?</string>
-        <key>Correct Answer</key>
-        <string>17</string>
-        <key>Answer 1</key>
-        <string>18</string>
-        <key>Answer 2</key>
-        <string>16</string>
-        <key>Answer 3</key>
-        <string>21</string>
-        <key>Answer 4</key>
-        <string>17</string>
-      </dict>
- <dict>
-        <key>Question</key>
-        <string>What does the acronym O.W.L stand for?</string>
-        <key>Correct Answer</key>
-        <string>Ordinary Wizarding Levels</string>
-        <key>Answer 1</key>
-        <string>Obsessed With Learning</string>
-        <key>Answer 2</key>
-        <string>Obfuscated Weird Language</string>
-        <key>Answer 3</key>
-        <string>Ordinary Wizarding Levels</string>
-        <key>Answer 4</key>
-        <string>Octopus Wants Luck</string>
-      </dict>
 <dict>
-        <key>Question</key>
-        <string>Gringott's uses what creature to guard high security vaults?</string>
-        <key>Correct Answer</key>
-        <string>Dragon</string>
-        <key>Answer 1</key>
-        <string>Griffon</string>
-        <key>Answer 2</key>
-        <string>Minotaur</string>
-        <key>Answer 3</key>
-        <string>Dragon</string>
-        <key>Answer 4</key>
-        <string>House elves</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What creature doesn't reside in the Black Lake at Hogwarts?</string>
-        <key>Correct Answer</key>
-        <string>Hippogriff</string>
-        <key>Answer 1</key>
-        <string>Giant Squid</string>
-        <key>Answer 2</key>
-        <string>Hippogriff</string>
-        <key>Answer 3</key>
-        <string>Mermaid</string>
-        <key>Answer 4</key>
-        <string>Grindylows</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is the less reputable shopping street called?</string>
-        <key>Correct Answer</key>
-        <string>Knockturn Alley</string>
-        <key>Answer 1</key>
-        <string>Dark Wizard Avenue</string>
-        <key>Answer 2</key>
-        <string>Knockturn Alley</string>
-        <key>Answer 3</key>
-        <string>Voldemort Street</string>
-        <key>Answer 4</key>
-        <string>Diagon Alley</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What street does Hagrid take Harry to go shopping for school supplies?</string>
-        <key>Correct Answer</key>
-        <string>Diagon Alley</string>
-        <key>Answer 1</key>
-        <string>Diagon Alley</string>
-        <key>Answer 2</key>
-        <string>Knockturn Alley</string>
-        <key>Answer 3</key>
-        <string>Hogsmeade</string>
-        <key>Answer 4</key>
-        <string>Cornelius Fudge Boulevard</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What alcoholic drink is famous in the Wizarding World for causing its drinkers to belch fire?</string>
-        <key>Correct Answer</key>
-        <string>Fire Whiskey</string>
-        <key>Answer 1</key>
-        <string>Flaming Tequila</string>
-        <key>Answer 2</key>
-        <string>Fire Ale</string>
-        <key>Answer 3</key>
-        <string>Fire Whiskey</string>
-        <key>Answer 4</key>
-        <string>Gilderoy Lockhart's Special Blend of Mouthwash</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>Who won the 1994 Quidditch World Cup?</string>
-        <key>Correct Answer</key>
-        <string>Bulgaria</string>
-        <key>Answer 1</key>
-        <string>Bulgaria</string>
-        <key>Answer 2</key>
-        <string>Ireland</string>
-        <key>Answer 3</key>
-        <string>England</string>
-        <key>Answer 4</key>
-        <string>Germany</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>Leprechaun Gold does what after a few hours?</string>
-        <key>Correct Answer</key>
-        <string>Vanish</string>
-        <key>Answer 1</key>
-        <string>Change Colour</string>
-        <key>Answer 2</key>
-        <string>Multiply</string>
-        <key>Answer 3</key>
-        <string>Run away</string>
-        <key>Answer 4</key>
-        <string>Vanish</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is the head of the Wizengamot traditionally called?</string>
-        <key>Correct Answer</key>
-        <string>Chief Warlock</string>
-        <key>Answer 1</key>
-        <string>Supreme Mugwump</string>
-        <key>Answer 2</key>
-        <string>The Wizengamot Speaker</string>
-        <key>Answer 3</key>
-        <string>Chief Warlock</string>
-        <key>Answer 4</key>
-        <string>Supreme Socorer</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What band played at the Yule Ball?</string>
-        <key>Correct Answer</key>
-        <string>The Weird Sisters</string>
-        <key>Answer 1</key>
-        <string>The Wacky Warlocks</string>
-        <key>Answer 2</key>
-        <string>Lord Voldemort with Lucius Malfoy on the guitar</string>
-        <key>Answer 3</key>
-        <string>The Drumming Dwarves</string>
-        <key>Answer 4</key>
-        <string>The Weird Sisters</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>How many sickles are in a Galleon?</string>
-        <key>Correct Answer</key>
-        <string>17</string>
-        <key>Answer 1</key>
-        <string>493</string>
-        <key>Answer 2</key>
-        <string>10</string>
-        <key>Answer 3</key>
-        <string>100</string>
-        <key>Answer 4</key>
-        <string>17</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>How many Knuts are in a Galleon?</string>
-        <key>Correct Answer</key>
-        <string>493</string>
-        <key>Answer 1</key>
-        <string>493</string>
-        <key>Answer 2</key>
-        <string>500</string>
-        <key>Answer 3</key>
-        <string>56</string>
-        <key>Answer 4</key>
-        <string>777</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>How many Knuts are in a Sickle?</string>
-        <key>Correct Answer</key>
-        <string>29</string>
-        <key>Answer 1</key>
-        <string>30</string>
-        <key>Answer 2</key>
-        <string>17</string>
-        <key>Answer 3</key>
-        <string>100</string>
-        <key>Answer 4</key>
-        <string>29</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is not a unit of currency in the Wizarding World?</string>
-        <key>Correct Answer</key>
-        <string>Pound</string>
-        <key>Answer 1</key>
-        <string>Galleon</string>
-        <key>Answer 2</key>
-        <string>Sickle</string>
-        <key>Answer 3</key>
-        <string>Pound</string>
-        <key>Answer 4</key>
-        <string>Knut</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>Which is not a department of the Ministry of Magic?</string>
-        <key>Correct Answer</key>
-        <string>Deparment of Muggle Control</string>
-        <key>Answer 1</key>
-        <string>Department of Magical Accidents and Catastrophes</string>
-        <key>Answer 2</key>
-        <string>Department of International Magical Co-Operation</string>
-        <key>Answer 3</key>
-        <string>Department of Muggle Control</string>
-        <key>Answer 4</key>
-        <string>Misuse of Muggle of Artifacts Office</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is the name of Fred and George's Joke Shop?</string>
-        <key>Correct Answer</key>
-        <string>Weasley's Wizarding Wheezes</string>
-        <key>Answer 1</key>
-        <string>Fred and George's Hilarious Hoaxes</string>
-        <key>Answer 2</key>
-        <string>Zonko's</string>
-        <key>Answer 3</key>
-        <string>Pranks for Every Magical Occasion</string>
-        <key>Answer 4</key>
-        <string>Weasley's Wizarding Wheezes</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>Which one of the following establishments is not found in Hogsmeade?</string>
-        <key>Correct Answer</key>
-        <string>Ollivander's Wands</string>
-        <key>Answer 1</key>
-        <string>The Hogs Head</string>
-        <key>Answer 2</key>
-        <string>Honeydukes Sweet Shop</string>
-        <key>Answer 3</key>
-        <string>The Three Broomsticks</string>
-        <key>Answer 4</key>
-        <string>Ollivander's Wands</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is not one of the Deathly Hallows?</string>
-        <key>Correct Answer</key>
-        <string>The Hand of Glory</string>
-        <key>Answer 1</key>
-        <string>The Resurrection Stone</string>
-        <key>Answer 2</key>
-        <string>The Hand of Glory</string>
-        <key>Answer 3</key>
-        <string>The Elder Wand</string>
-        <key>Answer 4</key>
-        <string>The Cloak of Invisibility</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is the theme of Dumbledore's passwords?</string>
-        <key>Correct Answer</key>
-        <string>Names of his favourite sweets</string>
-        <key>Answer 1</key>
-        <string>Surnames of previous headmasters of Hogwarts</string>
-        <key>Answer 2</key>
-        <string>Title of the book he is currently reading</string>
-        <key>Answer 3</key>
-        <string>Names of his favourite sweets</string>
-        <key>Answer 4</key>
-        <string>Names of different family members</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>Which of the following is not a beverage consumed in the wizarding world?</string>
-        <key>Correct Answer</key>
-        <string>Coke</string>
-        <key>Answer 1</key>
-        <string>Fire Whiskey</string>
-        <key>Answer 2</key>
-        <string>Butterbeer</string>
-        <key>Answer 3</key>
-        <string>Pumpkin Juice</string>
-        <key>Answer 4</key>
-        <string>Coke</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is found in each Chocolate Frog Package?</string>
-        <key>Correct Answer</key>
-        <string>Collectable cards featuring famous witches and wizards</string>
-        <key>Answer 1</key>
-        <string>Signed images of Quidditch Players</string>
-        <key>Answer 2</key>
-        <string>Collectable cards featuring famous witches and wizards</string>
-        <key>Answer 3</key>
-        <string>Miniature dragon figurines</string>
-        <key>Answer 4</key>
-        <string>Toy wands for young children</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What is not a magical object seen in the Wizarding world?</string>
-        <key>Correct Answer</key>
-        <string>Magical computers</string>
-        <key>Answer 1</key>
-        <string>Magical computers</string>
-        <key>Answer 2</key>
-        <string>Sneakoscope</string>
-        <key>Answer 3</key>
-        <string>Howler</string>
-        <key>Answer 4</key>
-        <string>Invisibility Cloak</string>
-      </dict>
-    </array>
-<key>Medium</key>
-<array>
- <dict>
-        <key>Question</key>
-        <string>What vault number is the Philosophers stone kept in at Gringotts?</string>
-        <key>Correct Answer</key>
-        <string>713</string>
-        <key>Answer 1</key>
-        <string>1</string>
-        <key>Answer 2</key>
-        <string>42</string>
-        <key>Answer 3</key>
-        <string>713</string>
-        <key>Answer 4</key>
-        <string>641</string>
-      </dict>
-<dict>
-        <key>Question</key>
-        <string>What Flavour of Bertie Bott's Every Flavour Beans does Dumbledore eat in the Hospital Wing at the end of Harry's first year?</string>
-        <key>Correct Answer</key>
-        <string>Earwax</string>
-        <key>Answer 1</key>
-        <string>Vomit</string>
-        <key>Answer 2</key>
-        <string>Toffee</string>
-        <key>Answer 3</key>
-        <string>Chocolate</string>
-        <key>Answer 4</key>
-        <string>Earwax</string>
-      </dict>
-</array>
-  </dict>
+	<key>Easy</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of the village that Hogwarts students are allowed to visit on occasion?</string>
+			<key>Correct Answer</key>
+			<string>Hogsmeade</string>
+			<key>Answer 1</key>
+			<string>Diagon Alley</string>
+			<key>Answer 2</key>
+			<string>Hogsmeade</string>
+			<key>Answer 3</key>
+			<string>Knockturn Alley</string>
+			<key>Answer 4</key>
+			<string>Durmstrang</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a Hogwarts House?</string>
+			<key>Correct Answer</key>
+			<string>Zenophar</string>
+			<key>Answer 1</key>
+			<string>Zenophar</string>
+			<key>Answer 2</key>
+			<string>Gryffindor</string>
+			<key>Answer 3</key>
+			<string>Slytherin</string>
+			<key>Answer 4</key>
+			<string>Hufflepuff</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which platform does the Hogwarts Express leave from at King&apos;s Cross Station?</string>
+			<key>Correct Answer</key>
+			<string>9 &amp; 3/4</string>
+			<key>Answer 1</key>
+			<string>9 &amp; 1/2</string>
+			<key>Answer 2</key>
+			<string>9 &amp; 3/4</string>
+			<key>Answer 3</key>
+			<string>9</string>
+			<key>Answer 4</key>
+			<string>9 &amp; 1/3</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many years do Hogwarts students stay in school?</string>
+			<key>Correct Answer</key>
+			<string>7</string>
+			<key>Answer 1</key>
+			<string>2</string>
+			<key>Answer 2</key>
+			<string>6</string>
+			<key>Answer 3</key>
+			<string>7</string>
+			<key>Answer 4</key>
+			<string>4</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a Hogwarts course?</string>
+			<key>Correct Answer</key>
+			<string>Quidditch</string>
+			<key>Answer 1</key>
+			<string>Quidditch</string>
+			<key>Answer 2</key>
+			<string>Potions</string>
+			<key>Answer 3</key>
+			<string>Muggle Studies</string>
+			<key>Answer 4</key>
+			<string>Defense Against the Dark Arts</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How is mail delivered in the Wizarding World?</string>
+			<key>Correct Answer</key>
+			<string>Owl</string>
+			<key>Answer 1</key>
+			<string>Owl</string>
+			<key>Answer 2</key>
+			<string>Post-man</string>
+			<key>Answer 3</key>
+			<string>Teleportation</string>
+			<key>Answer 4</key>
+			<string>E-Mail</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these creatures does not exist in the Wizarding World?</string>
+			<key>Correct Answer</key>
+			<string>Minotaur</string>
+			<key>Answer 1</key>
+			<string>Dragon</string>
+			<key>Answer 2</key>
+			<string>Goblin</string>
+			<key>Answer 3</key>
+			<string>Grindylow</string>
+			<key>Answer 4</key>
+			<string>Minotaur</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What kind of animal does Hagrid acquire in the first novel?</string>
+			<key>Correct Answer</key>
+			<string>Dragon</string>
+			<key>Answer 1</key>
+			<string>Dragon</string>
+			<key>Answer 2</key>
+			<string>Troll</string>
+			<key>Answer 3</key>
+			<string>Dwarf</string>
+			<key>Answer 4</key>
+			<string>House Elf</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What drink is primarily consumed at The Three Broomsticks in Hogsmeade?</string>
+			<key>Correct Answer</key>
+			<string>Butterbeer</string>
+			<key>Answer 1</key>
+			<string>Butterbeer</string>
+			<key>Answer 2</key>
+			<string>Orange Juice</string>
+			<key>Answer 3</key>
+			<string>Firewhiskey</string>
+			<key>Answer 4</key>
+			<string>Wine</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of the following institutions does not participate in the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
+			<key>Answer 1</key>
+			<string>St. Brutus’ Secure Centre for Incurably Criminal Boys</string>
+			<key>Answer 2</key>
+			<string>Hogwarts School of Witchcraft and Wizardry</string>
+			<key>Answer 3</key>
+			<string>Durmstrang Institute</string>
+			<key>Answer 4</key>
+			<string>Beauxbatons Academy of Magic</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Ministry of Magic is:</string>
+			<key>Correct Answer</key>
+			<string>The government of the magical community</string>
+			<key>Answer 1</key>
+			<string>The government of the magical community</string>
+			<key>Answer 2</key>
+			<string>The aurors who are protecting Harry from Voldemort</string>
+			<key>Answer 3</key>
+			<string>Voldemort’s followers</string>
+			<key>Answer 4</key>
+			<string>The administration at Hogwarts</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where do wizards and witches buy their wands from?</string>
+			<key>Correct Answer</key>
+			<string>Ollivanders</string>
+			<key>Answer 1</key>
+			<string>The Ministry of Magic</string>
+			<key>Answer 2</key>
+			<string>Madam Malkins</string>
+			<key>Answer 3</key>
+			<string>Ollivanders</string>
+			<key>Answer 4</key>
+			<string>Gregorovitch</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Quidditch is a sport with how many players?:</string>
+			<key>Correct Answer</key>
+			<string>Seven</string>
+			<key>Answer 1</key>
+			<string>Six</string>
+			<key>Answer 2</key>
+			<string>Eleven</string>
+			<key>Answer 3</key>
+			<string>Seven</string>
+			<key>Answer 4</key>
+			<string>Three</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In a game of Quidditch catching the snitch is worth how many points?</string>
+			<key>Correct Answer</key>
+			<string>150</string>
+			<key>Answer 1</key>
+			<string>10</string>
+			<key>Answer 2</key>
+			<string>50</string>
+			<key>Answer 3</key>
+			<string>100</string>
+			<key>Answer 4</key>
+			<string>150</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a ball used in Quidditch:</string>
+			<key>Correct Answer</key>
+			<string>Quodpot</string>
+			<key>Answer 1</key>
+			<string>Bludger</string>
+			<key>Answer 2</key>
+			<string>Snitch</string>
+			<key>Answer 3</key>
+			<string>Quaffle</string>
+			<key>Answer 4</key>
+			<string>Quodpot</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many chasers are there on a Quidditch team?</string>
+			<key>Correct Answer</key>
+			<string>3</string>
+			<key>Answer 1</key>
+			<string>5</string>
+			<key>Answer 2</key>
+			<string>4</string>
+			<key>Answer 3</key>
+			<string>3</string>
+			<key>Answer 4</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Statute of … hides the wizarding world from the muggle?</string>
+			<key>Correct Answer</key>
+			<string>Secrecy</string>
+			<key>Answer 1</key>
+			<string>Secrecy</string>
+			<key>Answer 2</key>
+			<string>Seperation</string>
+			<key>Answer 3</key>
+			<string>Self Preservation</string>
+			<key>Answer 4</key>
+			<string>Wizards</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the wizarding world&apos;s bank?</string>
+			<key>Correct Answer</key>
+			<string>Gringotts</string>
+			<key>Answer 1</key>
+			<string>Bank of England</string>
+			<key>Answer 2</key>
+			<string>Bank of Wizards</string>
+			<key>Answer 3</key>
+			<string>Goblins Magical Bank</string>
+			<key>Answer 4</key>
+			<string>Gringotts</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What garment is typically worn by wizards and witches?</string>
+			<key>Correct Answer</key>
+			<string>Robes</string>
+			<key>Answer 1</key>
+			<string>Jeans and T-shirt</string>
+			<key>Answer 2</key>
+			<string>Armour</string>
+			<key>Answer 3</key>
+			<string>Robes</string>
+			<key>Answer 4</key>
+			<string>Suits</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>At what age do children first receive their Hogwarts letters?</string>
+			<key>Correct Answer</key>
+			<string>11</string>
+			<key>Answer 1</key>
+			<string>12</string>
+			<key>Answer 2</key>
+			<string>5</string>
+			<key>Answer 3</key>
+			<string>10</string>
+			<key>Answer 4</key>
+			<string>21</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Approximately how long ago was Hogwarts founded?</string>
+			<key>Correct Answer</key>
+			<string>1000 Years</string>
+			<key>Answer 1</key>
+			<string>100 Years</string>
+			<key>Answer 2</key>
+			<string>500 Years</string>
+			<key>Answer 3</key>
+			<string>2000 Years</string>
+			<key>Answer 4</key>
+			<string>1000 Years</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>At Hogwarts what is awarded to the house with the most points at the end of the year?</string>
+			<key>Correct Answer</key>
+			<string>The House Cup</string>
+			<key>Answer 1</key>
+			<string>The Hogwarts Cup</string>
+			<key>Answer 2</key>
+			<string>The House Cup</string>
+			<key>Answer 3</key>
+			<string>The Quidditch Cup</string>
+			<key>Answer 4</key>
+			<string>The Headmasters Cup</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What artifact was used to select champions for the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>The Goblet of Fire</string>
+			<key>Answer 1</key>
+			<string>The Triwizard Cup</string>
+			<key>Answer 2</key>
+			<string>The Philosophers Stone</string>
+			<key>Answer 3</key>
+			<string>The Sorting Hat</string>
+			<key>Answer 4</key>
+			<string>The Goblet of Fire</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the age of majority in the wizarding world?</string>
+			<key>Correct Answer</key>
+			<string>17</string>
+			<key>Answer 1</key>
+			<string>18</string>
+			<key>Answer 2</key>
+			<string>16</string>
+			<key>Answer 3</key>
+			<string>21</string>
+			<key>Answer 4</key>
+			<string>17</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does the acronym O.W.L stand for?</string>
+			<key>Correct Answer</key>
+			<string>Ordinary Wizarding Levels</string>
+			<key>Answer 1</key>
+			<string>Obsessed With Learning</string>
+			<key>Answer 2</key>
+			<string>Obfuscated Weird Language</string>
+			<key>Answer 3</key>
+			<string>Ordinary Wizarding Levels</string>
+			<key>Answer 4</key>
+			<string>Octopus Wants Luck</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Gringott&apos;s uses what creature to guard high security vaults?</string>
+			<key>Correct Answer</key>
+			<string>Dragon</string>
+			<key>Answer 1</key>
+			<string>Griffon</string>
+			<key>Answer 2</key>
+			<string>Minotaur</string>
+			<key>Answer 3</key>
+			<string>Dragon</string>
+			<key>Answer 4</key>
+			<string>House elves</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What creature doesn&apos;t reside in the Black Lake at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Hippogriff</string>
+			<key>Answer 1</key>
+			<string>Giant Squid</string>
+			<key>Answer 2</key>
+			<string>Hippogriff</string>
+			<key>Answer 3</key>
+			<string>Mermaid</string>
+			<key>Answer 4</key>
+			<string>Grindylows</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the less reputable shopping street called?</string>
+			<key>Correct Answer</key>
+			<string>Knockturn Alley</string>
+			<key>Answer 1</key>
+			<string>Dark Wizard Avenue</string>
+			<key>Answer 2</key>
+			<string>Knockturn Alley</string>
+			<key>Answer 3</key>
+			<string>Voldemort Street</string>
+			<key>Answer 4</key>
+			<string>Diagon Alley</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What street does Hagrid take Harry to go shopping for school supplies?</string>
+			<key>Correct Answer</key>
+			<string>Diagon Alley</string>
+			<key>Answer 1</key>
+			<string>Diagon Alley</string>
+			<key>Answer 2</key>
+			<string>Knockturn Alley</string>
+			<key>Answer 3</key>
+			<string>Hogsmeade</string>
+			<key>Answer 4</key>
+			<string>Cornelius Fudge Boulevard</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What alcoholic drink is famous in the Wizarding World for causing its drinkers to belch fire?</string>
+			<key>Correct Answer</key>
+			<string>Fire Whiskey</string>
+			<key>Answer 1</key>
+			<string>Flaming Tequila</string>
+			<key>Answer 2</key>
+			<string>Fire Ale</string>
+			<key>Answer 3</key>
+			<string>Fire Whiskey</string>
+			<key>Answer 4</key>
+			<string>Gilderoy Lockhart&apos;s Special Blend of Mouthwash</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who won the 1994 Quidditch World Cup?</string>
+			<key>Correct Answer</key>
+			<string>Bulgaria</string>
+			<key>Answer 1</key>
+			<string>Bulgaria</string>
+			<key>Answer 2</key>
+			<string>Ireland</string>
+			<key>Answer 3</key>
+			<string>England</string>
+			<key>Answer 4</key>
+			<string>Germany</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Leprechaun Gold does what after a few hours?</string>
+			<key>Correct Answer</key>
+			<string>Vanish</string>
+			<key>Answer 1</key>
+			<string>Change Colour</string>
+			<key>Answer 2</key>
+			<string>Multiply</string>
+			<key>Answer 3</key>
+			<string>Run away</string>
+			<key>Answer 4</key>
+			<string>Vanish</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the head of the Wizengamot traditionally called?</string>
+			<key>Correct Answer</key>
+			<string>Chief Warlock</string>
+			<key>Answer 1</key>
+			<string>Supreme Mugwump</string>
+			<key>Answer 2</key>
+			<string>The Wizengamot Speaker</string>
+			<key>Answer 3</key>
+			<string>Chief Warlock</string>
+			<key>Answer 4</key>
+			<string>Supreme Socorer</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What band played at the Yule Ball?</string>
+			<key>Correct Answer</key>
+			<string>The Weird Sisters</string>
+			<key>Answer 1</key>
+			<string>The Wacky Warlocks</string>
+			<key>Answer 2</key>
+			<string>Lord Voldemort with Lucius Malfoy on the guitar</string>
+			<key>Answer 3</key>
+			<string>The Drumming Dwarves</string>
+			<key>Answer 4</key>
+			<string>The Weird Sisters</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a unit of currency in the Wizarding World?</string>
+			<key>Correct Answer</key>
+			<string>Pound</string>
+			<key>Answer 1</key>
+			<string>Galleon</string>
+			<key>Answer 2</key>
+			<string>Sickle</string>
+			<key>Answer 3</key>
+			<string>Pound</string>
+			<key>Answer 4</key>
+			<string>Knut</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not a department of the Ministry of Magic?</string>
+			<key>Correct Answer</key>
+			<string>Department of Muggle Control</string>
+			<key>Answer 1</key>
+			<string>Department of Magical Accidents and Catastrophes</string>
+			<key>Answer 2</key>
+			<string>Department of International Magical Co-Operation</string>
+			<key>Answer 3</key>
+			<string>Department of Muggle Control</string>
+			<key>Answer 4</key>
+			<string>Misuse of Muggle of Artifacts Office</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of Fred and George&apos;s Joke Shop?</string>
+			<key>Correct Answer</key>
+			<string>Weasley&apos;s Wizarding Wheezes</string>
+			<key>Answer 1</key>
+			<string>Fred and George&apos;s Hilarious Hoaxes</string>
+			<key>Answer 2</key>
+			<string>Zonko&apos;s</string>
+			<key>Answer 3</key>
+			<string>Pranks for Every Magical Occasion</string>
+			<key>Answer 4</key>
+			<string>Weasley&apos;s Wizarding Wheezes</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which one of the following establishments is not found in Hogsmeade?</string>
+			<key>Correct Answer</key>
+			<string>Ollivander&apos;s Wands</string>
+			<key>Answer 1</key>
+			<string>The Hogs Head</string>
+			<key>Answer 2</key>
+			<string>Honeydukes Sweet Shop</string>
+			<key>Answer 3</key>
+			<string>The Three Broomsticks</string>
+			<key>Answer 4</key>
+			<string>Ollivander&apos;s Wands</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not one of the Deathly Hallows?</string>
+			<key>Correct Answer</key>
+			<string>The Hand of Glory</string>
+			<key>Answer 1</key>
+			<string>The Resurrection Stone</string>
+			<key>Answer 2</key>
+			<string>The Hand of Glory</string>
+			<key>Answer 3</key>
+			<string>The Elder Wand</string>
+			<key>Answer 4</key>
+			<string>The Cloak of Invisibility</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the theme of Dumbledore&apos;s passwords?</string>
+			<key>Correct Answer</key>
+			<string>Names of his favourite sweets</string>
+			<key>Answer 1</key>
+			<string>Surnames of previous headmasters of Hogwarts</string>
+			<key>Answer 2</key>
+			<string>Title of the book he is currently reading</string>
+			<key>Answer 3</key>
+			<string>Names of his favourite sweets</string>
+			<key>Answer 4</key>
+			<string>Names of different family members</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of the following is not a beverage consumed in the wizarding world?</string>
+			<key>Correct Answer</key>
+			<string>Coke</string>
+			<key>Answer 1</key>
+			<string>Fire Whiskey</string>
+			<key>Answer 2</key>
+			<string>Butterbeer</string>
+			<key>Answer 3</key>
+			<string>Pumpkin Juice</string>
+			<key>Answer 4</key>
+			<string>Coke</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is found in each Chocolate Frog Package?</string>
+			<key>Correct Answer</key>
+			<string>Collectable cards featuring famous witches and wizards</string>
+			<key>Answer 1</key>
+			<string>Signed images of Quidditch Players</string>
+			<key>Answer 2</key>
+			<string>Collectable cards featuring famous witches and wizards</string>
+			<key>Answer 3</key>
+			<string>Miniature dragon figurines</string>
+			<key>Answer 4</key>
+			<string>Toy wands for young children</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a magical object seen in the Wizarding world?</string>
+			<key>Correct Answer</key>
+			<string>Magical computers</string>
+			<key>Answer 1</key>
+			<string>Magical computers</string>
+			<key>Answer 2</key>
+			<string>Sneakoscope</string>
+			<key>Answer 3</key>
+			<string>Howler</string>
+			<key>Answer 4</key>
+			<string>Invisibility Cloak</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of the Wizarding prison?</string>
+			<key>Correct Answer</key>
+			<string>Askaban</string>
+			<key>Answer 1</key>
+			<string>Askaban</string>
+			<key>Answer 2</key>
+			<string>Alcatraz</string>
+			<key>Answer 3</key>
+			<string>Gringotts</string>
+			<key>Answer 4</key>
+			<string>Nurmengard</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where is the Slytherin common room located</string>
+			<key>Correct Answer</key>
+			<string>In the Dungeons</string>
+			<key>Answer 1</key>
+			<string>In the Dungeons</string>
+			<key>Answer 2</key>
+			<string>In the Tallest Tower</string>
+			<key>Answer 3</key>
+			<string>Next to the kitchens</string>
+			<key>Answer 4</key>
+			<string>Under the Quidditch Field</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does the Maurauder&apos;s Map show?</string>
+			<key>Correct Answer</key>
+			<string>The location of people in Hogwarts</string>
+			<key>Answer 1</key>
+			<string>The location of people in Hogwarts</string>
+			<key>Answer 2</key>
+			<string>The location of Wizarding settlements in Britain</string>
+			<key>Answer 3</key>
+			<string>The location of people in the Ministry of Magic</string>
+			<key>Answer 4</key>
+			<string>The location of all registered Animagi</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What portrait resides in the hallway of Number 12, Grimmauld Place?</string>
+			<key>Correct Answer</key>
+			<string>Walburga Black</string>
+			<key>Answer 1</key>
+			<string>Walburga Black</string>
+			<key>Answer 2</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 3</key>
+			<string>Sirius Black</string>
+			<key>Answer 4</key>
+			<string>Gilderoy Lockhart</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What gift does Hagrid give to Harry  at the end of his first year at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>A photo album of his parents</string>
+			<key>Answer 1</key>
+			<string>A photo album of his parents</string>
+			<key>Answer 2</key>
+			<string>A new wand</string>
+			<key>Answer 3</key>
+			<string>A magic cauldron</string>
+			<key>Answer 4</key>
+			<string>A house elf</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is odd about the Weasley family&apos;s car?</string>
+			<key>Correct Answer</key>
+			<string>It flies</string>
+			<key>Answer 1</key>
+			<string>It flies</string>
+			<key>Answer 2</key>
+			<string>It doesn&apos;t work</string>
+			<key>Answer 3</key>
+			<string>It&apos;s size changes</string>
+			<key>Answer 4</key>
+			<string>Nothing, it&apos;s just a normal car</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which tree violently attacks anything that gets too close?</string>
+			<key>Correct Answer</key>
+			<string>Whomping Willow</string>
+			<key>Answer 1</key>
+			<string>Whomping Willow</string>
+			<key>Answer 2</key>
+			<string>Mandrake</string>
+			<key>Answer 3</key>
+			<string>Wizarding Willow</string>
+			<key>Answer 4</key>
+			<string>Wormwood Tree</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Parseltongue is the language of what animals?</string>
+			<key>Correct Answer</key>
+			<string>Snakes</string>
+			<key>Answer 1</key>
+			<string>Snakes</string>
+			<key>Answer 2</key>
+			<string>Birds</string>
+			<key>Answer 3</key>
+			<string>Rabbits</string>
+			<key>Answer 4</key>
+			<string>Toads</string>
+		</dict>
+	</array>
+	<key>Medium</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>What vault number is the Philosophers stone kept in at Gringotts?</string>
+			<key>Correct Answer</key>
+			<string>713</string>
+			<key>Answer 1</key>
+			<string>1</string>
+			<key>Answer 2</key>
+			<string>42</string>
+			<key>Answer 3</key>
+			<string>713</string>
+			<key>Answer 4</key>
+			<string>641</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What Flavour of Bertie Bott&apos;s Every Flavour Beans does Dumbledore eat in the Hospital Wing at the end of Harry&apos;s first year?</string>
+			<key>Correct Answer</key>
+			<string>Earwax</string>
+			<key>Answer 1</key>
+			<string>Vomit</string>
+			<key>Answer 2</key>
+			<string>Toffee</string>
+			<key>Answer 3</key>
+			<string>Chocolate</string>
+			<key>Answer 4</key>
+			<string>Earwax</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many sickles are in a Galleon?</string>
+			<key>Correct Answer</key>
+			<string>17</string>
+			<key>Answer 1</key>
+			<string>493</string>
+			<key>Answer 2</key>
+			<string>10</string>
+			<key>Answer 3</key>
+			<string>100</string>
+			<key>Answer 4</key>
+			<string>17</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many Knuts are in a Galleon?</string>
+			<key>Correct Answer</key>
+			<string>493</string>
+			<key>Answer 1</key>
+			<string>493</string>
+			<key>Answer 2</key>
+			<string>500</string>
+			<key>Answer 3</key>
+			<string>56</string>
+			<key>Answer 4</key>
+			<string>777</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many Knuts are in a Sickle?</string>
+			<key>Correct Answer</key>
+			<string>29</string>
+			<key>Answer 1</key>
+			<string>30</string>
+			<key>Answer 2</key>
+			<string>17</string>
+			<key>Answer 3</key>
+			<string>100</string>
+			<key>Answer 4</key>
+			<string>29</string>
+		</dict>
+	</array>
+	<key>Hard</key>
+	<array/>
+</dict>
 </plist>

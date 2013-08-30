@@ -114,4 +114,15 @@
     [defaults setInteger:2 forKey:[NSString stringWithFormat:@"%@ Difficulty Allowed", category]];
 }
 
+// Check if player passed - set at 70%
+-(BOOL)didPass {
+  
+  CGFloat score = (CGFloat)correctAnswers / (CGFloat)numOfQuestions;
+  NSLog([NSString stringWithFormat:@"Score is %f", score],nil);
+  if (score > 0.7)
+    return YES;
+  else
+    return NO;
+}
+
 @end

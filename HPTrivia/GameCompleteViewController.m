@@ -53,7 +53,7 @@
   scoreLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
   scoreLabel.text = [NSString stringWithFormat:@"You scored %d/%d", gameController.correctAnswers, gameController.numOfQuestions];
   
-  if (gameController.correctAnswers >= 7) { // You passed, so unlock next level in the category
+  if ([gameController didPass]) { // You passed, so unlock next level in the category
     titleLabel.text = @"Congratulations!";
     NSString *nextDifficulty = [gameController getNextDifficultyLevel];
     if (![nextDifficulty isEqual:@"allFinished"]) {
@@ -82,10 +82,4 @@
   return YES;
 }
 
-//- (IBAction)backToMainMenu:(UIStoryboardSegue*)segue {
-  
-  // Unwind to the main menu
-//  [self performSegueWithIdentifier:@"unwindToMainMenu" sender:self];
-  
-//}
 @end

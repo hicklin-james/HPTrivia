@@ -29,5 +29,6 @@
 -(GameQuestion*)fetchRandomQuestion;
 -(NSString*)getNextDifficultyLevel;
 -(void)unlockNextDifficulty;
+-(BOOL)didPass;
 
 @end
