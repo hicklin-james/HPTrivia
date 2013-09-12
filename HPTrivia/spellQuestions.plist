@@ -763,8 +763,135 @@
 			<key>Answer 4</key>
 			<string>Incarcerous</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Whis spell does Dumbledore use to save Harry when he falls off his broom during a Quidditch match?</string>
+			<key>Correct Answer</key>
+			<string>Aresto Momentum</string>
+			<key>Answer 1</key>
+			<string>Ascendio</string>
+			<key>Answer 2</key>
+			<string>Anteoculatia</string>
+			<key>Answer 3</key>
+			<string>Aresto Momentum</string>
+			<key>Answer 4</key>
+			<string>Baubillious</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The curse whose incantation is &quot;Mucus ad Nauseam&quot; has what effect on it&apos;s target?</string>
+			<key>Correct Answer</key>
+			<string>An extremely runny nose</string>
+			<key>Answer 1</key>
+			<string>An extremely runny nose</string>
+			<key>Answer 2</key>
+			<string>A massive headache</string>
+			<key>Answer 3</key>
+			<string>Lack of airflow to lungs</string>
+			<key>Answer 4</key>
+			<string>Enlarged ears</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Depulso (Banishing charm) has the opposite effect to which spell?</string>
+			<key>Correct Answer</key>
+			<string>Accio</string>
+			<key>Answer 1</key>
+			<string>Accio</string>
+			<key>Answer 2</key>
+			<string>Crucio</string>
+			<key>Answer 3</key>
+			<string>Defodio</string>
+			<key>Answer 4</key>
+			<string>Confringo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell causes the target to swell in physical size?</string>
+			<key>Correct Answer</key>
+			<string>Engorgio</string>
+			<key>Answer 1</key>
+			<string>Engorgio</string>
+			<key>Answer 2</key>
+			<string>Entomorphis</string>
+			<key>Answer 3</key>
+			<string>Evanesce</string>
+			<key>Answer 4</key>
+			<string>Incarcerous</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Locomotor Wibbly is known by what other name?</string>
+			<key>Correct Answer</key>
+			<string>Jelly-Legs Curse</string>
+			<key>Answer 1</key>
+			<string>Jelly-Legs Curse</string>
+			<key>Answer 2</key>
+			<string>Jelly-Brain Jinx</string>
+			<key>Answer 3</key>
+			<string>Jelly-Fingers Curse</string>
+			<key>Answer 4</key>
+			<string>Jelly-Arms Curse</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does James Potter cast on Severus Snape in his teenage years, that levitates Snape upside-down by his ankles?</string>
+			<key>Correct Answer</key>
+			<string>Levicorpus</string>
+			<key>Answer 1</key>
+			<string>Levicorpus</string>
+			<key>Answer 2</key>
+			<string>Liberacorpus</string>
+			<key>Answer 3</key>
+			<string>Wingardium-Corpus</string>
+			<key>Answer 4</key>
+			<string>Corpus-Leviosa</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What curse prevents witches and wizards from discussing the location of Grimmault place, when it acts as the headquarters for the Order?</string>
+			<key>Correct Answer</key>
+			<string>Tongue-Tying Curse</string>
+			<key>Answer 1</key>
+			<string>Tongue-Tying Curse</string>
+			<key>Answer 2</key>
+			<string>Full Body-Bind Curse</string>
+			<key>Answer 3</key>
+			<string>Reductor Curse</string>
+			<key>Answer 4</key>
+			<string>Conjunctivitis Curse</string>
+		</dict>
 	</array>
 	<key>Hard</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Lockhart use unsuccessfully during duelling club to banish the snake that has been set on Harry?</string>
+			<key>Correct Answer</key>
+			<string>Alarte Ascendare</string>
+			<key>Answer 1</key>
+			<string>Accio</string>
+			<key>Answer 2</key>
+			<string>Crucio</string>
+			<key>Answer 3</key>
+			<string>Defodio</string>
+			<key>Answer 4</key>
+			<string>Confringo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Horace Slughorn use on Marcus Belby to clear his airway while choking on pheasant?</string>
+			<key>Correct Answer</key>
+			<string>Anapneo</string>
+			<key>Answer 1</key>
+			<string>Anapneo</string>
+			<key>Answer 2</key>
+			<string>Anteoculatia</string>
+			<key>Answer 3</key>
+			<string>Ascenda Oesophago</string>
+			<key>Answer 4</key>
+			<string>Arania Eructo</string>
+		</dict>
+	</array>
 </dict>
 </plist>
