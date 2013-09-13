@@ -861,6 +861,62 @@
 			<key>Answer 4</key>
 			<string>Conjunctivitis Curse</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which potion does Harry brew in Slughorn&apos;s class to win a vial of Felix Felicis?</string>
+			<key>Correct Answer</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 1</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 2</key>
+			<string>Draught of Dying</string>
+			<key>Answer 3</key>
+			<string>Lifeless Draught</string>
+			<key>Answer 4</key>
+			<string>Invigoration Draught</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Wolfsbane potion eases the symptoms of what?</string>
+			<key>Correct Answer</key>
+			<string>Lycanthropy</string>
+			<key>Answer 1</key>
+			<string>Rhumanthropy</string>
+			<key>Answer 2</key>
+			<string>Tyronthropy</string>
+			<key>Answer 3</key>
+			<string>Lycanthropy</string>
+			<key>Answer 4</key>
+			<string>Ayanthropy</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which potion did Voldemort use to protect Salazar Slytherin&apos;s locket (a horcrux)?</string>
+			<key>Correct Answer</key>
+			<string>Drink of Despair</string>
+			<key>Answer 1</key>
+			<string>Drink of Despair</string>
+			<key>Answer 2</key>
+			<string>Dragon Poison</string>
+			<key>Answer 3</key>
+			<string>Baneberry Poision</string>
+			<key>Answer 4</key>
+			<string>Dogbane Potion</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>At the start of the Quidditch World Cup, which spell does Bagman use to increase the volume of his voice as he announces the game?</string>
+			<key>Correct Answer</key>
+			<string>Sonorus</string>
+			<key>Answer 1</key>
+			<string>Sonorus</string>
+			<key>Answer 2</key>
+			<string>Amplifie</string>
+			<key>Answer 3</key>
+			<string>Incantum Sonar</string>
+			<key>Answer 4</key>
+			<string>Volum Maxima</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
