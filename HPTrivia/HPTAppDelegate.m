@@ -12,9 +12,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"iphone" bundle:[NSBundle mainBundle]];
+  UIStoryboard *storyboard;
+  if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+  {
+    storyboard = [UIStoryboard storyboardWithName:@"hp-ipad" bundle:[NSBundle mainBundle]]; /* Device is iPad */
+  }
+  else {
+  storyboard = [UIStoryboard storyboardWithName:@"hp-iphone" bundle:[NSBundle mainBundle]];
+  }
   UIViewController *vc =[storyboard instantiateInitialViewController];
   
   // Set root view controller and make windows visible

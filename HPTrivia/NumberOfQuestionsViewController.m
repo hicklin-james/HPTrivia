@@ -39,7 +39,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-  if(IS_PHONEPOD5()) {
+  if(!IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
   } else {
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];

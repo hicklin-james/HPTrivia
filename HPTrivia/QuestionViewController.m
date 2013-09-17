@@ -43,7 +43,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
   
-  if(IS_PHONEPOD5()) {
+  if(!IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
   } else {
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
@@ -118,7 +118,7 @@
 
 - (IBAction)giveUpOnGame:(id)sender {
   
-  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning@" message:@"Are you sure you want to give up the game?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning!" message:@"Are you sure you want to give up the game?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
   [alert show];
 }
 

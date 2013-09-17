@@ -917,6 +917,300 @@
 			<key>Answer 4</key>
 			<string>Volum Maxima</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell, which caused her to grow antlers, was used on Pansy Parkinson during a student rebellion after Fred and George&apos;s departure from Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Anteoculatia</string>
+			<key>Answer 1</key>
+			<string>Anteoculatia</string>
+			<key>Answer 2</key>
+			<string>Antlamoria</string>
+			<key>Answer 3</key>
+			<string>Antleroneo</string>
+			<key>Answer 4</key>
+			<string>Aparceium</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell blasts away arachnids?</string>
+			<key>Correct Answer</key>
+			<string>Arania Exumai</string>
+			<key>Answer 1</key>
+			<string>Arania Exumai</string>
+			<key>Answer 2</key>
+			<string>Arania Expulso</string>
+			<key>Answer 3</key>
+			<string>Arachnia Expulso</string>
+			<key>Answer 4</key>
+			<string>Arachnia Aspiria</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Lockhart unsuccessfuly tries to fix Harry&apos;s broken arm after he falls from his broom with which spell?</string>
+			<key>Correct Answer</key>
+			<string>Brackium Emendo</string>
+			<key>Answer 1</key>
+			<string>Brackium Emendo</string>
+			<key>Answer 2</key>
+			<string>Skele-Gro</string>
+			<key>Answer 3</key>
+			<string>Corpio Mendes</string>
+			<key>Answer 4</key>
+			<string>Skeleta Engorgio</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these charms is NOT included in Harry&apos;s OWL exam for Charms.</string>
+			<key>Correct Answer</key>
+			<string>Cushioning Charm</string>
+			<key>Answer 1</key>
+			<string>Cushioning Charm</string>
+			<key>Answer 2</key>
+			<string>Cheering Charm</string>
+			<key>Answer 3</key>
+			<string>Levitation Charm</string>
+			<key>Answer 4</key>
+			<string>Color Change Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Crabbe conjure in the final novel that ultimately resulted in his death?</string>
+			<key>Correct Answer</key>
+			<string>Fiendfyre</string>
+			<key>Answer 1</key>
+			<string>Fiendfyre</string>
+			<key>Answer 2</key>
+			<string>Firestorm</string>
+			<key>Answer 3</key>
+			<string>Bluebell flames</string>
+			<key>Answer 4</key>
+			<string>Bewitched Snowballs</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What charm did medieval witches use to protect themselves during witch burnings?</string>
+			<key>Correct Answer</key>
+			<string>Flame-Freezing Charm</string>
+			<key>Answer 1</key>
+			<string>Flame-Freezing Charm</string>
+			<key>Answer 2</key>
+			<string>Flame-Repelling Charm</string>
+			<key>Answer 3</key>
+			<string>Fire-Extinguishing Charm</string>
+			<key>Answer 4</key>
+			<string>Flame-Protection Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Hermione use to detect the presence of humans in Grimmauld place?</string>
+			<key>Correct Answer</key>
+			<string>Homenum Revelio</string>
+			<key>Answer 1</key>
+			<string>Homenum Revelio</string>
+			<key>Answer 2</key>
+			<string>Homeosape Revel</string>
+			<key>Answer 3</key>
+			<string>Homenum Expelia</string>
+			<key>Answer 4</key>
+			<string>Homeorevel</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Impervius Charm has what effect?</string>
+			<key>Correct Answer</key>
+			<string>It repels substance</string>
+			<key>Answer 1</key>
+			<string>It repels substance</string>
+			<key>Answer 2</key>
+			<string>It controls the mind</string>
+			<key>Answer 3</key>
+			<string>It makes the target cry</string>
+			<key>Answer 4</key>
+			<string>It makes doors impenetrable</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In Harry&apos;s private lessons with Professor Snape, what is he learning to protect himself against?</string>
+			<key>Correct Answer</key>
+			<string>Legilimency</string>
+			<key>Answer 1</key>
+			<string>Legilimency</string>
+			<key>Answer 2</key>
+			<string>The Imperio Curse</string>
+			<key>Answer 3</key>
+			<string>Voldemort&apos;s Horcrux</string>
+			<key>Answer 4</key>
+			<string>Prior Incantato</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of the magical phenomenon that occurs when two wands that share the same core are forced to compete in combat?</string>
+			<key>Correct Answer</key>
+			<string>Priori Incantatem</string>
+			<key>Answer 1</key>
+			<string>Priori Incantatem</string>
+			<key>Answer 2</key>
+			<string>Prior Incantato</string>
+			<key>Answer 3</key>
+			<string>Priorita Incantem</string>
+			<key>Answer 4</key>
+			<string>Prioincantema</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Prior Incantato spell has what effect when pointed at a wand?</string>
+			<key>Correct Answer</key>
+			<string>It shows the last spell it performed</string>
+			<key>Answer 1</key>
+			<string>It shows the last spell it performed</string>
+			<key>Answer 2</key>
+			<string>It removes all it&apos;s magical capabilities</string>
+			<key>Answer 3</key>
+			<string>It reduces the wand to ash</string>
+			<key>Answer 4</key>
+			<string>It increases the wand&apos;s power</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell is used to make the target release whatever it is holding or binding?</string>
+			<key>Correct Answer</key>
+			<string>Relashio</string>
+			<key>Answer 1</key>
+			<string>Relashio</string>
+			<key>Answer 2</key>
+			<string>Rennervate</string>
+			<key>Answer 3</key>
+			<string>Reparifors</string>
+			<key>Answer 4</key>
+			<string>Reducto</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Rennervate reverses the effects of what?</string>
+			<key>Correct Answer</key>
+			<string>Being Stunned</string>
+			<key>Answer 1</key>
+			<string>Being Stunned</string>
+			<key>Answer 2</key>
+			<string>Being Burned</string>
+			<key>Answer 3</key>
+			<string>Being Disfigured</string>
+			<key>Answer 4</key>
+			<string>Being Tired</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Rictusempra induces what sensation?</string>
+			<key>Correct Answer</key>
+			<string>Tickling</string>
+			<key>Answer 1</key>
+			<string>Tickling</string>
+			<key>Answer 2</key>
+			<string>Smiling</string>
+			<key>Answer 3</key>
+			<string>Laughing</string>
+			<key>Answer 4</key>
+			<string>Sleeping</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which hex does Hermione cast on Harry to hide his true identity from the snatchers?</string>
+			<key>Correct Answer</key>
+			<string>Stinging Hex</string>
+			<key>Answer 1</key>
+			<string>Stinging Hex</string>
+			<key>Answer 2</key>
+			<string>Bat-Bogey Hex</string>
+			<key>Answer 3</key>
+			<string>Bedazzling Hex</string>
+			<key>Answer 4</key>
+			<string>Hurling Hex</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which curse showed the snatchers the location of Harry Potter in the Second Wizarding War?</string>
+			<key>Correct Answer</key>
+			<string>The Taboo Curse</string>
+			<key>Answer 1</key>
+			<string>The Taboo Curse</string>
+			<key>Answer 2</key>
+			<string>The Imperius Curse</string>
+			<key>Answer 3</key>
+			<string>The Babbling Curse</string>
+			<key>Answer 4</key>
+			<string>The Ear-Shrivelling Curse</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In Harry&apos;s final transfiguration exam of his third year at Hogwarts, which transforming spell is he required to perform?</string>
+			<key>Correct Answer</key>
+			<string>Teapot to Tortoise</string>
+			<key>Answer 1</key>
+			<string>Teapot to Tortoise</string>
+			<key>Answer 2</key>
+			<string>Human to Chicken</string>
+			<key>Answer 3</key>
+			<string>Snail to Teapot</string>
+			<key>Answer 4</key>
+			<string>Raven to Writing Desk</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a piece of security in Gringotts?</string>
+			<key>Correct Answer</key>
+			<string>Veritaserum</string>
+			<key>Answer 1</key>
+			<string>The Gemino Charm</string>
+			<key>Answer 2</key>
+			<string>A Dragon</string>
+			<key>Answer 3</key>
+			<string>The Thief&apos;s Downfall</string>
+			<key>Answer 4</key>
+			<string>Veritaserum</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the incantation to transform an animal into a water goblet?</string>
+			<key>Correct Answer</key>
+			<string>Vera Verto</string>
+			<key>Answer 1</key>
+			<string>Vera Verto</string>
+			<key>Answer 2</key>
+			<string>Vero Verta</string>
+			<key>Answer 3</key>
+			<string>Piertotum Locomotor</string>
+			<key>Answer 4</key>
+			<string>Vipera Evanesca</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these love potions is the strongest?</string>
+			<key>Correct Answer</key>
+			<string>Amortentia</string>
+			<key>Answer 1</key>
+			<string>Amortentia</string>
+			<key>Answer 2</key>
+			<string>Cupid Crystals</string>
+			<key>Answer 3</key>
+			<string>Beguiling Bubbles</string>
+			<key>Answer 4</key>
+			<string>Twilight Moonbeams</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which potion does Hagrid look for in Knockturn alley in the summer of 1992?</string>
+			<key>Correct Answer</key>
+			<string>Flesh-Eating Slug Repellent</string>
+			<key>Answer 1</key>
+			<string>Flesh-Eating Slug Repellent</string>
+			<key>Answer 2</key>
+			<string>Draught of Despair</string>
+			<key>Answer 3</key>
+			<string>Exploding Potion</string>
+			<key>Answer 4</key>
+			<string>Noxious Potion</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>

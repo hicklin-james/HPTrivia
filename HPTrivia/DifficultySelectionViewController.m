@@ -24,6 +24,7 @@
 @synthesize mediumButton;
 @synthesize hardButton;
 @synthesize difficulty;
+@synthesize instructionsLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,7 +40,7 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view.
   // Use correct image for screen size
-  if(IS_PHONEPOD5()) {
+  if(!IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
   } else {
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
@@ -47,6 +48,7 @@
   NSLog([NSString stringWithFormat:@"The category is %@", category], nil);
   [self setUpButtons];
   [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  [instructionsLabel setFont:[UIFont fontWithName:@"ParryHotter" size:12]];
   
 }
 

@@ -286,7 +286,7 @@
                                 <rect key="frame" x="97" y="61" width="375" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
-                                <color key="textColor" red="0.17724815652699677" green="0.59787547831632648" blue="0.18511718373807945" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.25241981458625223" green="0.44781422026064466" blue="0.45581552933673475" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -411,7 +411,7 @@
                                 <rect key="frame" x="27" y="175" width="515" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.1772481565" green="0.59787547829999999" blue="0.18511718369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.25241981460000001" green="0.44781422030000001" blue="0.45581552930000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -586,9 +586,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Difficulty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qgE-2x-ajn">
-                                <rect key="frame" x="45" y="35" width="478" height="76"/>
+                                <rect key="frame" x="45" y="15" width="478" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete easier difficulties to unlock harder ones." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gb1-TE-Afe">
+                                <rect key="frame" x="151" y="267" width="267" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -600,6 +607,7 @@
                         <outlet property="easyButton" destination="2N6-g4-u8k" id="UKh-Bj-MTK"/>
                         <outlet property="hardButton" destination="NYj-RM-a7m" id="8Ys-NS-69a"/>
                         <outlet property="imageView" destination="orx-O9-u8R" id="PWz-qO-4gX"/>
+                        <outlet property="instructionsLabel" destination="gb1-TE-Afe" id="8f0-Hj-9hp"/>
                         <outlet property="mediumButton" destination="zj0-CI-xPY" id="goZ-cQ-7mD"/>
                         <outlet property="titleLabel" destination="qgE-2x-ajn" id="5mW-ea-mFk"/>
                         <segue destination="y74-bi-otQ" kind="modal" identifier="numberOfQuestionsSegue" modalTransitionStyle="flipHorizontal" id="0nm-BJ-iP3"/>
