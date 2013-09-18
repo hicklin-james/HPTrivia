@@ -1211,6 +1211,118 @@
 			<key>Answer 4</key>
 			<string>Noxious Potion</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these creatures was not part of Professor Lupin&apos;s curriculum when he taught Defense Against the Dark Arts at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Cornish Pixies</string>
+			<key>Answer 1</key>
+			<string>Grindylows</string>
+			<key>Answer 2</key>
+			<string>Hinkypunks</string>
+			<key>Answer 3</key>
+			<string>Vampires</string>
+			<key>Answer 4</key>
+			<string>Cornish Pixies</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What happens when Bubotuber pus comes in contact with human skin?</string>
+			<key>Correct Answer</key>
+			<string>Boils appear</string>
+			<key>Answer 1</key>
+			<string>Boils appear</string>
+			<key>Answer 2</key>
+			<string>A rash forms</string>
+			<key>Answer 3</key>
+			<string>It sticks to your skin</string>
+			<key>Answer 4</key>
+			<string>It burns your skin</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Mimbulus Mimbletonia spews what when touched?</string>
+			<key>Correct Answer</key>
+			<string>Stinksap</string>
+			<key>Answer 1</key>
+			<string>Stinksap</string>
+			<key>Answer 2</key>
+			<string>Bubotuber Pus</string>
+			<key>Answer 3</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 4</key>
+			<string>Elixir of Life</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these tree&apos;s wood is not used in the making of wands</string>
+			<key>Correct Answer</key>
+			<string>Palm</string>
+			<key>Answer 1</key>
+			<string>Oak</string>
+			<key>Answer 2</key>
+			<string>Yew</string>
+			<key>Answer 3</key>
+			<string>Cherry</string>
+			<key>Answer 4</key>
+			<string>Palm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these dragons was not in the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>Ukranian Ironbelly</string>
+			<key>Answer 1</key>
+			<string>Ukranian Ironbelly</string>
+			<key>Answer 2</key>
+			<string>Hungarian Horntail</string>
+			<key>Answer 3</key>
+			<string>Common Welsh Creen</string>
+			<key>Answer 4</key>
+			<string>Norweigan Ridgeback</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What do niffler&apos;s sniff out?</string>
+			<key>Correct Answer</key>
+			<string>Shiny Treasure</string>
+			<key>Answer 1</key>
+			<string>Shiny Treasure</string>
+			<key>Answer 2</key>
+			<string>Dead Wizards</string>
+			<key>Answer 3</key>
+			<string>Lava Rocks</string>
+			<key>Answer 4</key>
+			<string>Wands</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What piece of jewellery holds the curse that hits Katie Bell when she touches it?</string>
+			<key>Correct Answer</key>
+			<string>Necklace</string>
+			<key>Answer 1</key>
+			<string>Ring</string>
+			<key>Answer 2</key>
+			<string>Bracelet</string>
+			<key>Answer 3</key>
+			<string>Necklace</string>
+			<key>Answer 4</key>
+			<string>Anklet</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How does Umbridge torture her students in detention?</string>
+			<key>Correct Answer</key>
+			<string>A Blood Quill</string>
+			<key>Answer 1</key>
+			<string>A Blood Quill</string>
+			<key>Answer 2</key>
+			<string>She Curses Them</string>
+			<key>Answer 3</key>
+			<string>She Hits Them</string>
+			<key>Answer 4</key>
+			<string>Crucio</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
