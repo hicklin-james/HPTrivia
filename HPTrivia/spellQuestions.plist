@@ -1323,6 +1323,48 @@
 			<key>Answer 4</key>
 			<string>Crucio</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What charm does Hermione use to expand the space available inside her handbag in the Deathly Hallows?</string>
+			<key>Correct Answer</key>
+			<string>Undetectable Extension Charm</string>
+			<key>Answer 1</key>
+			<string>Undetectable Extension Charm</string>
+			<key>Answer 2</key>
+			<string>Expanding Space Charm</string>
+			<key>Answer 3</key>
+			<string>Increased Area Charm</string>
+			<key>Answer 4</key>
+			<string>Never-Full Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Why does Rita Skeeter get stuck in her Animagus form?</string>
+			<key>Correct Answer</key>
+			<string>The jar she is held in prevents her from transforming</string>
+			<key>Answer 1</key>
+			<string>The jar she is held in prevents her from transforming</string>
+			<key>Answer 2</key>
+			<string>She loses her magical abilities</string>
+			<key>Answer 3</key>
+			<string>She dies in her animagus form</string>
+			<key>Answer 4</key>
+			<string>She swears a vow to never transform back</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Harry use to fill Dumbledore&apos;s crystal goblet with water in the Horcrux cave?</string>
+			<key>Correct Answer</key>
+			<string>Aguamenti</string>
+			<key>Answer 1</key>
+			<string>Aguamenti</string>
+			<key>Answer 2</key>
+			<string>Aquamenta</string>
+			<key>Answer 3</key>
+			<string>Agua-Conjurus</string>
+			<key>Answer 4</key>
+			<string>Agua Eructo</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
