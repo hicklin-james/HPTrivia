@@ -1536,216 +1536,720 @@
 	</array>
 	<key>Hard</key>
 	<array>
-      <dict>
-        <key>Question</key>
-        <string>Who resigned from the Wizengamot in protest at Cornelius Fudge's education policy in 1995?</string>
-        <key>Correct Answer</key>
-        <string>Griselda Marchbanks</string>
-        <key>Answer 1</key>
-        <string>Amelia Bones</string>
-        <key>Answer 2</key>
-        <string>Albus Dumbledore</string>
-        <key>Answer 3</key>
-        <string>Hassan Mostafa</string>
-        <key>Answer 4</key>
-        <string>Griselda Marchbanks</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who was the Irish seeker in the Quidditch world cup final?</string>
-        <key>Correct Answer</key>
-        <string>Aidan Lynch</string>
-        <key>Answer 1</key>
-        <string>Viktor Krum</string>
-        <key>Answer 2</key>
-        <string>Moran</string>
-        <key>Answer 3</key>
-        <string>Hassan Mostafa</string>
-        <key>Answer 4</key>
-        <string>Aidan Lynch</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who did Harry impersonate when he was breaking into the Ministry in the seventh book?</string>
-        <key>Correct Answer</key>
-        <string>Albert Runcorns</string>
-        <key>Answer 1</key>
-        <string>Albert Runcorn</string>
-        <key>Answer 2</key>
-        <string>Reg Cattermole</string>
-        <key>Answer 3</key>
-        <string>Yaxley</string>
-        <key>Answer 4</key>
-        <string>Mafalda Hopkirk</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who worked in the Improper Use of Magic Office and sent warning to those who broke the Statute of Secrecy?</string>
-        <key>Correct Answer</key>
-        <string>Mafalda Hopkirk</string>
-        <key>Answer 1</key>
-        <string>Amelia Bones</string>
-        <key>Answer 2</key>
-        <string>Mafalda Hopkirk</string>
-        <key>Answer 3</key>
-        <string>Hassan Mostafa</string>
-        <key>Answer 4</key>
-        <string>Mary Cattermole</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which Death Eater provided incorrect information to Lord Voldemort when he was attempting to obtain the prophecy?</string>
-        <key>Correct Answer</key>
-        <string>Avery</string>
-        <key>Answer 1</key>
-        <string>Rookwood</string>
-        <key>Answer 2</key>
-        <string>Travers</string>
-        <key>Answer 3</key>
-        <string>Snape</string>
-        <key>Answer 4</key>
-        <string>Avery</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who wasn't a chaser for Ireland in the Quidditch World Cup Final?</string>
-        <key>Correct Answer</key>
-        <string>Lynch</string>
-        <key>Answer 1</key>
-        <string>Troy</string>
-        <key>Answer 2</key>
-        <string>Lynch</string>
-        <key>Answer 3</key>
-        <string>Moran</string>
-        <key>Answer 4</key>
-        <string>Mullet</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who was the chief of the giant clan Hagrid attempted to negotiate with?</string>
-        <key>Correct Answer</key>
-        <string>Karkus</string>
-        <key>Answer 1</key>
-        <string>Bogrod</string>
-        <key>Answer 2</key>
-        <string>Grawp</string>
-        <key>Answer 3</key>
-        <string>Karkus</string>
-        <key>Answer 4</key>
-        <string>Griphook</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who was the apparition instructor in Harry's sixth year?</string>
-        <key>Correct Answer</key>
-        <string>Willie Twycross</string>
-        <key>Answer 1</key>
-        <string>Griselda Marchbanks</string>
-        <key>Answer 2</key>
-        <string>Albus Dumbledore</string>
-        <key>Answer 3</key>
-        <string>Willie Twycross</string>
-        <key>Answer 4</key>
-        <string>Adrian Pucey</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What was the name of House Elf belonging to Hezibah Smith?</string>
-        <key>Correct Answer</key>
-        <string>Hokey</string>
-        <key>Answer 1</key>
-        <string>Winky</string>
-        <key>Answer 2</key>
-        <string>Hokey</string>
-        <key>Answer 3</key>
-        <string>Bogrod</string>
-        <key>Answer 4</key>
-        <string>Ronan</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What Office in the Ministry of Magic did Dirk Cresswell head up?</string>
-        <key>Correct Answer</key>
-        <string>Goblin Liaison Office</string>
-        <key>Answer 1</key>
-        <string>Department of Magical Accidents and Catastrophes</string>
-        <key>Answer 2</key>
-        <string>Goblin Liaison Office</string>
-        <key>Answer 3</key>
-        <string>Department of Magical Transportation</string>
-        <key>Answer 4</key>
-        <string>Centaur Liaison Office</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which of these beings is not a centaur?</string>
-        <key>Correct Answer</key>
-        <string>Scabior</string>
-        <key>Answer 1</key>
-        <string>Bane</string>
-        <key>Answer 2</key>
-        <string>Ronan</string>
-        <key>Answer 3</key>
-        <string>Magorian</string>
-        <key>Answer 4</key>
-        <string>Scabior</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the first name of Burke a proprietor of Borgin and Burke?</string>
-        <key>Correct Answer</key>
-        <string>Caractacus</string>
-        <key>Answer 1</key>
-        <string>Dilys</string>
-        <key>Answer 2</key>
-        <string>Caractacus</string>
-        <key>Answer 3</key>
-        <string>Boyle</string>
-        <key>Answer 4</key>
-        <string>Barnabus</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>What is the name of Dumbledore's mother?</string>
-        <key>Correct Answer</key>
-        <string>Kendra</string>
-        <key>Answer 1</key>
-        <string>Ariana</string>
-        <key>Answer 2</key>
-        <string>Damaris</string>
-        <key>Answer 3</key>
-        <string>Abriella</string>
-        <key>Answer 4</key>
-        <string>Kendra</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Who is the head of the Wizarding Examinations Authority?</string>
-        <key>Correct Answer</key>
-        <string>Griselda Marchbanks</string>
-        <key>Answer 1</key>
-        <string>Professor Tofty</string>
-        <key>Answer 2</key>
-        <string>Albus Dumbledore</string>
-        <key>Answer 3</key>
-        <string>Griselda Marchbanks</string>
-        <key>Answer 4</key>
-        <string>Cornelius Fudge</string>
-      </dict>
-      <dict>
-        <key>Question</key>
-        <string>Which auror was a member of Fudge's personal guard?</string>
-        <key>Correct Answer</key>
-        <string>Dawlish</string>
-        <key>Answer 1</key>
-        <string>Dawlish</string>
-        <key>Answer 2</key>
-        <string>Shacklebolt</string>
-        <key>Answer 3</key>
-        <string>Tonks</string>
-        <key>Answer 4</key>
-        <string>Jones</string>
-      </dict>
-      </array>
+		<dict>
+			<key>Question</key>
+			<string>Who resigned from the Wizengamot in protest at Cornelius Fudge&apos;s education policy in 1995?</string>
+			<key>Correct Answer</key>
+			<string>Griselda Marchbanks</string>
+			<key>Answer 1</key>
+			<string>Amelia Bones</string>
+			<key>Answer 2</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 3</key>
+			<string>Hassan Mostafa</string>
+			<key>Answer 4</key>
+			<string>Griselda Marchbanks</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the Irish seeker in the Quidditch world cup final?</string>
+			<key>Correct Answer</key>
+			<string>Aidan Lynch</string>
+			<key>Answer 1</key>
+			<string>Viktor Krum</string>
+			<key>Answer 2</key>
+			<string>Moran</string>
+			<key>Answer 3</key>
+			<string>Hassan Mostafa</string>
+			<key>Answer 4</key>
+			<string>Aidan Lynch</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who worked in the Improper Use of Magic Office and sent warning to those who broke the Statute of Secrecy?</string>
+			<key>Correct Answer</key>
+			<string>Mafalda Hopkirk</string>
+			<key>Answer 1</key>
+			<string>Amelia Bones</string>
+			<key>Answer 2</key>
+			<string>Mafalda Hopkirk</string>
+			<key>Answer 3</key>
+			<string>Hassan Mostafa</string>
+			<key>Answer 4</key>
+			<string>Mary Cattermole</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Death Eater provided incorrect information to Lord Voldemort when he was attempting to obtain the prophecy?</string>
+			<key>Correct Answer</key>
+			<string>Avery</string>
+			<key>Answer 1</key>
+			<string>Rookwood</string>
+			<key>Answer 2</key>
+			<string>Travers</string>
+			<key>Answer 3</key>
+			<string>Snape</string>
+			<key>Answer 4</key>
+			<string>Avery</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who wasn&apos;t a chaser for Ireland in the Quidditch World Cup Final?</string>
+			<key>Correct Answer</key>
+			<string>Lynch</string>
+			<key>Answer 1</key>
+			<string>Troy</string>
+			<key>Answer 2</key>
+			<string>Lynch</string>
+			<key>Answer 3</key>
+			<string>Moran</string>
+			<key>Answer 4</key>
+			<string>Mullet</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the chief of the giant clan Hagrid attempted to negotiate with?</string>
+			<key>Correct Answer</key>
+			<string>Karkus</string>
+			<key>Answer 1</key>
+			<string>Bogrod</string>
+			<key>Answer 2</key>
+			<string>Grawp</string>
+			<key>Answer 3</key>
+			<string>Karkus</string>
+			<key>Answer 4</key>
+			<string>Griphook</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the apparition instructor in Harry&apos;s sixth year?</string>
+			<key>Correct Answer</key>
+			<string>Willie Twycross</string>
+			<key>Answer 1</key>
+			<string>Griselda Marchbanks</string>
+			<key>Answer 2</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 3</key>
+			<string>Willie Twycross</string>
+			<key>Answer 4</key>
+			<string>Adrian Pucey</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What was the name of House Elf belonging to Hezibah Smith?</string>
+			<key>Correct Answer</key>
+			<string>Hokey</string>
+			<key>Answer 1</key>
+			<string>Winky</string>
+			<key>Answer 2</key>
+			<string>Hokey</string>
+			<key>Answer 3</key>
+			<string>Bogrod</string>
+			<key>Answer 4</key>
+			<string>Ronan</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What Office in the Ministry of Magic did Dirk Cresswell head up?</string>
+			<key>Correct Answer</key>
+			<string>Goblin Liaison Office</string>
+			<key>Answer 1</key>
+			<string>Department of Magical Accidents and Catastrophes</string>
+			<key>Answer 2</key>
+			<string>Goblin Liaison Office</string>
+			<key>Answer 3</key>
+			<string>Department of Magical Transportation</string>
+			<key>Answer 4</key>
+			<string>Centaur Liaison Office</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these beings is not a centaur?</string>
+			<key>Correct Answer</key>
+			<string>Scabior</string>
+			<key>Answer 1</key>
+			<string>Bane</string>
+			<key>Answer 2</key>
+			<string>Ronan</string>
+			<key>Answer 3</key>
+			<string>Magorian</string>
+			<key>Answer 4</key>
+			<string>Scabior</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the first name of Burke a proprietor of Borgin and Burke?</string>
+			<key>Correct Answer</key>
+			<string>Caractacus</string>
+			<key>Answer 1</key>
+			<string>Dilys</string>
+			<key>Answer 2</key>
+			<string>Caractacus</string>
+			<key>Answer 3</key>
+			<string>Boyle</string>
+			<key>Answer 4</key>
+			<string>Barnabus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of Dumbledore&apos;s mother?</string>
+			<key>Correct Answer</key>
+			<string>Kendra</string>
+			<key>Answer 1</key>
+			<string>Ariana</string>
+			<key>Answer 2</key>
+			<string>Damaris</string>
+			<key>Answer 3</key>
+			<string>Abriella</string>
+			<key>Answer 4</key>
+			<string>Kendra</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who is the head of the Wizarding Examinations Authority?</string>
+			<key>Correct Answer</key>
+			<string>Griselda Marchbanks</string>
+			<key>Answer 1</key>
+			<string>Professor Tofty</string>
+			<key>Answer 2</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 3</key>
+			<string>Griselda Marchbanks</string>
+			<key>Answer 4</key>
+			<string>Cornelius Fudge</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which auror was a member of Fudge&apos;s personal guard?</string>
+			<key>Correct Answer</key>
+			<string>Dawlish</string>
+			<key>Answer 1</key>
+			<string>Dawlish</string>
+			<key>Answer 2</key>
+			<string>Shacklebolt</string>
+			<key>Answer 3</key>
+			<string>Tonks</string>
+			<key>Answer 4</key>
+			<string>Jones</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When is Hermione&apos;s Birthday?</string>
+			<key>Correct Answer</key>
+			<string>19th of September</string>
+			<key>Answer 1</key>
+			<string>31st of July</string>
+			<key>Answer 2</key>
+			<string>25th of September</string>
+			<key>Answer 3</key>
+			<string>31st of December</string>
+			<key>Answer 4</key>
+			<string>19th of September</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who did Hermione impersonate when the trio broke into the Ministry?</string>
+			<key>Correct Answer</key>
+			<string>Mafalda Hopkirk</string>
+			<key>Answer 1</key>
+			<string>Mafalda Hopkirk</string>
+			<key>Answer 2</key>
+			<string>Mary Cattermole</string>
+			<key>Answer 3</key>
+			<string>Delores Umbridge</string>
+			<key>Answer 4</key>
+			<string>Bellatrix Lestrange</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who did Harry impersonate when the trio broke into the Ministry?</string>
+			<key>Correct Answer</key>
+			<string>Albert Runcorn</string>
+			<key>Answer 1</key>
+			<string>Reginald Cattermole</string>
+			<key>Answer 2</key>
+			<string>Albert Runcorn</string>
+			<key>Answer 3</key>
+			<string>Yaxley</string>
+			<key>Answer 4</key>
+			<string>Lord Voldemort</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who did Ron impersonate when the trio broke into the Ministry?</string>
+			<key>Correct Answer</key>
+			<string>Reginald Cattermole</string>
+			<key>Answer 1</key>
+			<string>Dirk Cresswell</string>
+			<key>Answer 2</key>
+			<string>Dawlish</string>
+			<key>Answer 3</key>
+			<string>Reginald Cattermole</string>
+			<key>Answer 4</key>
+			<string>Albert Runcorn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When is Ginny Weasley&apos;s Birthday?</string>
+			<key>Correct Answer</key>
+			<string>August 11</string>
+			<key>Answer 1</key>
+			<string>July 31</string>
+			<key>Answer 2</key>
+			<string>August 21</string>
+			<key>Answer 3</key>
+			<string>August 11</string>
+			<key>Answer 4</key>
+			<string>September 1</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Ginny but in the butter dish when Harry was staying at the Burrow after first year?</string>
+			<key>Correct Answer</key>
+			<string>Elbow</string>
+			<key>Answer 1</key>
+			<string>Milk</string>
+			<key>Answer 2</key>
+			<string>Elbow</string>
+			<key>Answer 3</key>
+			<string>Nothing she knocked it over</string>
+			<key>Answer 4</key>
+			<string>Oatmeal</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What Quidditch team did Ludo Bagman play for?</string>
+			<key>Correct Answer</key>
+			<string>Wimbourne Wasps</string>
+			<key>Answer 1</key>
+			<string>Wimbourne Wasps</string>
+			<key>Answer 2</key>
+			<string>Puddlemere United</string>
+			<key>Answer 3</key>
+			<string>Chudley Cannons</string>
+			<key>Answer 4</key>
+			<string>Appleby Arrows</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Gilderoy Lockhart was a winner of what?</string>
+			<key>Correct Answer</key>
+			<string>Witch Weekly&apos;s Most Charming Smile</string>
+			<key>Answer 1</key>
+			<string>Noble Prize</string>
+			<key>Answer 2</key>
+			<string>Witch Weekly&apos;s Most Eligible Bachelor</string>
+			<key>Answer 3</key>
+			<string>Order of Merlin Second Class</string>
+			<key>Answer 4</key>
+			<string>Witch Weekly&apos;s Most Charming Smile</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What subject at Hogwarts did Charity Burbage teach?</string>
+			<key>Correct Answer</key>
+			<string>Muggle Studies</string>
+			<key>Answer 1</key>
+			<string>Astronomy</string>
+			<key>Answer 2</key>
+			<string>Ancient Runes</string>
+			<key>Answer 3</key>
+			<string>Arthimancy</string>
+			<key>Answer 4</key>
+			<string>Muggle Studies</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Peverell Brother originally owned the Invisibility Cloak?</string>
+			<key>Correct Answer</key>
+			<string>Ignotus</string>
+			<key>Answer 1</key>
+			<string>Antioch</string>
+			<key>Answer 2</key>
+			<string>Cadmus</string>
+			<key>Answer 3</key>
+			<string>Percival</string>
+			<key>Answer 4</key>
+			<string>Ignotus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Peverell Brother originally owned the Elder Wan?</string>
+			<key>Correct Answer</key>
+			<string>Antioch</string>
+			<key>Answer 1</key>
+			<string>Antioch</string>
+			<key>Answer 2</key>
+			<string>Cadmus</string>
+			<key>Answer 3</key>
+			<string>Percival</string>
+			<key>Answer 4</key>
+			<string>Ignotus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which Peverell Brother originally owned the Resurrection Stone?</string>
+			<key>Correct Answer</key>
+			<string>Cadmus</string>
+			<key>Answer 1</key>
+			<string>Antioch</string>
+			<key>Answer 2</key>
+			<string>Cadmus</string>
+			<key>Answer 3</key>
+			<string>Percival</string>
+			<key>Answer 4</key>
+			<string>Ignotus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the Minister for Magic before Cornelius Fudge?</string>
+			<key>Correct Answer</key>
+			<string>Milicent Bagnold</string>
+			<key>Answer 1</key>
+			<string>Nobby Leach</string>
+			<key>Answer 2</key>
+			<string>Bartemius Crouch</string>
+			<key>Answer 3</key>
+			<string>Milicent Bagnold</string>
+			<key>Answer 4</key>
+			<string>Albus Dumbledore</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is Harry&apos;s wand arm?</string>
+			<key>Correct Answer</key>
+			<string>Right</string>
+			<key>Answer 1</key>
+			<string>Left</string>
+			<key>Answer 2</key>
+			<string>Right</string>
+			<key>Answer 3</key>
+			<string>Ambidexrous</string>
+			<key>Answer 4</key>
+			<string>He doesn&apos;t have arms</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is Luna&apos;s Patronus?</string>
+			<key>Correct Answer</key>
+			<string>Hare</string>
+			<key>Answer 1</key>
+			<string>Otter</string>
+			<key>Answer 2</key>
+			<string>Fox</string>
+			<key>Answer 3</key>
+			<string>Raven</string>
+			<key>Answer 4</key>
+			<string>Hare</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the first name of Neville&apos;s grandmother?</string>
+			<key>Correct Answer</key>
+			<string>Augusta</string>
+			<key>Answer 1</key>
+			<string>Griselda</string>
+			<key>Answer 2</key>
+			<string>Augusta</string>
+			<key>Answer 3</key>
+			<string>Alice</string>
+			<key>Answer 4</key>
+			<string>Minerva</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of the person is in charge of the orphanage where Lord Voldemort grew up?</string>
+			<key>Correct Answer</key>
+			<string>Mrs Cole</string>
+			<key>Answer 1</key>
+			<string>Mr Roberts</string>
+			<key>Answer 2</key>
+			<string>Mrs Smith</string>
+			<key>Answer 3</key>
+			<string>Mr Jones</string>
+			<key>Answer 4</key>
+			<string>Mrs Cole</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name campsite manager in the Goblet of Fire?</string>
+			<key>Correct Answer</key>
+			<string>Mr Roberts</string>
+			<key>Answer 1</key>
+			<string>Mr Roberts</string>
+			<key>Answer 2</key>
+			<string>Mr Jones</string>
+			<key>Answer 3</key>
+			<string>Mr Baker</string>
+			<key>Answer 4</key>
+			<string>Mrs Cole</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who is beater on the Gryffindor Quidditch team?</string>
+			<key>Correct Answer</key>
+			<string>Jimmy Peakes</string>
+			<key>Answer 1</key>
+			<string>Cormac McLaggen</string>
+			<key>Answer 2</key>
+			<string>Jimmy Peakes</string>
+			<key>Answer 3</key>
+			<string>Dennis Creevey</string>
+			<key>Answer 4</key>
+			<string>Marcus Belby</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the author of the book &quot;A History of Magic?</string>
+			<key>Correct Answer</key>
+			<string>Bathilda Bagshot</string>
+			<key>Answer 1</key>
+			<string>Newt Scamandar</string>
+			<key>Answer 2</key>
+			<string>Cuthbert Binns</string>
+			<key>Answer 3</key>
+			<string>Bathilda Bagshot</string>
+			<key>Answer 4</key>
+			<string>Dilys Derwent</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who did Fred and George force into a vanishing cabinet?</string>
+			<key>Correct Answer</key>
+			<string>Montague</string>
+			<key>Answer 1</key>
+			<string>Draco Malfoy</string>
+			<key>Answer 2</key>
+			<string>Warrington</string>
+			<key>Answer 3</key>
+			<string>Crabbe</string>
+			<key>Answer 4</key>
+			<string>Montague</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What DMLE officer visited the Riddle&apos;s grandfather in his shack when Dumbledore was showing Harry memories?</string>
+			<key>Correct Answer</key>
+			<string>Bob Ogden</string>
+			<key>Answer 1</key>
+			<string>Wilkie Twycross</string>
+			<key>Answer 2</key>
+			<string>Aidan Lynch</string>
+			<key>Answer 3</key>
+			<string>Bob Ogden</string>
+			<key>Answer 4</key>
+			<string>Marvolo Gaunt</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of Arthur Weasley&apos;s colleague in the Misuse of Muggle Artifacts office?</string>
+			<key>Correct Answer</key>
+			<string>Perkins</string>
+			<key>Answer 1</key>
+			<string>Mr Roberts</string>
+			<key>Answer 2</key>
+			<string>Avery</string>
+			<key>Answer 3</key>
+			<string>Perkins</string>
+			<key>Answer 4</key>
+			<string>Mrs Cole</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What centaur replaced Trelawney after Umbridge sacked her?</string>
+			<key>Correct Answer</key>
+			<string>Firenze</string>
+			<key>Answer 1</key>
+			<string>Ronan</string>
+			<key>Answer 2</key>
+			<string>Firenze</string>
+			<key>Answer 3</key>
+			<string>Magorian</string>
+			<key>Answer 4</key>
+			<string>Bane</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where did Severus Snape originally meet Lily Evans?</string>
+			<key>Correct Answer</key>
+			<string>Playground near Lily&apos;s house</string>
+			<key>Answer 1</key>
+			<string>Hogwarts</string>
+			<key>Answer 2</key>
+			<string>Hogwarts Express</string>
+			<key>Answer 3</key>
+			<string>Playground near Lily&apos;s house</string>
+			<key>Answer 4</key>
+			<string>Diagon Alley</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the first wizard to hatch a Basilisk?</string>
+			<key>Correct Answer</key>
+			<string>Herpo the Foul</string>
+			<key>Answer 1</key>
+			<string>Herpo the Foul</string>
+			<key>Answer 2</key>
+			<string>Salazar Slytherin</string>
+			<key>Answer 3</key>
+			<string>Morgan Le Fay</string>
+			<key>Answer 4</key>
+			<string>Diomedes the Dark</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of Neville&apos;s great uncle who accidentally dropped him out of a first floor window?</string>
+			<key>Correct Answer</key>
+			<string>Algie</string>
+			<key>Answer 1</key>
+			<string>Algie</string>
+			<key>Answer 2</key>
+			<string>Albie</string>
+			<key>Answer 3</key>
+			<string>Albert</string>
+			<key>Answer 4</key>
+			<string>Alan</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What are the names of Molly&apos;s brothers?</string>
+			<key>Correct Answer</key>
+			<string>Gideon and Fabian</string>
+			<key>Answer 1</key>
+			<string>Gideon and Fabian</string>
+			<key>Answer 2</key>
+			<string>Fred and George</string>
+			<key>Answer 3</key>
+			<string>Bilius and Percival</string>
+			<key>Answer 4</key>
+			<string>Alastor and Edgar</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What was Molly&apos;s maiden name?</string>
+			<key>Correct Answer</key>
+			<string>Prewett</string>
+			<key>Answer 1</key>
+			<string>Malfoy</string>
+			<key>Answer 2</key>
+			<string>Prewett</string>
+			<key>Answer 3</key>
+			<string>Mckinnon</string>
+			<key>Answer 4</key>
+			<string>Finwick</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was not a member of the original Order of the Phoenix?</string>
+			<key>Correct Answer</key>
+			<string>Francis Gibbon</string>
+			<key>Answer 1</key>
+			<string>Peter Pettigrew</string>
+			<key>Answer 2</key>
+			<string>Benjy Fenwick</string>
+			<key>Answer 3</key>
+			<string>Francis Gibbon</string>
+			<key>Answer 4</key>
+			<string>Caradoc Dearborn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of Hagrid&apos;s mother?</string>
+			<key>Correct Answer</key>
+			<string>Fridwulfa</string>
+			<key>Answer 1</key>
+			<string>Fridwulfa</string>
+			<key>Answer 2</key>
+			<string>Almveig</string>
+			<key>Answer 3</key>
+			<string>Frieda</string>
+			<key>Answer 4</key>
+			<string>Ginnlaug</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Alecto Carrow teach during Snape&apos;s tenure as Headmaster?</string>
+			<key>Correct Answer</key>
+			<string>Muggle Studies</string>
+			<key>Answer 1</key>
+			<string>Potions</string>
+			<key>Answer 2</key>
+			<string>Dark Arts</string>
+			<key>Answer 3</key>
+			<string>Defence Against the Dark Arts</string>
+			<key>Answer 4</key>
+			<string>Muggle Studies</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the previous Care of Magical Creatures teacher before Hagrid took over the post?</string>
+			<key>Correct Answer</key>
+			<string>Professor Kettleburn</string>
+			<key>Answer 1</key>
+			<string>Professor Grubbly Plank</string>
+			<key>Answer 2</key>
+			<string>Professor Hide</string>
+			<key>Answer 3</key>
+			<string>Professor Scamander</string>
+			<key>Answer 4</key>
+			<string>Professor Kettleburn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who wasn&apos;t a headmaster or mistress of Hogwarts</string>
+			<key>Correct Answer</key>
+			<string>Elphias Doge</string>
+			<key>Answer 1</key>
+			<string>Dilys Derwent</string>
+			<key>Answer 2</key>
+			<string>Elphias Doge</string>
+			<key>Answer 3</key>
+			<string>Dexter Fortescue</string>
+			<key>Answer 4</key>
+			<string>Quentin Trimble</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Amycus Carrow teach during Snape&apos;s tenure as Headmaster?</string>
+			<key>Correct Answer</key>
+			<string>Dark Arts</string>
+			<key>Answer 1</key>
+			<string>Muggle Studies</string>
+			<key>Answer 2</key>
+			<string>Death Eater 101</string>
+			<key>Answer 3</key>
+			<string>Potions</string>
+			<key>Answer 4</key>
+			<string>Dark Arts</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What was Albus Dumbledore&apos;s favorite kind of jam?</string>
+			<key>Correct Answer</key>
+			<string>Raspberry</string>
+			<key>Answer 1</key>
+			<string>Raspberry</string>
+			<key>Answer 2</key>
+			<string>Blueberry</string>
+			<key>Answer 3</key>
+			<string>Strawberry</string>
+			<key>Answer 4</key>
+			<string>Blackberry</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>What position did James Potter play on the Quidditch team?</string>
+          <key>Correct Answer</key>
+          <string>Chaser</string>
+          <key>Answer 1</key>
+          <string>Chaser</string>
+          <key>Answer 2</key>
+          <string>Keeper</string>
+          <key>Answer 3</key>
+          <string>Seeker</string>
+          <key>Answer 4</key>
+          <string>Beater</string>
+        </dict>
+	</array>
 </dict>
 </plist>

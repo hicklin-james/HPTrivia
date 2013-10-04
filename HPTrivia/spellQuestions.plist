@@ -1365,6 +1365,48 @@
 			<key>Answer 4</key>
 			<string>Agua Eructo</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does James Potter use on Severus Snape that prevents Snape from moving towards James?</string>
+			<key>Correct Answer</key>
+			<string>Impedimenta</string>
+			<key>Answer 1</key>
+			<string>Impedimenta</string>
+			<key>Answer 2</key>
+			<string>Locomotor Wibbly</string>
+			<key>Answer 3</key>
+			<string>Mobiliarbus</string>
+			<key>Answer 4</key>
+			<string>Protego Horribilis</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the incantation for the spell that Lockhart unsuccessfuly uses to get rid of the pixies in his classrom?</string>
+			<key>Correct Answer</key>
+			<string>Peskipiksi Pesternomi</string>
+			<key>Answer 1</key>
+			<string>Peskipiksi Pesternomi</string>
+			<key>Answer 2</key>
+			<string>Piksi Pestroni</string>
+			<key>Answer 3</key>
+			<string>Peski Pixies Nomi</string>
+			<key>Answer 4</key>
+			<string>Peskipsi Postoni</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which charm fills the ears of anyone in the vicinity with a buzzing noise?</string>
+			<key>Correct Answer</key>
+			<string>Muffliato Charm</string>
+			<key>Answer 1</key>
+			<string>Muffliato Charm</string>
+			<key>Answer 2</key>
+			<string>Caterwauling Charm</string>
+			<key>Answer 3</key>
+			<string>Fidelius Charm</string>
+			<key>Answer 4</key>
+			<string>Homorphus Charm</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
@@ -1374,7 +1416,7 @@
 			<key>Correct Answer</key>
 			<string>Alarte Ascendare</string>
 			<key>Answer 1</key>
-			<string>Accio</string>
+			<string>Alarte Ascendare</string>
 			<key>Answer 2</key>
 			<string>Crucio</string>
 			<key>Answer 3</key>
@@ -1395,6 +1437,34 @@
 			<string>Ascenda Oesophago</string>
 			<key>Answer 4</key>
 			<string>Arania Eructo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which spell does Ollivander use to test Fleur&apos;s wand before the Tri-Wizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>Orchideous</string>
+			<key>Answer 1</key>
+			<string>Orchideous</string>
+			<key>Answer 2</key>
+			<string>Deletrius</string>
+			<key>Answer 3</key>
+			<string>Lumos</string>
+			<key>Answer 4</key>
+			<string>Muffliato</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>What is the twelfth use of Dragon's Blood?</string>
+          <key>Correct Answer</key>
+          <string>Oven Cleaning</string>
+          <key>Answer 1</key>
+          <string>Oven Cleaning</string>
+          <key>Answer 2</key>
+          <string>Deadly Poison</string>
+          <key>Answer 3</key>
+          <string>Immortality</string>
+          <key>Answer 4</key>
+          <string>Curing Wounds</string>
 		</dict>
 	</array>
 </dict>

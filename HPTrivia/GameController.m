@@ -58,7 +58,7 @@
       [allQuestions addObject:fullQuestion];
     }
     
-    /* This is here so I can check if any questions don't have a possible answer! DON'T DELETE
+    // This is here so I can check if any questions don't have a possible answer! DON'T DELETE
      
     for (int i = 0; i < [allQuestions count]; i++) {
       GameQuestion *question = [allQuestions objectAtIndex:i];
@@ -74,7 +74,7 @@
         NSLog([question question], nil);
       }
     }
-    */
+    
     if (numOfQuestions == 0)
       numOfQuestions = [allQuestions count];
     

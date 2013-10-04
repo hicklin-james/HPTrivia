@@ -791,8 +791,177 @@
 			<key>Answer 4</key>
 			<string>29</string>
 		</dict>
+        <dict>
+          <key>Question</key>
+          <string>The shortest Quidditch match in history lasted how long?</string>
+          <key>Correct Answer</key>
+          <string>Three and a Half Seconds</string>
+          <key>Answer 1</key>
+          <string>Three and a Half Seconds</string>
+          <key>Answer 2</key>
+          <string>Three Seconds</string>
+          <key>Answer 3</key>
+          <string>Four and a Half Seconds</string>
+          <key>Answer 4</key>
+          <string>Five Seconds</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>How does a Muggle-born become a witch or wizard?</string>
+          <key>Correct Answer</key>
+          <string>Inherit from a Squib Ancestor</string>
+          <key>Answer 1</key>
+          <string>Inherit from a Squib Ancestor</string>
+          <key>Answer 2</key>
+          <string>Steal a Wand from Another Wizard</string>
+          <key>Answer 3</key>
+          <string>One of their Parents is Secretly Magical</string>
+          <key>Answer 4</key>
+          <string>Any Muggle can be a Wizard, they just need to be taught</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>Which of the following is not an actual grade at Hogwarts?</string>
+          <key>Correct Answer</key>
+          <string>Awful</string>
+          <key>Answer 1</key>
+          <string>Poor</string>
+          <key>Answer 2</key>
+          <string>Dreadful</string>
+          <key>Answer 3</key>
+          <string>Troll</string>
+          <key>Answer 4</key>
+          <string>Awful</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>S.P.E.W. stands for what?</string>
+          <key>Correct Answer</key>
+          <string>Society for the Promotion of Elfish Welfare</string>
+          <key>Answer 1</key>
+          <string>Society for the Promotion of Elfish Welfare</string>
+          <key>Answer 2</key>
+          <string>Socialist Party of England and Wales</string>
+          <key>Answer 3</key>
+          <string>Small Projectile Emitter Weapon</string>
+          <key>Answer 4</key>
+          <string>Speaking Potter Every Week</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>When Muggles look at Hogwarts, they see a sign that says what?</string>
+          <key>Correct Answer</key>
+          <string>Keep out, dangerous building</string>
+          <key>Answer 1</key>
+          <string>Keep out, dangerous building</string>
+          <key>Answer 2</key>
+          <string>Warning, private property</string>
+          <key>Answer 3</key>
+          <string>DANGEROUS</string>
+          <key>Answer 4</key>
+          <string>Beware of the dog</string>
+        </dict>
 	</array>
 	<key>Hard</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>How tall is the mountain troll that gets into Hogwarts in the first novel?</string>
+			<key>Correct Answer</key>
+			<string>12 Feet</string>
+			<key>Answer 1</key>
+			<string>12 Feet</string>
+			<key>Answer 2</key>
+			<string>10 Feet</string>
+			<key>Answer 3</key>
+			<string>8 Feet</string>
+			<key>Answer 4</key>
+			<string>14 Feet</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>From the dustbin in the Leaky Cauldron's courtyard, a wizard needs to tap on which brick to gain access to Diagon Alley?</string>
+          <key>Correct Answer</key>
+          <string>Three Up and Two Across</string>
+          <key>Answer 1</key>
+          <string>Three Up and Two Across</string>
+          <key>Answer 2</key>
+          <string>Two Up and Three Across</string>
+          <key>Answer 3</key>
+          <string>One Up and Three Across</string>
+          <key>Answer 4</key>
+          <string>Three Up and One Across</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>How many Quidditch fouls exist?</string>
+          <key>Correct Answer</key>
+          <string>700</string>
+          <key>Answer 1</key>
+          <string>700</string>
+          <key>Answer 2</key>
+          <string>799</string>
+          <key>Answer 3</key>
+          <string>699</string>
+          <key>Answer 4</key>
+          <string>654</string>
+		</dict>
+        <dict>
+          <key>Question</key>
+          <string>Which of these is not a password into the Gryffindor common room?</string>
+          <key>Correct Answer</key>
+          <string>Wallacur</string>
+          <key>Answer 1</key>
+          <string>Fairy Lights</string>
+          <key>Answer 2</key>
+          <string>Oddsbodikins</string>
+          <key>Answer 3</key>
+          <string>Abstinence</string>
+          <key>Answer 4</key>
+          <string>Wallacur</string>
+        </dict>
+        <dict>
+          <key>Question</key>
+          <string>What is the Hogwarts motto?</string>
+          <key>Correct Answer</key>
+          <string>Draco dormiens nunquam titillandus</string>
+          <key>Answer 1</key>
+          <string>Draco dormiens nunquam titillandus</string>
+          <key>Answer 2</key>
+          <string>Lorem ipsum dolor sit amet</string>
+          <key>Answer 3</key>
+          <string>Sed ut perspiciatis unde omnis iste natus</string>
+          <key>Answer 4</key>
+          <string>Et harum quidem rerum facilis</string>
+        </dict>
+        <dict>
+          <key>Question</key>
+          <string>What is the code for the visitor's entrance to the Ministry of Magic?</string>
+          <key>Correct Answer</key>
+          <string>62442</string>
+          <key>Answer 1</key>
+          <string>62442</string>
+          <key>Answer 2</key>
+          <string>33454</string>
+          <key>Answer 3</key>
+          <string>75489</string>
+          <key>Answer 4</key>
+          <string>15644</string>
+        </dict>
+        <dict>
+          <key>Question</key>
+          <string>What is the maximum number of OWLs that a Witch or Wizard can receive?</string>
+          <key>Correct Answer</key>
+          <string>12</string>
+          <key>Answer 1</key>
+          <string>12</string>
+          <key>Answer 2</key>
+          <string>10</string>
+          <key>Answer 3</key>
+          <string>7</string>
+          <key>Answer 4</key>
+          <string>6</string>
+        </dict>
+	</array>
 </dict>
 </plist>
