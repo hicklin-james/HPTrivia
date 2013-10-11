@@ -24,6 +24,7 @@
 @synthesize nextViewButton;
 @synthesize correctAnswerLabel;
 @synthesize correctAnswer;
+@synthesize correctAnswerView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,6 +39,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+  CALayer *layer = self.correctAnswerButton.layer;
+  layer.cornerRadius = 8.0f;
+  layer.borderWidth = 1.0f;
   
   if(!IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
@@ -75,6 +79,20 @@
   }
 }
 
+
+- (IBAction)showCorrectAnswer:(id)sender {
+  
+  [UIView animateWithDuration:0.8 animations:^() {
+    correctAnswerView.alpha = 1.0;
+  }];
+  
+  UIButton *tappedButton = sender;
+  tappedButton.enabled = NO;
+  [UIView animateWithDuration:0.8 animations:^() {
+    tappedButton.alpha = 0.0;
+  }];
+  
+}
 
 - (IBAction)goToNextQuestion:(id)sender {
   

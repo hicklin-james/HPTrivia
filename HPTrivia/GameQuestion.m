@@ -27,4 +27,19 @@
   
 }
 
+- (id)copy
+{
+  GameQuestion *questionCopy = [[GameQuestion alloc] init];
+  
+  //YOu may need to copy these values too, this is a shallow copy
+  //If YourValues and someOtherValue are only primitives then this would be ok
+  //If they are objects you will need to implement copy to these objects too
+  questionCopy.question = self.question;
+  questionCopy.correctAnswer = self.correctAnswer;
+  questionCopy.possibleAnswers = self.possibleAnswers;
+  //questionCopy.someOtherValue = self.someOtherValue;
+  
+  return questionCopy;
+}
+
 @end

@@ -1452,19 +1452,33 @@
 			<key>Answer 4</key>
 			<string>Muffliato</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>What is the twelfth use of Dragon's Blood?</string>
-          <key>Correct Answer</key>
-          <string>Oven Cleaning</string>
-          <key>Answer 1</key>
-          <string>Oven Cleaning</string>
-          <key>Answer 2</key>
-          <string>Deadly Poison</string>
-          <key>Answer 3</key>
-          <string>Immortality</string>
-          <key>Answer 4</key>
-          <string>Curing Wounds</string>
+		<dict>
+			<key>Question</key>
+			<string>What is the twelfth use of Dragon&apos;s Blood?</string>
+			<key>Correct Answer</key>
+			<string>Oven Cleaning</string>
+			<key>Answer 1</key>
+			<string>Oven Cleaning</string>
+			<key>Answer 2</key>
+			<string>Deadly Poison</string>
+			<key>Answer 3</key>
+			<string>Immortality</string>
+			<key>Answer 4</key>
+			<string>Curing Wounds</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>According to Luna, Gurdyroot is effective at warding off what?</string>
+			<key>Correct Answer</key>
+			<string>Gulping Plimpies</string>
+			<key>Answer 1</key>
+			<string>Gulping Plimpies</string>
+			<key>Answer 2</key>
+			<string>Wrackspurts</string>
+			<key>Answer 3</key>
+			<string>Crumple-Horned Snorkack</string>
+			<key>Answer 4</key>
+			<string>Dabberblimps</string>
 		</dict>
 	</array>
 </dict>

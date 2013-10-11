@@ -791,76 +791,258 @@
 			<key>Answer 4</key>
 			<string>29</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>The shortest Quidditch match in history lasted how long?</string>
-          <key>Correct Answer</key>
-          <string>Three and a Half Seconds</string>
-          <key>Answer 1</key>
-          <string>Three and a Half Seconds</string>
-          <key>Answer 2</key>
-          <string>Three Seconds</string>
-          <key>Answer 3</key>
-          <string>Four and a Half Seconds</string>
-          <key>Answer 4</key>
-          <string>Five Seconds</string>
+		<dict>
+			<key>Question</key>
+			<string>The shortest Quidditch match in history lasted how long?</string>
+			<key>Correct Answer</key>
+			<string>Three and a Half Seconds</string>
+			<key>Answer 1</key>
+			<string>Three and a Half Seconds</string>
+			<key>Answer 2</key>
+			<string>Three Seconds</string>
+			<key>Answer 3</key>
+			<string>Four and a Half Seconds</string>
+			<key>Answer 4</key>
+			<string>Five Seconds</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>How does a Muggle-born become a witch or wizard?</string>
-          <key>Correct Answer</key>
-          <string>Inherit from a Squib Ancestor</string>
-          <key>Answer 1</key>
-          <string>Inherit from a Squib Ancestor</string>
-          <key>Answer 2</key>
-          <string>Steal a Wand from Another Wizard</string>
-          <key>Answer 3</key>
-          <string>One of their Parents is Secretly Magical</string>
-          <key>Answer 4</key>
-          <string>Any Muggle can be a Wizard, they just need to be taught</string>
+		<dict>
+			<key>Question</key>
+			<string>How does a Muggle-born become a witch or wizard?</string>
+			<key>Correct Answer</key>
+			<string>Inherit from a Squib Ancestor</string>
+			<key>Answer 1</key>
+			<string>Inherit from a Squib Ancestor</string>
+			<key>Answer 2</key>
+			<string>Steal a Wand from Another Wizard</string>
+			<key>Answer 3</key>
+			<string>One of their Parents is Secretly Magical</string>
+			<key>Answer 4</key>
+			<string>Any Muggle can be a Wizard, they just need to be taught</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>Which of the following is not an actual grade at Hogwarts?</string>
-          <key>Correct Answer</key>
-          <string>Awful</string>
-          <key>Answer 1</key>
-          <string>Poor</string>
-          <key>Answer 2</key>
-          <string>Dreadful</string>
-          <key>Answer 3</key>
-          <string>Troll</string>
-          <key>Answer 4</key>
-          <string>Awful</string>
+		<dict>
+			<key>Question</key>
+			<string>Which of the following is not an actual grade at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Awful</string>
+			<key>Answer 1</key>
+			<string>Poor</string>
+			<key>Answer 2</key>
+			<string>Dreadful</string>
+			<key>Answer 3</key>
+			<string>Troll</string>
+			<key>Answer 4</key>
+			<string>Awful</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>S.P.E.W. stands for what?</string>
-          <key>Correct Answer</key>
-          <string>Society for the Promotion of Elfish Welfare</string>
-          <key>Answer 1</key>
-          <string>Society for the Promotion of Elfish Welfare</string>
-          <key>Answer 2</key>
-          <string>Socialist Party of England and Wales</string>
-          <key>Answer 3</key>
-          <string>Small Projectile Emitter Weapon</string>
-          <key>Answer 4</key>
-          <string>Speaking Potter Every Week</string>
+		<dict>
+			<key>Question</key>
+			<string>S.P.E.W. stands for what?</string>
+			<key>Correct Answer</key>
+			<string>Society for the Promotion of Elfish Welfare</string>
+			<key>Answer 1</key>
+			<string>Society for the Promotion of Elfish Welfare</string>
+			<key>Answer 2</key>
+			<string>Socialist Party of England and Wales</string>
+			<key>Answer 3</key>
+			<string>Small Projectile Emitter Weapon</string>
+			<key>Answer 4</key>
+			<string>Speaking Potter Every Week</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>When Muggles look at Hogwarts, they see a sign that says what?</string>
-          <key>Correct Answer</key>
-          <string>Keep out, dangerous building</string>
-          <key>Answer 1</key>
-          <string>Keep out, dangerous building</string>
-          <key>Answer 2</key>
-          <string>Warning, private property</string>
-          <key>Answer 3</key>
-          <string>DANGEROUS</string>
-          <key>Answer 4</key>
-          <string>Beware of the dog</string>
-        </dict>
+		<dict>
+			<key>Question</key>
+			<string>When Muggles look at Hogwarts, they see a sign that says what?</string>
+			<key>Correct Answer</key>
+			<string>Keep out, dangerous building</string>
+			<key>Answer 1</key>
+			<string>Keep out, dangerous building</string>
+			<key>Answer 2</key>
+			<string>Warning, private property</string>
+			<key>Answer 3</key>
+			<string>DANGEROUS</string>
+			<key>Answer 4</key>
+			<string>Beware of the dog</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In which village was the graveyard where Lord Voldemort returned to power?</string>
+			<key>Correct Answer</key>
+			<string>Little Hangleton</string>
+			<key>Answer 1</key>
+			<string>Little Whinging</string>
+			<key>Answer 2</key>
+			<string>Godric&apos;s Hollow</string>
+			<key>Answer 3</key>
+			<string>Little Hangleton</string>
+			<key>Answer 4</key>
+			<string>Spinner&apos;s End</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How much prize money is awarded to the winner of the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>10000 Galleons</string>
+			<key>Answer 1</key>
+			<string>10000 Galleons</string>
+			<key>Answer 2</key>
+			<string>100000 Galleons</string>
+			<key>Answer 3</key>
+			<string>50000 Galleons</string>
+			<key>Answer 4</key>
+			<string>1000 Galleons</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the only beverage that Madame Maxime&apos;s Abraxan winged horses would drink?</string>
+			<key>Correct Answer</key>
+			<string>Single Malt Whiskey</string>
+			<key>Answer 1</key>
+			<string>Single Malt Whiskey</string>
+			<key>Answer 2</key>
+			<string>Vatted Malt Whiskey</string>
+			<key>Answer 3</key>
+			<string>Scotch Whiskey</string>
+			<key>Answer 4</key>
+			<string>Butterbeer</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a shop in Diagon Alley?</string>
+			<key>Correct Answer</key>
+			<string>Dervish &amp; Banges</string>
+			<key>Answer 1</key>
+			<string>Quality Quidditch Supplies</string>
+			<key>Answer 2</key>
+			<string>Wiseacre&apos;s Wizarding Equipment</string>
+			<key>Answer 3</key>
+			<string>Madam Malkin&apos;s Robes for All Occasions</string>
+			<key>Answer 4</key>
+			<string>Dervish &amp; Banges</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does Ron&apos;s Quick Quotes quill mispell his name as?</string>
+			<key>Correct Answer</key>
+			<string>Roonil Wazlib</string>
+			<key>Answer 1</key>
+			<string>Ronal Woozeley</string>
+			<key>Answer 2</key>
+			<string>Roonil Wazlib</string>
+			<key>Answer 3</key>
+			<string>Ronaldo Wazzley</string>
+			<key>Answer 4</key>
+			<string>Renald Wizzlit</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Mirror of Erised reads: Erised stra  ____  oyt ube cafru oyt on wohsi. What is the missing word?</string>
+			<key>Correct Answer</key>
+			<string>ehru</string>
+			<key>Answer 1</key>
+			<string>ehru</string>
+			<key>Answer 2</key>
+			<string>rytu</string>
+			<key>Answer 3</key>
+			<string>ytra</string>
+			<key>Answer 4</key>
+			<string>hura</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>First year Hogwarts students use what kind of cauldron in Potions class?</string>
+			<key>Correct Answer</key>
+			<string>Pewter</string>
+			<key>Answer 1</key>
+			<string>Pewter</string>
+			<key>Answer 2</key>
+			<string>Brass</string>
+			<key>Answer 3</key>
+			<string>Silver</string>
+			<key>Answer 4</key>
+			<string>Copper</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the tea shop in Hogsmeade called?</string>
+			<key>Correct Answer</key>
+			<string>Madam Puddifoot&apos;s Tea Shop</string>
+			<key>Answer 1</key>
+			<string>Madam Puddifoot&apos;s Tea Shop</string>
+			<key>Answer 2</key>
+			<string>Madam Proudfoot&apos;s Tea Shop</string>
+			<key>Answer 3</key>
+			<string>Madam Purdaful&apos;s Tea Shop</string>
+			<key>Answer 4</key>
+			<string>Madam Pundypat&apos;s Tea Shop</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Askaban is located in the middle of what?</string>
+			<key>Correct Answer</key>
+			<string>The North Sea</string>
+			<key>Answer 1</key>
+			<string>The North Sea</string>
+			<key>Answer 2</key>
+			<string>The Pacific Ocean</string>
+			<key>Answer 3</key>
+			<string>The Atlantic Ocean</string>
+			<key>Answer 4</key>
+			<string>England</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What do you feed a baby Dragon?</string>
+			<key>Correct Answer</key>
+			<string>Bucket of Brandy mixed with Chicken Blood</string>
+			<key>Answer 1</key>
+			<string>Bucket of Brandy mixed with Chicken Blood</string>
+			<key>Answer 2</key>
+			<string>Bucket of Rum mixed with Hog&apos;s Blood</string>
+			<key>Answer 3</key>
+			<string>Bucket of Sherry mixed with Giant Blood</string>
+			<key>Answer 4</key>
+			<string>Bucket of Butterbeer mixed with Rat Blood</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is a Giant chief called?</string>
+			<key>Correct Answer</key>
+			<string>Gurg</string>
+			<key>Answer 1</key>
+			<string>Gurg</string>
+			<key>Answer 2</key>
+			<string>Yirr</string>
+			<key>Answer 3</key>
+			<string>Garl</string>
+			<key>Answer 4</key>
+			<string>Yarl</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not one of the three D&apos;s of Apparating?</string>
+			<key>Correct Answer</key>
+			<string>Desperation</string>
+			<key>Answer 1</key>
+			<string>Destination</string>
+			<key>Answer 2</key>
+			<string>Determination</string>
+			<key>Answer 3</key>
+			<string>Deliberation</string>
+			<key>Answer 4</key>
+			<string>Desperation</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What jewel is used in the enchanted hourglass to represent Hufflepuff?</string>
+			<key>Correct Answer</key>
+			<string>Topaz</string>
+			<key>Answer 1</key>
+			<string>Topaz</string>
+			<key>Answer 2</key>
+			<string>Rubies</string>
+			<key>Answer 3</key>
+			<string>Sapphires</string>
+			<key>Answer 4</key>
+			<string>Emeralds</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
@@ -878,90 +1060,286 @@
 			<key>Answer 4</key>
 			<string>14 Feet</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>From the dustbin in the Leaky Cauldron's courtyard, a wizard needs to tap on which brick to gain access to Diagon Alley?</string>
-          <key>Correct Answer</key>
-          <string>Three Up and Two Across</string>
-          <key>Answer 1</key>
-          <string>Three Up and Two Across</string>
-          <key>Answer 2</key>
-          <string>Two Up and Three Across</string>
-          <key>Answer 3</key>
-          <string>One Up and Three Across</string>
-          <key>Answer 4</key>
-          <string>Three Up and One Across</string>
+		<dict>
+			<key>Question</key>
+			<string>From the dustbin in the Leaky Cauldron&apos;s courtyard, a wizard needs to tap on which brick to gain access to Diagon Alley?</string>
+			<key>Correct Answer</key>
+			<string>Three Up and Two Across</string>
+			<key>Answer 1</key>
+			<string>Three Up and Two Across</string>
+			<key>Answer 2</key>
+			<string>Two Up and Three Across</string>
+			<key>Answer 3</key>
+			<string>One Up and Three Across</string>
+			<key>Answer 4</key>
+			<string>Three Up and One Across</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>How many Quidditch fouls exist?</string>
-          <key>Correct Answer</key>
-          <string>700</string>
-          <key>Answer 1</key>
-          <string>700</string>
-          <key>Answer 2</key>
-          <string>799</string>
-          <key>Answer 3</key>
-          <string>699</string>
-          <key>Answer 4</key>
-          <string>654</string>
+		<dict>
+			<key>Question</key>
+			<string>How many Quidditch fouls exist?</string>
+			<key>Correct Answer</key>
+			<string>700</string>
+			<key>Answer 1</key>
+			<string>700</string>
+			<key>Answer 2</key>
+			<string>799</string>
+			<key>Answer 3</key>
+			<string>699</string>
+			<key>Answer 4</key>
+			<string>654</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>Which of these is not a password into the Gryffindor common room?</string>
-          <key>Correct Answer</key>
-          <string>Wallacur</string>
-          <key>Answer 1</key>
-          <string>Fairy Lights</string>
-          <key>Answer 2</key>
-          <string>Oddsbodikins</string>
-          <key>Answer 3</key>
-          <string>Abstinence</string>
-          <key>Answer 4</key>
-          <string>Wallacur</string>
-        </dict>
-        <dict>
-          <key>Question</key>
-          <string>What is the Hogwarts motto?</string>
-          <key>Correct Answer</key>
-          <string>Draco dormiens nunquam titillandus</string>
-          <key>Answer 1</key>
-          <string>Draco dormiens nunquam titillandus</string>
-          <key>Answer 2</key>
-          <string>Lorem ipsum dolor sit amet</string>
-          <key>Answer 3</key>
-          <string>Sed ut perspiciatis unde omnis iste natus</string>
-          <key>Answer 4</key>
-          <string>Et harum quidem rerum facilis</string>
-        </dict>
-        <dict>
-          <key>Question</key>
-          <string>What is the code for the visitor's entrance to the Ministry of Magic?</string>
-          <key>Correct Answer</key>
-          <string>62442</string>
-          <key>Answer 1</key>
-          <string>62442</string>
-          <key>Answer 2</key>
-          <string>33454</string>
-          <key>Answer 3</key>
-          <string>75489</string>
-          <key>Answer 4</key>
-          <string>15644</string>
-        </dict>
-        <dict>
-          <key>Question</key>
-          <string>What is the maximum number of OWLs that a Witch or Wizard can receive?</string>
-          <key>Correct Answer</key>
-          <string>12</string>
-          <key>Answer 1</key>
-          <string>12</string>
-          <key>Answer 2</key>
-          <string>10</string>
-          <key>Answer 3</key>
-          <string>7</string>
-          <key>Answer 4</key>
-          <string>6</string>
-        </dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a password into the Gryffindor common room?</string>
+			<key>Correct Answer</key>
+			<string>Wallacur</string>
+			<key>Answer 1</key>
+			<string>Fairy Lights</string>
+			<key>Answer 2</key>
+			<string>Oddsbodikins</string>
+			<key>Answer 3</key>
+			<string>Abstinence</string>
+			<key>Answer 4</key>
+			<string>Wallacur</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the Hogwarts motto?</string>
+			<key>Correct Answer</key>
+			<string>Draco dormiens nunquam titillandus</string>
+			<key>Answer 1</key>
+			<string>Draco dormiens nunquam titillandus</string>
+			<key>Answer 2</key>
+			<string>Lorem ipsum dolor sit amet</string>
+			<key>Answer 3</key>
+			<string>Sed ut perspiciatis unde omnis iste natus</string>
+			<key>Answer 4</key>
+			<string>Et harum quidem rerum facilis</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the code for the visitor&apos;s entrance to the Ministry of Magic?</string>
+			<key>Correct Answer</key>
+			<string>62442</string>
+			<key>Answer 1</key>
+			<string>62442</string>
+			<key>Answer 2</key>
+			<string>33454</string>
+			<key>Answer 3</key>
+			<string>75489</string>
+			<key>Answer 4</key>
+			<string>15644</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the maximum number of OWLs that a Witch or Wizard can receive?</string>
+			<key>Correct Answer</key>
+			<string>12</string>
+			<key>Answer 1</key>
+			<string>12</string>
+			<key>Answer 2</key>
+			<string>10</string>
+			<key>Answer 3</key>
+			<string>7</string>
+			<key>Answer 4</key>
+			<string>6</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Elder Wand has what at it&apos;s core?</string>
+			<key>Correct Answer</key>
+			<string>Thestral Tail</string>
+			<key>Answer 1</key>
+			<string>Thestral Tail</string>
+			<key>Answer 2</key>
+			<string>Veela Hair</string>
+			<key>Answer 3</key>
+			<string>Unicorn Tail</string>
+			<key>Answer 4</key>
+			<string>Dragon Heartstring</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these was not on the Hogwarts Booklist for first year students when Harry attended?</string>
+			<key>Correct Answer</key>
+			<string>Defensive Magical Theory by Wilbert Slinkhard</string>
+			<key>Answer 1</key>
+			<string>A History of Magic by Bathilda Bagshot</string>
+			<key>Answer 2</key>
+			<string>Magical Theory by Adalbert Waffling</string>
+			<key>Answer 3</key>
+			<string>A Guide to Self-Protection by Quentin Trimble</string>
+			<key>Answer 4</key>
+			<string>Defensive Magical Theory by Wilbert Slinkhard</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Hogwarts has how many staircases?</string>
+			<key>Correct Answer</key>
+			<string>142</string>
+			<key>Answer 1</key>
+			<string>142</string>
+			<key>Answer 2</key>
+			<string>156</string>
+			<key>Answer 3</key>
+			<string>212</string>
+			<key>Answer 4</key>
+			<string>237</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these was not an alternate name for the Elder Wand?</string>
+			<key>Correct Answer</key>
+			<string>The Master Wand</string>
+			<key>Answer 1</key>
+			<string>The Deathstick</string>
+			<key>Answer 2</key>
+			<string>The Wand of Destiny</string>
+			<key>Answer 3</key>
+			<string>The Ellhorn Wand</string>
+			<key>Answer 4</key>
+			<string>The Master Wand</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these broomsticks is not real?</string>
+			<key>Correct Answer</key>
+			<string>Golden Arrow</string>
+			<key>Answer 1</key>
+			<string>Cleansweep Seven</string>
+			<key>Answer 2</key>
+			<string>Comet 260</string>
+			<key>Answer 3</key>
+			<string>Shooting Star</string>
+			<key>Answer 4</key>
+			<string>Golden Arrow</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these was never a passenger on the Knight Bus?</string>
+			<key>Correct Answer</key>
+			<string>Neville Longbottom</string>
+			<key>Answer 1</key>
+			<string>Madam Marsh</string>
+			<key>Answer 2</key>
+			<string>Harry Potter</string>
+			<key>Answer 3</key>
+			<string>Rubeus Hagrid</string>
+			<key>Answer 4</key>
+			<string>Neville Longbottom</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The first Goblin rebellion took place in what year?</string>
+			<key>Correct Answer</key>
+			<string>1612</string>
+			<key>Answer 1</key>
+			<string>1612</string>
+			<key>Answer 2</key>
+			<string>1623</string>
+			<key>Answer 3</key>
+			<string>1609</string>
+			<key>Answer 4</key>
+			<string>1655</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Weasley&apos;s Wizard Wheezes is located at which address?</string>
+			<key>Correct Answer</key>
+			<string>93 Diagon Alley</string>
+			<key>Answer 1</key>
+			<string>93 Diagon Alley</string>
+			<key>Answer 2</key>
+			<string>83 Knockturn Alley</string>
+			<key>Answer 3</key>
+			<string>106 Diagon Alley</string>
+			<key>Answer 4</key>
+			<string>33, Diagonal Alley, London</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What are the two establishments that the Leaky Cauldron is situated between?</string>
+			<key>Correct Answer</key>
+			<string>Book Store &amp; Record Shop</string>
+			<key>Answer 1</key>
+			<string>Book Store &amp; Record Shop</string>
+			<key>Answer 2</key>
+			<string>Bank &amp; Candy Shop</string>
+			<key>Answer 3</key>
+			<string>Ice Cream Parlour &amp; Cafe</string>
+			<key>Answer 4</key>
+			<string>Clothing Shop &amp; Car Rental Office</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not mentioned as being sold at the Leaky Cauldron?</string>
+			<key>Correct Answer</key>
+			<string>Pumpkin Juice</string>
+			<key>Answer 1</key>
+			<string>Brandy</string>
+			<key>Answer 2</key>
+			<string>Steak and Kidney Pie</string>
+			<key>Answer 3</key>
+			<string>Pea Soup</string>
+			<key>Answer 4</key>
+			<string>Pumpkin Juice</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What colour pustules appear on the skin of someone with Spattergroit?</string>
+			<key>Correct Answer</key>
+			<string>Purple</string>
+			<key>Answer 1</key>
+			<string>Purple</string>
+			<key>Answer 2</key>
+			<string>Green</string>
+			<key>Answer 3</key>
+			<string>Orange</string>
+			<key>Answer 4</key>
+			<string>Yellow</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>On which floor of St. Mungo&apos;s are patients with Dragon Pox treated?</string>
+			<key>Correct Answer</key>
+			<string>Second</string>
+			<key>Answer 1</key>
+			<string>Second</string>
+			<key>Answer 2</key>
+			<string>First</string>
+			<key>Answer 3</key>
+			<string>Third</string>
+			<key>Answer 4</key>
+			<string>Fourth</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Before cauldron thicknesses were standardized, leakages were increasing at a rate of what percent anually?</string>
+			<key>Correct Answer</key>
+			<string>3%</string>
+			<key>Answer 1</key>
+			<string>3%</string>
+			<key>Answer 2</key>
+			<string>6%</string>
+			<key>Answer 3</key>
+			<string>54%</string>
+			<key>Answer 4</key>
+			<string>22%</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In the Triwizard tournament of 1792, what creature escaped and injured the Heads of the three participating schools?</string>
+			<key>Correct Answer</key>
+			<string>Cockatrice</string>
+			<key>Answer 1</key>
+			<string>Cockatrice</string>
+			<key>Answer 2</key>
+			<string>Sphynx</string>
+			<key>Answer 3</key>
+			<string>Dragon</string>
+			<key>Answer 4</key>
+			<string>Basilisk</string>
+		</dict>
 	</array>
 </dict>
 </plist>

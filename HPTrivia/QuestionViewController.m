@@ -17,6 +17,9 @@
 
 @implementation QuestionViewController
 
+NSInteger timeLeft;
+NSTimer *countdownTimer;
+
 @synthesize currentQuestion;
 @synthesize imageView;
 @synthesize gameController;
@@ -56,6 +59,37 @@
   [super viewWillAppear:animated];
 
   [self setupCurrentQuestion];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+  [self startCountdown:self];
+}
+
+- (IBAction)startCountdown:(id)sender
+{
+  timeLeft = 20;
+  
+  countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1
+                                                             target:self
+                                                           selector:@selector(advanceTimer:)
+                                                           userInfo:nil
+                                                            repeats:YES];
+  
+}
+
+- (void)advanceTimer:(NSTimer *)timer
+{
+  timeLeft -= 1;
+  self.timerLabel.text = [NSString stringWithFormat:@"%d", timeLeft];
+  if (timeLeft < 10)
+    self.timerLabel.textColor = [UIColor colorWithRed:154/255.0f green:26/255.0f blue:14/255.0f alpha:1.0f];
+  else
+    self.timerLabel.textColor = [UIColor colorWithRed:39/255.0f green:136/255.0f blue:43/255.0f alpha:1.0f];
+    
+  if (timeLeft <= 0) {
+    [self performSegueWithIdentifier:@"incorrectAnswerSegue" sender:self];
+  }
 }
 
 -(void)setupCurrentQuestion {
@@ -101,7 +135,15 @@
   return YES;
 }
 
+-(void)viewDidDisappear:(BOOL)animated {
+  [super viewDidDisappear:animated];
+  self.timerLabel.text = @"20";
+  self.timerLabel.textColor = [UIColor colorWithRed:39/255.0f green:136/255.0f blue:43/255.0f alpha:1.0f];
+}
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  
+  [countdownTimer invalidate];
   
   // Pass game controllers along
   if ([segue.identifier isEqual:@"correctAnswerSegue"]) {

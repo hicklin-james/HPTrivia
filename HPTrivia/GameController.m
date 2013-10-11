@@ -59,7 +59,7 @@
     }
     
     // This is here so I can check if any questions don't have a possible answer! DON'T DELETE
-     
+     /*
     for (int i = 0; i < [allQuestions count]; i++) {
       GameQuestion *question = [allQuestions objectAtIndex:i];
       NSString *answer = [question correctAnswer];
@@ -74,7 +74,7 @@
         NSLog([question question], nil);
       }
     }
-    
+    */
     if (numOfQuestions == 0)
       numOfQuestions = [allQuestions count];
     
@@ -91,7 +91,7 @@
   
   int randNum = arc4random_uniform([allQuestions count]);
   NSLog([NSString stringWithFormat:@"%d", randNum], nil);
-  return [allQuestions objectAtIndex:randNum];
+  return [allQuestions objectAtIndex:randNum]; // returns a copy, rather than the actual data.
 }
 
 -(NSString*)getNextDifficultyLevel{

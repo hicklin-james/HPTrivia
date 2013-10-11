@@ -234,6 +234,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Oz3-G7-WPO">
+                                <rect key="frame" x="258" y="146" width="52" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="33"/>
+                                <color key="textColor" red="0.15488467711149648" green="0.53312340561224492" blue="0.16691334279791167" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -247,6 +254,7 @@
                         <outlet property="imageView" destination="ERO-5v-7Rm" id="V0o-Z4-vsj"/>
                         <outlet property="questionLabel" destination="9rp-tP-AQ5" id="6hR-iX-KCF"/>
                         <outlet property="questionNumberLabel" destination="Jrr-zV-xkR" id="rUt-um-dEF"/>
+                        <outlet property="timerLabel" destination="Oz3-G7-WPO" id="CgB-sE-3Zh"/>
                         <segue destination="CnD-nx-bkQ" kind="modal" identifier="correctAnswerSegue" modalTransitionStyle="coverVertical" id="sTf-Mg-I9j"/>
                         <segue destination="mc8-uM-Y14" kind="modal" identifier="incorrectAnswerSegue" modalTransitionStyle="coverVertical" id="Eif-Il-aID"/>
                         <segue destination="Og2-65-0n2" kind="unwind" identifier="unwindToMainMenu" unwindAction="unwindToMainMenu:" id="9lK-Gn-anI"/>
@@ -380,7 +388,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6rc-b3-czT">
-                                <rect key="frame" x="207" y="231" width="154" height="40"/>
+                                <rect key="frame" x="207" y="254" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <state key="normal" title="Next Question" backgroundImage="buttonBackground_medium.png">
@@ -407,20 +415,45 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oV2-an-eDI">
-                                <rect key="frame" x="27" y="175" width="515" height="48"/>
+                            <view alpha="0.0" contentMode="scaleToFill" id="gqI-gc-Bz4">
+                                <rect key="frame" x="7" y="166" width="555" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.25241981460000001" green="0.44781422030000001" blue="0.45581552930000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oV2-an-eDI">
+                                        <rect key="frame" x="20" y="9" width="515" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.25241981460000001" green="0.44781422030000001" blue="0.45581552930000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" alpha="0.34999999999999964" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="jrc-Ae-LhE">
+                                <rect key="frame" x="96" y="181" width="373" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" red="0.21176470589999999" green="0.71764705880000002" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <state key="normal" title="Tap here to reveal correct answer!">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.25241981460000001" green="0.44781422030000001" blue="0.45581552930000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.21176470588235294" green="0.71764705882352942" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showCorrectAnswer:" destination="mc8-uM-Y14" eventType="touchUpInside" id="ybI-Xj-Ai8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="correctAnswerButton" destination="jrc-Ae-LhE" id="3ll-0i-Ors"/>
                         <outlet property="correctAnswerLabel" destination="oV2-an-eDI" id="wNE-47-YWi"/>
+                        <outlet property="correctAnswerView" destination="gqI-gc-Bz4" id="Exo-OQ-Qlz"/>
                         <outlet property="imageView" destination="JqH-ay-tCp" id="7dM-Uf-cmn"/>
                         <outlet property="incorrectAnswerLabel" destination="xM3-GN-jOR" id="SfZ-57-yeG"/>
                         <outlet property="nextViewButton" destination="6rc-b3-czT" id="xVL-zA-2uu"/>
@@ -691,9 +724,38 @@
     <resources>
         <image name="SettingsTabIcon.png" width="30" height="30"/>
         <image name="buttonBackground_large.png" width="452" height="165"/>
+        <image name="buttonBackground_large.png" width="452" height="165"/>
+        <image name="buttonBackground_large.png" width="452" height="165"/>
+        <image name="buttonBackground_large.png" width="452" height="165"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
+        <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_small.png" width="291" height="87"/>
+        <image name="buttonBackground_small.png" width="291" height="87"/>
+        <image name="buttonBackground_small.png" width="291" height="87"/>
+        <image name="buttonBackground_small.png" width="291" height="87"/>
+        <image name="buttonBackground_small.png" width="291" height="87"/>
         <image name="buttonBackground_tiny.png" width="177" height="123"/>
+        <image name="buttonBackground_tiny.png" width="177" height="123"/>
+        <image name="buttonBackground_tiny.png" width="177" height="123"/>
+        <image name="buttonBackground_tiny.png" width="177" height="123"/>
+        <image name="buttonBackground_tiny.png" width="177" height="123"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="320" height="480"/>
         <image name="parchment.png" width="320" height="480"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

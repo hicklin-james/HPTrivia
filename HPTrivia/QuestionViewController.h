@@ -24,7 +24,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *answerThreeButton;
 @property (strong, nonatomic) IBOutlet UIButton *answerFourButton;
 @property (strong, nonatomic) IBOutlet UILabel *questionNumberLabel;
-
+@property (strong, nonatomic) IBOutlet UILabel *timerLabel;
 
 - (IBAction)giveUpOnGame:(id)sender;
 - (IBAction)selectAnswer:(id)sender;

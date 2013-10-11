@@ -19,5 +19,6 @@
 @property (strong, nonatomic) NSMutableArray *possibleAnswers;
 
 -(id)init:(NSString*)theQuestion theCorrectAnswer:(NSString*)theCorrectAnswer answerOne:(NSString*)answerOne answerTwo:(NSString*)answerTwo answerThree:(NSString*)answerThree answerFour:(NSString*)answerFour;
+-(id)copy;
 
 @end

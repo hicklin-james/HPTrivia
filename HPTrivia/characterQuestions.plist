@@ -2236,20 +2236,62 @@
 			<key>Answer 4</key>
 			<string>Blackberry</string>
 		</dict>
-        <dict>
-          <key>Question</key>
-          <string>What position did James Potter play on the Quidditch team?</string>
-          <key>Correct Answer</key>
-          <string>Chaser</string>
-          <key>Answer 1</key>
-          <string>Chaser</string>
-          <key>Answer 2</key>
-          <string>Keeper</string>
-          <key>Answer 3</key>
-          <string>Seeker</string>
-          <key>Answer 4</key>
-          <string>Beater</string>
-        </dict>
+		<dict>
+			<key>Question</key>
+			<string>What position did James Potter play on the Quidditch team?</string>
+			<key>Correct Answer</key>
+			<string>Chaser</string>
+			<key>Answer 1</key>
+			<string>Chaser</string>
+			<key>Answer 2</key>
+			<string>Keeper</string>
+			<key>Answer 3</key>
+			<string>Seeker</string>
+			<key>Answer 4</key>
+			<string>Beater</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is Arabella Figg&apos;s middle name?</string>
+			<key>Correct Answer</key>
+			<string>Doreen</string>
+			<key>Answer 1</key>
+			<string>Doreen</string>
+			<key>Answer 2</key>
+			<string>Elizabeth</string>
+			<key>Answer 3</key>
+			<string>Susanne</string>
+			<key>Answer 4</key>
+			<string>Marie</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who ran the orphanage where Tom Riddle grew up?</string>
+			<key>Correct Answer</key>
+			<string>Mrs. Cole</string>
+			<key>Answer 1</key>
+			<string>Mrs. Cole</string>
+			<key>Answer 2</key>
+			<string>Mrs. Braughnt</string>
+			<key>Answer 3</key>
+			<string>Mrs. Frey</string>
+			<key>Answer 4</key>
+			<string>Mrs. Trunt</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these publications did not publish one of Albus Dumbledore&apos;s papers?</string>
+			<key>Correct Answer</key>
+			<string>Witch Weekly</string>
+			<key>Answer 1</key>
+			<string>Witch Weekly</string>
+			<key>Answer 2</key>
+			<string>Transfiguration Today</string>
+			<key>Answer 3</key>
+			<string>Challenges in Charming</string>
+			<key>Answer 4</key>
+			<string>The Practical Potioneer</string>
+		</dict>
 	</array>
 </dict>
 </plist>
