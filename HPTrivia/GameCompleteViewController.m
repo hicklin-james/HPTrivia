@@ -7,6 +7,7 @@
 //
 
 #import "GameCompleteViewController.h"
+#import "SubmitHighScoreViewController.h"
 
 @interface GameCompleteViewController ()
 
@@ -43,6 +44,7 @@
   }
   
   [self setupLabels];
+  [self setupButtons];
   
 }
 
@@ -70,10 +72,33 @@
   }
 }
 
+-(void)setupButtons {
+  NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+  path = [path stringByAppendingPathComponent:@"highScore.plist"];
+  NSMutableDictionary *fullHSDict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+  NSMutableDictionary *categoryDict = [fullHSDict objectForKey:[gameController category]];
+  NSMutableArray *highScores = [categoryDict objectForKey:[gameController difficulty]];
+  NSInteger lowestScore = [[[highScores objectAtIndex:4] objectForKey:@"Score"] integerValue];
+  
+  if ([gameController calculatePercentageScore] < lowestScore || [gameController calculatePercentageScore] == 0) {
+    [self.highScoreButton setEnabled:NO];
+    //[self.mainMenuButton setFrame:CGRectOffset(self.mainMenuButton.frame, 61, 0)];
+      }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([segue.identifier isEqual:@"submitHighScoreSegue"]) {
+    SubmitHighScoreViewController *dest = segue.destinationViewController;
+    dest.percentScore = [gameController calculatePercentageScore];
+    dest.category = [gameController category];
+    dest.difficulty = [gameController difficulty];
+  }
 }
 
 // Hides status bar

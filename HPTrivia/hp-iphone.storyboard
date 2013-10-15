@@ -84,6 +84,126 @@
             </objects>
             <point key="canvasLocation" x="569" y="-413"/>
         </scene>
+        <!--High Scores View Controller-->
+        <scene sceneID="Bww-Z5-FfG">
+            <objects>
+                <viewController id="Glc-7f-ZPx" customClass="HighScoresViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eiY-sw-pgS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parchment.png" id="dQw-2D-ya0">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Scores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lcY-bw-BBy">
+                                <rect key="frame" x="56" y="5" width="456" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e3U-YG-oir">
+                                <rect key="frame" x="20" y="271" width="97" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <state key="normal" title="Main Menu" backgroundImage="buttonBackground_small.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Bgq-4T-uYQ" kind="unwind" unwindAction="unwindToMainMenu:" id="mZP-co-F7m"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="25" sectionHeaderHeight="22" sectionFooterHeight="22" id="seD-Pj-SU8">
+                                <rect key="frame" x="132" y="159" width="305" height="141"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.0092275191329999999" green="0.0092275191329999999" blue="0.0092275191329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="highScoreCell" rowHeight="25" id="MFw-NI-GZG" customClass="HighScoreCell">
+                                        <rect key="frame" x="0.0" y="22" width="305" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MFw-NI-GZG" id="YTe-Of-uq7">
+                                            <rect key="frame" x="0.0" y="0.0" width="305" height="24"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sUv-Rr-RQ3">
+                                                    <rect key="frame" x="40" y="2" width="90" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m9e-dP-tzV">
+                                                    <rect key="frame" x="8" y="2" width="24" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B3h-l1-HAr">
+                                                    <rect key="frame" x="209" y="2" width="89" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="sUv-Rr-RQ3" id="XsR-co-iuB"/>
+                                            <outlet property="rankLabel" destination="m9e-dP-tzV" id="cDe-7f-CBt"/>
+                                            <outlet property="scoreLabel" destination="B3h-l1-HAr" id="X9h-kq-j6w"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Glc-7f-ZPx" id="30X-3d-FpV"/>
+                                    <outlet property="delegate" destination="Glc-7f-ZPx" id="WoW-Sf-2mJ"/>
+                                </connections>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="a6N-HJ-eax" customClass="URBSegmentedControl">
+                                <rect key="frame" x="135" y="56" width="299" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <segments>
+                                    <segment title="Characters"/>
+                                    <segment title="Wizarding World"/>
+                                    <segment title="Magic"/>
+                                </segments>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="updateHighScoresTable:" destination="Glc-7f-ZPx" eventType="valueChanged" id="hET-zJ-LjF"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="R4n-Qt-9sR" customClass="URBSegmentedControl">
+                                <rect key="frame" x="135" y="104" width="299" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <segments>
+                                    <segment title="Easy"/>
+                                    <segment title="Medium"/>
+                                    <segment title="Hard"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="updateHighScoresTable:" destination="Glc-7f-ZPx" eventType="valueChanged" id="MWi-La-IAL"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="categorySegControl" destination="a6N-HJ-eax" id="7qQ-ck-MBy"/>
+                        <outlet property="difficultySegControl" destination="R4n-Qt-9sR" id="dhj-8p-yNQ"/>
+                        <outlet property="highScoresTable" destination="seD-Pj-SU8" id="79f-Ac-WID"/>
+                        <outlet property="imageView" destination="dQw-2D-ya0" id="xSd-QV-YbT"/>
+                        <outlet property="titleLabel" destination="lcY-bw-BBy" id="YJY-YC-M59"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dp6-nF-bY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Bgq-4T-uYQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="69"/>
+        </scene>
         <!--Settings View Controller-->
         <scene sceneID="0cp-bg-8lq">
             <objects>
@@ -96,6 +216,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="JR1-cH-Ush">
+                                <rect key="frame" x="436" y="198" width="122" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Yes"/>
+                                    <segment title="No"/>
+                                </segments>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="showAnswersValueChanged:" destination="Nrg-ZI-Oma" eventType="valueChanged" id="XaV-YL-dhS"/>
+                                </connections>
+                            </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KMA-Kq-UEF">
                                 <rect key="frame" x="20" y="271" width="97" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -115,15 +247,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlock All Difficulties:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gqg-cl-16p">
-                                <rect key="frame" x="45" y="143" width="268" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <rect key="frame" x="44" y="143" width="268" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto Reveal Correct Answers:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="emc-qN-Sdl">
+                                <rect key="frame" x="11" y="192" width="335" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="Grk-uw-6TH">
-                                <rect key="frame" x="401" y="146" width="122" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <rect key="frame" x="436" y="146" width="122" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Yes"/>
                                     <segment title="No"/>
@@ -140,6 +279,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="imageView" destination="tn5-Jc-XSv" id="1cu-df-nSe"/>
+                        <outlet property="showAnswersSegControl" destination="JR1-cH-Ush" id="Fam-wc-Tyd"/>
                         <outlet property="titleLabel" destination="bVd-gl-k5B" id="O7M-kt-SCP"/>
                         <outlet property="unlockQuestionsSegControl" destination="Grk-uw-6TH" id="bMX-fM-M79"/>
                     </connections>
@@ -147,7 +287,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snB-0W-wKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ddA-FA-EKn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="545" y="623"/>
+            <point key="canvasLocation" x="533" y="591"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="Exi-YJ-fyK">
@@ -237,8 +377,8 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Oz3-G7-WPO">
                                 <rect key="frame" x="258" y="146" width="52" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="33"/>
-                                <color key="textColor" red="0.15488467711149648" green="0.53312340561224492" blue="0.16691334279791167" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="33"/>
+                                <color key="textColor" red="0.18598528152683061" green="0.27182283164789328" blue="0.68241788903061229" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -325,6 +465,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="a2h-Cy-hIl">
+                                <rect key="frame" x="348" y="240" width="154" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="Submit High Score" backgroundImage="buttonBackground_medium.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToNextQuestion:" destination="mc8-uM-Y14" eventType="touchUpInside" id="4Gg-vZ-RtY"/>
+                                    <action selector="goToNextQuestion:" destination="CnD-nx-bkQ" eventType="touchUpInside" id="TeH-67-tRY"/>
+                                    <action selector="selectAnswer:" destination="7sF-zU-f8a" eventType="touchUpInside" id="yY5-V0-DrU"/>
+                                    <segue destination="V30-65-wuO" kind="modal" identifier="submitHighScoreSegue" modalTransitionStyle="flipHorizontal" id="klz-RK-0b1"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You scored X/X!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ec-xy-SSM">
                                 <rect key="frame" x="51" y="107" width="466" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
@@ -332,8 +487,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T63-gL-2F1">
-                                <rect key="frame" x="207" y="240" width="154" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <rect key="frame" x="66" y="240" width="154" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
                                 <state key="normal" title="Main Menu" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -364,7 +519,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="highScoreButton" destination="a2h-Cy-hIl" id="fSe-DP-uve"/>
                         <outlet property="imageView" destination="0Aj-gC-BlJ" id="bv3-gx-hgl"/>
+                        <outlet property="mainMenuButton" destination="T63-gL-2F1" id="5wh-3S-OVw"/>
                         <outlet property="scoreLabel" destination="9ec-xy-SSM" id="Aaw-5N-hep"/>
                         <outlet property="titleLabel" destination="KbY-LB-XXO" id="13S-mT-sbb"/>
                         <outlet property="unlockedLabel" destination="yTA-yS-kB6" id="bt7-9h-i8P"/>
@@ -374,6 +531,62 @@
                 <exit id="Hk3-rn-Wle" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3215" y="-1395"/>
+        </scene>
+        <!--Submit High Score View Controller-->
+        <scene sceneID="1qn-fB-MRv">
+            <objects>
+                <viewController id="V30-65-wuO" customClass="SubmitHighScoreViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xVi-vn-WDx">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parchment.png" id="Rjk-Tm-RIf">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="center" minimumFontSize="17" id="JnV-zi-DBx">
+                                <rect key="frame" x="63" y="109" width="269" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="V30-65-wuO" id="w5i-fP-Q2x"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations! You scored XX% and made it to the high scores! Please enter your name below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mgm-Tq-Vm5">
+                                <rect key="frame" x="112" y="33" width="345" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="caX-Qr-xsw">
+                                <rect key="frame" x="427" y="109" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Submit" backgroundImage="buttonBackground_small.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitHighScore:" destination="V30-65-wuO" eventType="touchUpInside" id="6rM-YC-yQd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="congratsLabel" destination="mgm-Tq-Vm5" id="Y2y-yu-4dJ"/>
+                        <outlet property="imageView" destination="Rjk-Tm-RIf" id="mZM-Fz-Fpc"/>
+                        <outlet property="nameTextField" destination="JnV-zi-DBx" id="eJ8-0n-ih4"/>
+                        <segue destination="gDn-js-UC2" kind="unwind" identifier="unwindToMainMenu" unwindAction="unwindToMainMenu:" id="Ths-W7-OIr"/>
+                        <segue destination="Glc-7f-ZPx" kind="modal" identifier="showHighScores" id="dgP-W4-9DQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C0Q-XL-WBm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gDn-js-UC2" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3173" y="-599"/>
         </scene>
         <!--Incorrect Answer View Controller-->
         <scene sceneID="eJ9-fn-hLc">
@@ -625,7 +838,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete easier difficulties to unlock harder ones." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="gb1-TE-Afe">
-                                <rect key="frame" x="209" y="257" width="150" height="58"/>
+                                <rect key="frame" x="398" y="148" width="150" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -680,6 +893,9 @@
                                 <state key="normal" title="High Scores" backgroundImage="buttonBackground_medium.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Glc-7f-ZPx" kind="modal" id="VFd-85-OHh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The creators of this game claim no affiliation with J.K. Rowling, Bloomsbury Publishing, or Warner Bros in any way." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3zx-AR-Thc">
                                 <rect key="frame" x="97" y="249" width="375" height="27"/>
@@ -724,38 +940,9 @@
     <resources>
         <image name="SettingsTabIcon.png" width="30" height="30"/>
         <image name="buttonBackground_large.png" width="452" height="165"/>
-        <image name="buttonBackground_large.png" width="452" height="165"/>
-        <image name="buttonBackground_large.png" width="452" height="165"/>
-        <image name="buttonBackground_large.png" width="452" height="165"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
-        <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_small.png" width="291" height="87"/>
-        <image name="buttonBackground_small.png" width="291" height="87"/>
-        <image name="buttonBackground_small.png" width="291" height="87"/>
-        <image name="buttonBackground_small.png" width="291" height="87"/>
-        <image name="buttonBackground_small.png" width="291" height="87"/>
         <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
-        <image name="parchment.png" width="320" height="480"/>
         <image name="parchment.png" width="320" height="480"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -765,5 +952,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="x5f-Yv-3VH"/>
+        <segue reference="dgP-W4-9DQ"/>
     </inferredMetricsTieBreakers>
 </document>

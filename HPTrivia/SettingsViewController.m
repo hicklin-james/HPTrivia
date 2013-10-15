@@ -44,6 +44,11 @@
     self.unlockQuestionsSegControl.selectedSegmentIndex = 0;
   else
     self.unlockQuestionsSegControl.selectedSegmentIndex = 1;
+  
+  if ([defaults boolForKey:@"showAnswers"])
+    self.showAnswersSegControl.selectedSegmentIndex = 0;
+  else
+    self.showAnswersSegControl.selectedSegmentIndex = 1;
 }
 
 // Hides status bar
@@ -67,5 +72,14 @@
   else if (segControl.selectedSegmentIndex == 1)
     [defaults setBool:NO forKey:@"unlockAllLevels"];
   
+}
+
+- (IBAction)showAnswersValueChanged:(id)sender {
+  UISegmentedControl *segControl = sender;
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if (segControl.selectedSegmentIndex == 0)
+    [defaults setBool:YES forKey:@"showAnswers"];
+  else if (segControl.selectedSegmentIndex == 1)
+    [defaults setBool:NO forKey:@"showAnswers"];
 }
 @end

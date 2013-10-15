@@ -24,6 +24,9 @@
 		CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB592F9417C5310200622D5D /* spellQuestions.plist */; };
 		CB5D49BE17CBA42A0079BDB6 /* SettingsTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5D49BD17CBA42A0079BDB6 /* SettingsTabIcon@2x.png */; };
 		CB5D49C117CBA5940079BDB6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5D49C017CBA5940079BDB6 /* SettingsViewController.m */; };
+		CB5DECD3180AF8D10099F29D /* URBSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DECD2180AF8D10099F29D /* URBSegmentedControl.m */; };
+		CB5DECD6180C52DC0099F29D /* harryp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5DECD5180C52DC0099F29D /* harryp.ttf */; };
+		CB5DECD9180C55AA0099F29D /* NSString+fitFontToButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DECD8180C55AA0099F29D /* NSString+fitFontToButton.m */; };
 		CB64B42F17E3734C00BF1A6D /* hp-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB64B42E17E3734C00BF1A6D /* hp-ipad.storyboard */; };
 		CB64B43B17E37C5600BF1A6D /* parchment-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43817E37C5600BF1A6D /* parchment-568h@2x.png */; };
 		CB64B43C17E37C5600BF1A6D /* parchment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43917E37C5600BF1A6D /* parchment@2x.png */; };
@@ -46,6 +49,10 @@
 		CBD6E2AA17C4565E007A6773 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2A917C4565E007A6773 /* QuestionViewController.m */; };
 		CBD6E2B117C46006007A6773 /* GameQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2B017C46006007A6773 /* GameQuestion.m */; };
 		CBD6E2B217C46413007A6773 /* characterQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E2A317C44FFB007A6773 /* characterQuestions.plist */; };
+		CBEF9D041808E36500ABE180 /* highScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF9D031808E36500ABE180 /* highScore.plist */; };
+		CBEF9D0A1808F04F00ABE180 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF9D091808F04F00ABE180 /* HighScoresViewController.m */; };
+		CBEF9D0D1808F2E400ABE180 /* HighScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */; };
+		CBEF9D101809257F00ABE180 /* SubmitHighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF9D0F1809257F00ABE180 /* SubmitHighScoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +92,11 @@
 		CB5D49BD17CBA42A0079BDB6 /* SettingsTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsTabIcon@2x.png"; sourceTree = "<group>"; };
 		CB5D49BF17CBA5940079BDB6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		CB5D49C017CBA5940079BDB6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CB5DECD1180AF8D10099F29D /* URBSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBSegmentedControl.h; sourceTree = "<group>"; };
+		CB5DECD2180AF8D10099F29D /* URBSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBSegmentedControl.m; sourceTree = "<group>"; };
+		CB5DECD5180C52DC0099F29D /* harryp.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = harryp.ttf; sourceTree = "<group>"; };
+		CB5DECD7180C55AA0099F29D /* NSString+fitFontToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+fitFontToButton.h"; sourceTree = "<group>"; };
+		CB5DECD8180C55AA0099F29D /* NSString+fitFontToButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+fitFontToButton.m"; sourceTree = "<group>"; };
 		CB64B42E17E3734C00BF1A6D /* hp-ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "hp-ipad.storyboard"; sourceTree = "<group>"; };
 		CB64B43817E37C5600BF1A6D /* parchment-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment-568h@2x.png"; sourceTree = "<group>"; };
 		CB64B43917E37C5600BF1A6D /* parchment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment@2x.png"; sourceTree = "<group>"; };
@@ -114,6 +126,13 @@
 		CBD6E2A917C4565E007A6773 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 		CBD6E2AF17C46006007A6773 /* GameQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameQuestion.h; sourceTree = "<group>"; };
 		CBD6E2B017C46006007A6773 /* GameQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameQuestion.m; sourceTree = "<group>"; };
+		CBEF9D031808E36500ABE180 /* highScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = highScore.plist; sourceTree = "<group>"; };
+		CBEF9D081808F04F00ABE180 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoresViewController.h; path = ../HighScoresViewController.h; sourceTree = "<group>"; };
+		CBEF9D091808F04F00ABE180 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoresViewController.m; path = ../HighScoresViewController.m; sourceTree = "<group>"; };
+		CBEF9D0B1808F2E400ABE180 /* HighScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreCell.h; sourceTree = "<group>"; };
+		CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreCell.m; sourceTree = "<group>"; };
+		CBEF9D0E1809257F00ABE180 /* SubmitHighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitHighScoreViewController.h; sourceTree = "<group>"; };
+		CBEF9D0F1809257F00ABE180 /* SubmitHighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitHighScoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +178,8 @@
 		CB51CAB617C43D25002CDED0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CBEF9D081808F04F00ABE180 /* HighScoresViewController.h */,
+				CBEF9D091808F04F00ABE180 /* HighScoresViewController.m */,
 				CB5D49BF17CBA5940079BDB6 /* SettingsViewController.h */,
 				CB5D49C017CBA5940079BDB6 /* SettingsViewController.m */,
 				CB51CA9317C40D96002CDED0 /* MainMenuViewController.h */,
@@ -179,6 +200,8 @@
 			children = (
 				CB592F8017C50CE100622D5D /* NSMutableArray_Shuffling.h */,
 				CB592F8117C50CE100622D5D /* NSMutableArray_Shuffling.m */,
+				CB5DECD7180C55AA0099F29D /* NSString+fitFontToButton.h */,
+				CB5DECD8180C55AA0099F29D /* NSString+fitFontToButton.m */,
 			);
 			name = NSMutableArray_Shuffling;
 			sourceTree = "<group>";
@@ -194,8 +217,19 @@
 				CB592F8B17C5161000622D5D /* IncorrectAnswerViewController.m */,
 				CB592F8F17C51FAB00622D5D /* GameCompleteViewController.h */,
 				CB592F9017C51FAB00622D5D /* GameCompleteViewController.m */,
+				CBEF9D0E1809257F00ABE180 /* SubmitHighScoreViewController.h */,
+				CBEF9D0F1809257F00ABE180 /* SubmitHighScoreViewController.m */,
 			);
 			name = InGameViews;
+			sourceTree = "<group>";
+		};
+		CB5DECD4180B2DBF0099F29D /* URBSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DECD1180AF8D10099F29D /* URBSegmentedControl.h */,
+				CB5DECD2180AF8D10099F29D /* URBSegmentedControl.m */,
+			);
+			name = URBSegmentedControl;
 			sourceTree = "<group>";
 		};
 		CB64B42A17E3707E00BF1A6D /* iPad */ = {
@@ -253,9 +287,12 @@
 				CBCCB37017C408FA00777E71 /* HPTAppDelegate.m */,
 				CBCCB37217C408FA00777E71 /* Images.xcassets */,
 				CB592F8317C50EB000622D5D /* NSMutableArray_Shuffling */,
+				CB5DECD4180B2DBF0099F29D /* URBSegmentedControl */,
 				CBD6E2A717C4533D007A6773 /* GameController */,
 				CB51CAB617C43D25002CDED0 /* Views */,
 				CBCCB36717C408FA00777E71 /* Supporting Files */,
+				CBEF9D0B1808F2E400ABE180 /* HighScoreCell.h */,
+				CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */,
 			);
 			path = HPTrivia;
 			sourceTree = "<group>";
@@ -263,6 +300,7 @@
 		CBCCB36717C408FA00777E71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB5DECD5180C52DC0099F29D /* harryp.ttf */,
 				CBCD588017C44DC600584596 /* ParryHotter.ttf */,
 				CB51CA9617C40E12002CDED0 /* Images */,
 				CBCCB39017C4094700777E71 /* Questions plists */,
@@ -270,6 +308,7 @@
 				CBCCB36917C408FA00777E71 /* InfoPlist.strings */,
 				CBCCB36C17C408FA00777E71 /* main.m */,
 				CBCCB36E17C408FA00777E71 /* HPTrivia-Prefix.pch */,
+				CBEF9D031808E36500ABE180 /* highScore.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -399,8 +438,10 @@
 				CB64B42F17E3734C00BF1A6D /* hp-ipad.storyboard in Resources */,
 				CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */,
 				CB57E60517C8486D00490D9D /* buttonBackground_tiny.png in Resources */,
+				CBEF9D041808E36500ABE180 /* highScore.plist in Resources */,
 				CB51CA9A17C40EC6002CDED0 /* HPParchment@2x.png in Resources */,
 				CB64B43B17E37C5600BF1A6D /* parchment-568h@2x.png in Resources */,
+				CB5DECD6180C52DC0099F29D /* harryp.ttf in Resources */,
 				CB64B43D17E37C5600BF1A6D /* parchment.png in Resources */,
 				CB7BB5DF17CEE0DE00F80A27 /* wizardingWorldQuestions.plist in Resources */,
 				CBCCB37317C408FA00777E71 /* Images.xcassets in Resources */,
@@ -427,20 +468,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5DECD9180C55AA0099F29D /* NSString+fitFontToButton.m in Sources */,
 				CBCCB36D17C408FA00777E71 /* main.m in Sources */,
 				CB30FB4417C6F3E600D90211 /* NumberOfQuestionsViewController.m in Sources */,
 				CB592F8717C5139300622D5D /* CorrectAnswerViewController.m in Sources */,
 				CB51CAAB17C42077002CDED0 /* CategorySelectionViewController.m in Sources */,
 				CB592F8C17C5161000622D5D /* IncorrectAnswerViewController.m in Sources */,
 				CB51CA9517C40D96002CDED0 /* MainMenuViewController.m in Sources */,
+				CBEF9D0D1808F2E400ABE180 /* HighScoreCell.m in Sources */,
 				CB592F9117C51FAB00622D5D /* GameCompleteViewController.m in Sources */,
 				CBD6E2B117C46006007A6773 /* GameQuestion.m in Sources */,
 				CB592F8217C50CE100622D5D /* NSMutableArray_Shuffling.m in Sources */,
 				CBD6E2AA17C4565E007A6773 /* QuestionViewController.m in Sources */,
 				CBD6E2A617C45337007A6773 /* GameController.m in Sources */,
+				CB5DECD3180AF8D10099F29D /* URBSegmentedControl.m in Sources */,
 				CBCCB37117C408FA00777E71 /* HPTAppDelegate.m in Sources */,
+				CBEF9D0A1808F04F00ABE180 /* HighScoresViewController.m in Sources */,
 				CB51CAB917C43E97002CDED0 /* DifficultySelectionViewController.m in Sources */,
 				CB5D49C117CBA5940079BDB6 /* SettingsViewController.m in Sources */,
+				CBEF9D101809257F00ABE180 /* SubmitHighScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

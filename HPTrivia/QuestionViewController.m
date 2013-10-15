@@ -10,6 +10,7 @@
 #import "NSMutableArray_Shuffling.h"
 #import "CorrectAnswerViewController.h"
 #import "IncorrectAnswerViewController.h"
+#import "NSString+fitFontToButton.h"
 
 @interface QuestionViewController ()
 
@@ -30,6 +31,8 @@ NSTimer *countdownTimer;
 @synthesize answerTwoButton;
 @synthesize questionNumberLabel;
 
+UIColor *blueTextColor;
+
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,6 +40,7 @@ NSTimer *countdownTimer;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+     
     }
     return self;
 }
@@ -44,14 +48,14 @@ NSTimer *countdownTimer;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setBlueTextColor];
 	// Do any additional setup after loading the view.
-  
   if(!IS_PHONEPOD5()) {
     imageView.image = [UIImage imageNamed:@"parchment.png"];
   } else {
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
   }
-  
+  self.timerLabel.textColor = blueTextColor;
   //[self setupCurrentQuestion];
 }
 
@@ -85,9 +89,10 @@ NSTimer *countdownTimer;
   if (timeLeft < 10)
     self.timerLabel.textColor = [UIColor colorWithRed:154/255.0f green:26/255.0f blue:14/255.0f alpha:1.0f];
   else
-    self.timerLabel.textColor = [UIColor colorWithRed:39/255.0f green:136/255.0f blue:43/255.0f alpha:1.0f];
+    self.timerLabel.textColor = blueTextColor;
     
   if (timeLeft <= 0) {
+    gameController.questionNumber++;
     [self performSegueWithIdentifier:@"incorrectAnswerSegue" sender:self];
   }
 }
@@ -112,14 +117,17 @@ NSTimer *countdownTimer;
 -(void)setupButtonForAnswer:(NSString*)answerString theButton:(UIButton*)theButton {
 
   theButton.titleLabel.textAlignment = NSTextAlignmentCenter;
-  [theButton.titleLabel sizeToFit];
-  CGRect frame = theButton.titleLabel.frame;
-  frame.size.width += 20; //l + r padding
-  theButton.titleLabel.frame = frame;
+ // [theButton.titleLabel sizeToFit];
+  CGRect frame = theButton.frame;
+  frame.size.width -= 25; //l + r padding
+  frame.size.height -= 25;
+  //theButton.titleLabel.frame = frame;
   //NSLog(answerString);
-  [theButton.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:13]];
+  //[theButton.titleLabel setFont:[UIFont fontWithName:@"harryp" size:25]];
   theButton.titleLabel.numberOfLines = 0;
-  theButton.titleLabel.adjustsFontSizeToFitWidth = YES;
+  //theButton.titleLabel.adjustsFontSizeToFitWidth = YES;
+  CGFloat fontSize = [answerString fontSizeWithFont:[UIFont fontWithName:@"harryp" size:24] constrainedToSize: frame.size];
+  [theButton.titleLabel setFont:[UIFont fontWithName:@"harryp" size:fontSize]];
   [theButton setTitle:answerString forState:UIControlStateNormal];
 }
 
@@ -138,7 +146,7 @@ NSTimer *countdownTimer;
 -(void)viewDidDisappear:(BOOL)animated {
   [super viewDidDisappear:animated];
   self.timerLabel.text = @"20";
-  self.timerLabel.textColor = [UIColor colorWithRed:39/255.0f green:136/255.0f blue:43/255.0f alpha:1.0f];
+  self.timerLabel.textColor = blueTextColor;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -196,6 +204,11 @@ NSTimer *countdownTimer;
   
   [[gameController allQuestions] removeObject:currentQuestion];
   
+}
+
+- (void)setBlueTextColor {
+  if (!blueTextColor)
+    blueTextColor = [UIColor colorWithRed:47/255.0f green:69/255.0f blue:174/255.0f alpha:1.0f];
 }
 
 @end

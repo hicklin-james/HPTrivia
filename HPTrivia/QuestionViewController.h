@@ -30,5 +30,6 @@
 - (IBAction)selectAnswer:(id)sender;
 -(void)setupCurrentQuestion;
 -(void)deleteLastQuestion;
+//+(UIColor*)getBlueColor;
 
 @end

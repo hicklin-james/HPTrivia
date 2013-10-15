@@ -58,6 +58,14 @@
   if ([gameController questionNumber] > [gameController numOfQuestions]) {
     [nextViewButton setTitle:@"Finish Game" forState:UIControlStateNormal];
   }
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if ([defaults boolForKey:@"showAnswers"]) {
+    correctAnswerView.alpha = 1;
+    self.correctAnswerButton.enabled = NO;
+    self.correctAnswerButton.alpha = 0;
+  }
+
+  
 }
 
 - (void)didReceiveMemoryWarning

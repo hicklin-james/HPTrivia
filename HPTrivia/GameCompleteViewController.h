@@ -18,5 +18,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *unlockedLabel;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (strong, nonatomic) IBOutlet UIButton *highScoreButton;
+@property (strong, nonatomic) IBOutlet UIButton *mainMenuButton;
 
 @end

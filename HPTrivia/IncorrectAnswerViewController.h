@@ -21,8 +21,10 @@
 @property (strong, nonatomic) IBOutlet UIButton *nextViewButton;
 @property (strong, nonatomic) IBOutlet UILabel *correctAnswerLabel;
 @property (strong, nonatomic) IBOutlet UIView *correctAnswerView;
-- (IBAction)showCorrectAnswer:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *correctAnswerButton;
+
+
+- (IBAction)showCorrectAnswer:(id)sender;
 
 - (IBAction)goToNextQuestion:(id)sender;
 

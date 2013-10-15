@@ -1804,7 +1804,7 @@
 		</dict>
 		<dict>
 			<key>Question</key>
-			<string>What did Ginny but in the butter dish when Harry was staying at the Burrow after first year?</string>
+			<string>What did Ginny put in the butter dish when Harry was staying at the Burrow after first year?</string>
 			<key>Correct Answer</key>
 			<string>Elbow</string>
 			<key>Answer 1</key>
@@ -1812,7 +1812,7 @@
 			<key>Answer 2</key>
 			<string>Elbow</string>
 			<key>Answer 3</key>
-			<string>Nothing she knocked it over</string>
+			<string>Nothing, she knocked it over</string>
 			<key>Answer 4</key>
 			<string>Oatmeal</string>
 		</dict>

@@ -29,6 +29,16 @@
   self.window.rootViewController = vc;
   [self.window makeKeyAndVisible];
   
+  NSString *destPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+  destPath = [destPath stringByAppendingPathComponent:@"highScore.plist"];
+  // If the file doesn't exist in the Documents Folder, copy it.
+  NSFileManager *fileManager = [NSFileManager defaultManager];
+  
+  if (![fileManager fileExistsAtPath:destPath]) {
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"highScore" ofType:@"plist"];
+    [fileManager copyItemAtPath:sourcePath toPath:destPath error:nil];
+  }
+  
   return YES;
 }
 

@@ -30,5 +30,6 @@
 -(NSString*)getNextDifficultyLevel;
 -(void)unlockNextDifficulty;
 -(BOOL)didPass;
+-(NSInteger)calculatePercentageScore;
 
 @end

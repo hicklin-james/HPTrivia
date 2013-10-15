@@ -12,8 +12,11 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *unlockQuestionsSegControl;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *showAnswersSegControl;
 
 - (IBAction)unlockQuestionsSegValueChanged:(id)sender;
+- (IBAction)showAnswersValueChanged:(id)sender;
+
 
 
 @end

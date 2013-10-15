@@ -59,7 +59,7 @@
     }
     
     // This is here so I can check if any questions don't have a possible answer! DON'T DELETE
-     /*
+     
     for (int i = 0; i < [allQuestions count]; i++) {
       GameQuestion *question = [allQuestions objectAtIndex:i];
       NSString *answer = [question correctAnswer];
@@ -74,7 +74,7 @@
         NSLog([question question], nil);
       }
     }
-    */
+    
     if (numOfQuestions == 0)
       numOfQuestions = [allQuestions count];
     
@@ -117,12 +117,18 @@
 // Check if player passed - set at 70%
 -(BOOL)didPass {
   
-  CGFloat score = (CGFloat)correctAnswers / (CGFloat)numOfQuestions;
-  NSLog([NSString stringWithFormat:@"Score is %f", score],nil);
-  if (score > 0.7)
+  NSInteger score = [self calculatePercentageScore];
+  NSLog([NSString stringWithFormat:@"Score is %d", score],nil);
+  if (score >60)
     return YES;
   else
     return NO;
+}
+
+-(NSInteger)calculatePercentageScore {
+  CGFloat score = ((CGFloat)correctAnswers / (CGFloat)numOfQuestions)*100;
+  NSInteger percentScore = [[NSNumber numberWithFloat:score] integerValue];
+  return percentScore;
 }
 
 @end
