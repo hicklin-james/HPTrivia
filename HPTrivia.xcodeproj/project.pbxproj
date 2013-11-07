@@ -285,14 +285,14 @@
 				CB64B42D17E370F000BF1A6D /* iPhone */,
 				CBCCB36F17C408FA00777E71 /* HPTAppDelegate.h */,
 				CBCCB37017C408FA00777E71 /* HPTAppDelegate.m */,
+				CBEF9D0B1808F2E400ABE180 /* HighScoreCell.h */,
+				CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */,
 				CBCCB37217C408FA00777E71 /* Images.xcassets */,
 				CB592F8317C50EB000622D5D /* NSMutableArray_Shuffling */,
 				CB5DECD4180B2DBF0099F29D /* URBSegmentedControl */,
 				CBD6E2A717C4533D007A6773 /* GameController */,
 				CB51CAB617C43D25002CDED0 /* Views */,
 				CBCCB36717C408FA00777E71 /* Supporting Files */,
-				CBEF9D0B1808F2E400ABE180 /* HighScoreCell.h */,
-				CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */,
 			);
 			path = HPTrivia;
 			sourceTree = "<group>";

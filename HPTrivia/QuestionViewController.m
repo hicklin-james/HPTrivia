@@ -86,8 +86,12 @@ UIColor *blueTextColor;
 {
   timeLeft -= 1;
   self.timerLabel.text = [NSString stringWithFormat:@"%d", timeLeft];
-  if (timeLeft < 10)
+  if (timeLeft < 5) {
+    __unused NSTimer *newTimer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(test:) userInfo:nil repeats:NO]; // __unused supresses the warning
+    [self.timerLabel setHidden:YES];
+   // [self.timerLabel setHidden:NO];
     self.timerLabel.textColor = [UIColor colorWithRed:154/255.0f green:26/255.0f blue:14/255.0f alpha:1.0f];
+  }
   else
     self.timerLabel.textColor = blueTextColor;
     
@@ -95,6 +99,10 @@ UIColor *blueTextColor;
     gameController.questionNumber++;
     [self performSegueWithIdentifier:@"incorrectAnswerSegue" sender:self];
   }
+}
+
+-(void)test:(NSTimer *)timer {
+  [self.timerLabel setHidden:NO];
 }
 
 -(void)setupCurrentQuestion {
@@ -208,7 +216,7 @@ UIColor *blueTextColor;
 
 - (void)setBlueTextColor {
   if (!blueTextColor)
-    blueTextColor = [UIColor colorWithRed:47/255.0f green:69/255.0f blue:174/255.0f alpha:1.0f];
+    blueTextColor = [UIColor colorWithRed:154/255.0f green:26/255.0f blue:14/255.0f alpha:1.0f];
 }
 
 @end

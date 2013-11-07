@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CFBB241D-CEA1-4506-B2E0-FCD23663667C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HPTrivia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B4559E54-8942-44A5-AAC4-4F16839E86EE</key>
+		<string>https://github.com/hicklin-james/HPTrivia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HPTrivia.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B4559E54-8942-44A5-AAC4-4F16839E86EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hicklin-james/HPTrivia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B4559E54-8942-44A5-AAC4-4F16839E86EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4559E54-8942-44A5-AAC4-4F16839E86EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HPTrivia</string>
+		</dict>
+	</array>
+</dict>
+</plist>

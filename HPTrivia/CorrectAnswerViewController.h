@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *correctAnswerLabel;
 @property (strong, nonatomic) IBOutlet UIButton *nextViewButton;
+@property (strong, nonatomic) IBOutlet UILabel *currentScoreLabel;
 
 - (IBAction)goToNextQuestion:(id)sender;
 

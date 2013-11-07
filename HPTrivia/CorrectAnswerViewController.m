@@ -22,6 +22,7 @@
 @synthesize gameController;
 @synthesize correctAnswerLabel;
 @synthesize nextViewButton;
+@synthesize currentScoreLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -44,6 +45,8 @@
   
   correctAnswerLabel.text = @"Correct!";
   correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
+  
+  currentScoreLabel.text = [NSString stringWithFormat:@"Current Score: \n%d/%d", [gameController correctAnswers], [gameController questionNumber]-1];
   
   if ([gameController questionNumber] > [gameController numOfQuestions]) {
     [nextViewButton setTitle:@"Finish Game" forState:UIControlStateNormal];
