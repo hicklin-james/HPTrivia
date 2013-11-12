@@ -59,7 +59,7 @@
     }
     
     // This is here so I can check if any questions don't have a possible answer! DON'T DELETE
-     
+     /*
     for (int i = 0; i < [allQuestions count]; i++) {
       GameQuestion *question = [allQuestions objectAtIndex:i];
       NSString *answer = [question correctAnswer];
@@ -74,12 +74,12 @@
         NSLog([question question], nil);
       }
     }
+    */
     
     if (numOfQuestions == 0)
       numOfQuestions = [allQuestions count];
     
     NSLog([NSString stringWithFormat:@"There are %d questions at this difficulty in this category", [allQuestions count]], nil);
-    
     
     return self;
   }

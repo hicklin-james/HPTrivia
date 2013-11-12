@@ -1480,6 +1480,692 @@
 			<key>Answer 4</key>
 			<string>Dabberblimps</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not an ingredient in Polyjuice potion?</string>
+			<key>Correct Answer</key>
+			<string>Aconite</string>
+			<key>Answer 1</key>
+			<string>Boomslang Skin</string>
+			<key>Answer 2</key>
+			<string>Lacewing Flies</string>
+			<key>Answer 3</key>
+			<string>Bicorn Horn</string>
+			<key>Answer 4</key>
+			<string>Aconite</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is a characteristic of Amortenia?</string>
+			<key>Correct Answer</key>
+			<string>Mother of Pearl Sheen</string>
+			<key>Answer 1</key>
+			<string>Mother of Pearl Sheen</string>
+			<key>Answer 2</key>
+			<string>Sweet Smell</string>
+			<key>Answer 3</key>
+			<string>Heart shaped smoke</string>
+			<key>Answer 4</key>
+			<string>Clear and Odourless appearance</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not an ingredient used by Voldemort to create himself a new body?</string>
+			<key>Correct Answer</key>
+			<string>Heart of his mother</string>
+			<key>Answer 1</key>
+			<string>Bone of the his father</string>
+			<key>Answer 2</key>
+			<string>Flesh of a servant</string>
+			<key>Answer 3</key>
+			<string>Heart of his mother</string>
+			<key>Answer 4</key>
+			<string>Blood of an enemy</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell did Hermione not cast over the trios tent in the 7th book?</string>
+			<key>Correct Answer</key>
+			<string>Protego Maxima</string>
+			<key>Answer 1</key>
+			<string>Repello Muggletum</string>
+			<key>Answer 2</key>
+			<string>Protego Maxima</string>
+			<key>Answer 3</key>
+			<string>Protego Totalum</string>
+			<key>Answer 4</key>
+			<string>Salvio Hexia</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What was the initial enchantment used by Voldemort to protect his Horcrux in the cave?</string>
+			<key>Correct Answer</key>
+			<string>Blood Sacrifice</string>
+			<key>Answer 1</key>
+			<string>Inferi</string>
+			<key>Answer 2</key>
+			<string>Fidelius charm</string>
+			<key>Answer 3</key>
+			<string>Blood Sacrifice</string>
+			<key>Answer 4</key>
+			<string>Warded</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How do you create a Basilisk?</string>
+			<key>Correct Answer</key>
+			<string>Chicken egg beneath a toad</string>
+			<key>Answer 1</key>
+			<string>Potion using one of Medusa&apos;s snake hairs</string>
+			<key>Answer 2</key>
+			<string>Chicken egg beneath a toad</string>
+			<key>Answer 3</key>
+			<string>With a male and female</string>
+			<key>Answer 4</key>
+			<string>chicken egg beneath a frog</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What incantation causes duplication of an object?</string>
+			<key>Correct Answer</key>
+			<string>Geminio</string>
+			<key>Answer 1</key>
+			<string>Geminio</string>
+			<key>Answer 2</key>
+			<string>Duplicato</string>
+			<key>Answer 3</key>
+			<string>Multiplus</string>
+			<key>Answer 4</key>
+			<string>Polygrate</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the first of the five principle exceptions to Gamp&apos;s Law of Elemental Transfiguration?</string>
+			<key>Correct Answer</key>
+			<string>Conjuring food</string>
+			<key>Answer 1</key>
+			<string>Conjuring magical creatures and objects</string>
+			<key>Answer 2</key>
+			<string>Cannot transfigure subatomic particles</string>
+			<key>Answer 3</key>
+			<string>Conjuring food</string>
+			<key>Answer 4</key>
+			<string>Transfiguring or conjuring gold and silver</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What incantation conjures a fiery rope?</string>
+			<key>Correct Answer</key>
+			<string>Flagrate</string>
+			<key>Answer 1</key>
+			<string>Incendiope</string>
+			<key>Answer 2</key>
+			<string>Flagrate</string>
+			<key>Answer 3</key>
+			<string>Avis</string>
+			<key>Answer 4</key>
+			<string>Dormiens</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the incantation for the vanishing spell?</string>
+			<key>Correct Answer</key>
+			<string>Evanesco</string>
+			<key>Answer 1</key>
+			<string>Revoir</string>
+			<key>Answer 2</key>
+			<string>Fleum</string>
+			<key>Answer 3</key>
+			<string>Vanishia</string>
+			<key>Answer 4</key>
+			<string>Evanesco</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How long does Felix Felicis take to brew?</string>
+			<key>Correct Answer</key>
+			<string>6 months</string>
+			<key>Answer 1</key>
+			<string>1 year</string>
+			<key>Answer 2</key>
+			<string>1 month</string>
+			<key>Answer 3</key>
+			<string>4 months</string>
+			<key>Answer 4</key>
+			<string>6 months</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which potion does Slughorn not show to his first class with Harry in?</string>
+			<key>Correct Answer</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 1</key>
+			<string>Felix Felicis</string>
+			<key>Answer 2</key>
+			<string>Veritaserum</string>
+			<key>Answer 3</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 4</key>
+			<string>Amortenia</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many shades appear out of Voldemort&apos;s wand in Priori Incantatem?</string>
+			<key>Correct Answer</key>
+			<string>5</string>
+			<key>Answer 1</key>
+			<string>3</string>
+			<key>Answer 2</key>
+			<string>4</string>
+			<key>Answer 3</key>
+			<string>6</string>
+			<key>Answer 4</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What creature did Tom Riddle accuse Hagrid of raising and using to petrify students when the Chamber of Secrets was first opened?</string>
+			<key>Correct Answer</key>
+			<string>Acromantula</string>
+			<key>Answer 1</key>
+			<string>Acromantula</string>
+			<key>Answer 2</key>
+			<string>Fire Crab</string>
+			<key>Answer 3</key>
+			<string>Basilisk</string>
+			<key>Answer 4</key>
+			<string>Dragon</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What creature is commonly found in wand-wood trees?</string>
+			<key>Correct Answer</key>
+			<string>Bowtruckle</string>
+			<key>Answer 1</key>
+			<string>Augury</string>
+			<key>Answer 2</key>
+			<string>Bowtruckle</string>
+			<key>Answer 3</key>
+			<string>Phoenix</string>
+			<key>Answer 4</key>
+			<string>Crumple Horned Snorkack</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What horn was present on the wall of Xenophilius&apos;s Lovegood&apos;s house?</string>
+			<key>Correct Answer</key>
+			<string>Erumpent</string>
+			<key>Answer 1</key>
+			<string>Crumple Horned Snorkack</string>
+			<key>Answer 2</key>
+			<string>Erumpent</string>
+			<key>Answer 3</key>
+			<string>Unicorn</string>
+			<key>Answer 4</key>
+			<string>Graphorn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where did Professor Snape claim the Kappa is most commonly found?</string>
+			<key>Correct Answer</key>
+			<string>Mongolia</string>
+			<key>Answer 1</key>
+			<string>Japan</string>
+			<key>Answer 2</key>
+			<string>China</string>
+			<key>Answer 3</key>
+			<string>Mongolia</string>
+			<key>Answer 4</key>
+			<string>Russia</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where is a Kappa most commonly found?</string>
+			<key>Correct Answer</key>
+			<string>Japan</string>
+			<key>Answer 1</key>
+			<string>Mongolia</string>
+			<key>Answer 2</key>
+			<string>China</string>
+			<key>Answer 3</key>
+			<string>Korea</string>
+			<key>Answer 4</key>
+			<string>Japan</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the opposite of the Alohamora spell?</string>
+			<key>Correct Answer</key>
+			<string>Colloportus</string>
+			<key>Answer 1</key>
+			<string>Alohimara</string>
+			<key>Answer 2</key>
+			<string>Colloportus</string>
+			<key>Answer 3</key>
+			<string>Clauditis</string>
+			<key>Answer 4</key>
+			<string>Closaportus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell causes rapid growth of the victims teeth?</string>
+			<key>Correct Answer</key>
+			<string>Densaugeo</string>
+			<key>Answer 1</key>
+			<string>Growtio</string>
+			<key>Answer 2</key>
+			<string>Depulso</string>
+			<key>Answer 3</key>
+			<string>Denturio</string>
+			<key>Answer 4</key>
+			<string>Densaugeo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell did Bagman use to cancel Sonorus at the Quidditch World Cup?</string>
+			<key>Correct Answer</key>
+			<string>Quietus</string>
+			<key>Answer 1</key>
+			<string>Quietus</string>
+			<key>Answer 2</key>
+			<string>Finite Incantatum</string>
+			<key>Answer 3</key>
+			<string>Finite</string>
+			<key>Answer 4</key>
+			<string>Silencio</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the counter to Levicorpus</string>
+			<key>Correct Answer</key>
+			<string>Liberacorpus</string>
+			<key>Answer 1</key>
+			<string>Finite</string>
+			<key>Answer 2</key>
+			<string>Liberacorpus</string>
+			<key>Answer 3</key>
+			<string>Collocorpus</string>
+			<key>Answer 4</key>
+			<string>Dissendium</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The hair of what animal is used to make invisibility cloaks</string>
+			<key>Correct Answer</key>
+			<string>Demiguise</string>
+			<key>Answer 1</key>
+			<string>None, a magical plant is woven like cotton</string>
+			<key>Answer 2</key>
+			<string>Unicorn</string>
+			<key>Answer 3</key>
+			<string>Chameleon Ghoul</string>
+			<key>Answer 4</key>
+			<string>Demiguise</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which of these is not a type of dragon?</string>
+			<key>Correct Answer</key>
+			<string>Bulgarian Short Horned</string>
+			<key>Answer 1</key>
+			<string>Peruvian Vipertail</string>
+			<key>Answer 2</key>
+			<string>Hebridean Black</string>
+			<key>Answer 3</key>
+			<string>Antipodean Opaleye</string>
+			<key>Answer 4</key>
+			<string>Bulgarian Short Horned</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does Golpalott&apos;s third law state?</string>
+			<key>Correct Answer</key>
+			<string>The antidote for a blended poison will be equal to more than the sum of the antidotes for each of the separate components</string>
+			<key>Answer 1</key>
+			<string>The antidote for a blended poison will be equal to more than the sum of the antidotes for each of the separate components</string>
+			<key>Answer 2</key>
+			<string>The antidote for a blended poison will be equal to twice the sum of the antidotes for each of the separate components</string>
+			<key>Answer 3</key>
+			<string>You cannot conjure food</string>
+			<key>Answer 4</key>
+			<string>The antidote for a blended poison will be equal to the sum of the antidotes for each of the separate components</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is an ingredient Hermione uses when creating an antidote to an unknown poison in 6th year?</string>
+			<key>Correct Answer</key>
+			<string>Her own hair</string>
+			<key>Answer 1</key>
+			<string>A Bezoar</string>
+			<key>Answer 2</key>
+			<string>Boomslang skin</string>
+			<key>Answer 3</key>
+			<string>Her own hair</string>
+			<key>Answer 4</key>
+			<string>Her blood</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not an ingredient used in the Draught of Living Death?</string>
+			<key>Correct Answer</key>
+			<string>Armadillo Bile</string>
+			<key>Answer 1</key>
+			<string>Infusion of Wormwood</string>
+			<key>Answer 2</key>
+			<string>Armadillo Bile</string>
+			<key>Answer 3</key>
+			<string>Sopophorous Beans</string>
+			<key>Answer 4</key>
+			<string>Sloth Brain</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What tip does the Half Blood Prince give when brewing the Draught of Living Death?</string>
+			<key>Correct Answer</key>
+			<string>Crush the beans not cut them</string>
+			<key>Answer 1</key>
+			<string>Two stirs clockwise for everyone stir counterclockwise</string>
+			<key>Answer 2</key>
+			<string>Crush the beans not cut them</string>
+			<key>Answer 3</key>
+			<string>Add a spring of mint</string>
+			<key>Answer 4</key>
+			<string>Double the amount of powdered asphodel</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The Dreamless sleep potion is what when taken regularly?</string>
+			<key>Correct Answer</key>
+			<string>Addictive</string>
+			<key>Answer 1</key>
+			<string>Poisonus</string>
+			<key>Answer 2</key>
+			<string>Less effective</string>
+			<key>Answer 3</key>
+			<string>Addictive</string>
+			<key>Answer 4</key>
+			<string>No effect</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Dittany is often used to?</string>
+			<key>Correct Answer</key>
+			<string>Heal shallow wounds</string>
+			<key>Answer 1</key>
+			<string>Create poisons</string>
+			<key>Answer 2</key>
+			<string>Create Antidotes</string>
+			<key>Answer 3</key>
+			<string>Wake people</string>
+			<key>Answer 4</key>
+			<string>Heal shallow wounds</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Murtlap essence is?</string>
+			<key>Correct Answer</key>
+			<string>A Solution of strained and pickled Murtlap tentacles</string>
+			<key>Answer 1</key>
+			<string>A Solution of strained and pickled Murtlap tentacles</string>
+			<key>Answer 2</key>
+			<string>Crushed and juiced leaves of the Murtlap plant</string>
+			<key>Answer 3</key>
+			<string>Juiced and boiled tentacles of Murtlaps</string>
+			<key>Answer 4</key>
+			<string>A solution of liquified and strained Murtlap leaves</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Essence of Murtlap is often used to?</string>
+			<key>Correct Answer</key>
+			<string>Sooth cuts and abrasions</string>
+			<key>Answer 1</key>
+			<string>Create potions commonly healing potions</string>
+			<key>Answer 2</key>
+			<string>Sooth cuts and abrasions</string>
+			<key>Answer 3</key>
+			<string>Clean tough stains</string>
+			<key>Answer 4</key>
+			<string>Help heal rashes and other irritations of the skin</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does Lupin say will render the Wolfsbane potion ineffective?</string>
+			<key>Correct Answer</key>
+			<string>Sugar</string>
+			<key>Answer 1</key>
+			<string>Sugar</string>
+			<key>Answer 2</key>
+			<string>Mint</string>
+			<key>Answer 3</key>
+			<string>Water</string>
+			<key>Answer 4</key>
+			<string>Taking it after the moon has risen</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not an ingredient in the Shrinking Solution?</string>
+			<key>Correct Answer</key>
+			<string>Dandelion Root</string>
+			<key>Answer 1</key>
+			<string>Sliced Caterpillars</string>
+			<key>Answer 2</key>
+			<string>Peeled Shrivelfig</string>
+			<key>Answer 3</key>
+			<string>Rat Spleen</string>
+			<key>Answer 4</key>
+			<string>Dandelion Root</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not an ingredient in the Swelling Solution?</string>
+			<key>Correct Answer</key>
+			<string>Daisy Roots</string>
+			<key>Answer 1</key>
+			<string>Bat Spleen</string>
+			<key>Answer 2</key>
+			<string>Dried Nettles</string>
+			<key>Answer 3</key>
+			<string>Daisy Roots</string>
+			<key>Answer 4</key>
+			<string>Puffer fish Eye</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Mr Ollivander not do to test wands in the Weighing of the Wands ceremony?</string>
+			<key>Correct Answer</key>
+			<string>Conjure Water</string>
+			<key>Answer 1</key>
+			<string>Conjure Water</string>
+			<key>Answer 2</key>
+			<string>Create Smoke Rings</string>
+			<key>Answer 3</key>
+			<string>Conjures Birds</string>
+			<key>Answer 4</key>
+			<string>Conjures Flowers</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell does Harry Potter curse Goyle with in the Goblet of Fire?</string>
+			<key>Correct Answer</key>
+			<string>Furnunculus</string>
+			<key>Answer 1</key>
+			<string>Petrifucus Totalus</string>
+			<key>Answer 2</key>
+			<string>Desaugneo</string>
+			<key>Answer 3</key>
+			<string>Furnunculus</string>
+			<key>Answer 4</key>
+			<string>Jelly Legs curse</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What did Professor Flitwick suggest Harry&apos;s Firebolt may have been cursed with in the third book?</string>
+			<key>Correct Answer</key>
+			<string>Hurling Hex</string>
+			<key>Answer 1</key>
+			<string>Unknown Dark Magic</string>
+			<key>Answer 2</key>
+			<string>Hurling Hex</string>
+			<key>Answer 3</key>
+			<string>Jelly Brain Jinx</string>
+			<key>Answer 4</key>
+			<string>The broom has been turned into a portkey</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell did Arthur Weasley suggest that Ron disguised as Reg Cattermole use to fix the rain jinx on the ministry offices?</string>
+			<key>Correct Answer</key>
+			<string>Meteolojinx Recanto</string>
+			<key>Answer 1</key>
+			<string>Meteolo Recanto</string>
+			<key>Answer 2</key>
+			<string>Impervius</string>
+			<key>Answer 3</key>
+			<string>Finite Incantatum</string>
+			<key>Answer 4</key>
+			<string>Meteolojinx Recanto</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell did Hermione cast on the portrait of Phineas Nigellus Black in the 7th book?</string>
+			<key>Correct Answer</key>
+			<string>Obscuro</string>
+			<key>Answer 1</key>
+			<string>Muffliato</string>
+			<key>Answer 2</key>
+			<string>Obscuro</string>
+			<key>Answer 3</key>
+			<string>None</string>
+			<key>Answer 4</key>
+			<string>Obliviate</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>If you combined Powdered root of asphodel and an infusion of wormwood what potion would you get?</string>
+			<key>Correct Answer</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 1</key>
+			<string>Sleeping Potion</string>
+			<key>Answer 2</key>
+			<string>Dreamless sleep</string>
+			<key>Answer 3</key>
+			<string>Draught of Living Death</string>
+			<key>Answer 4</key>
+			<string>Calming Potion</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is another name for Monkshood?</string>
+			<key>Correct Answer</key>
+			<string>Wolfsbane</string>
+			<key>Answer 1</key>
+			<string>Wolfsbane</string>
+			<key>Answer 2</key>
+			<string>Acacia</string>
+			<key>Answer 3</key>
+			<string>Goosegrass</string>
+			<key>Answer 4</key>
+			<string>Nightshade</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which creature was modified by Fred and George to create Pygmy Puffs?</string>
+			<key>Correct Answer</key>
+			<string>Puffskeins</string>
+			<key>Answer 1</key>
+			<string>Plimpy Puff</string>
+			<key>Answer 2</key>
+			<string>Flitterby</string>
+			<key>Answer 3</key>
+			<string>Puffskeins</string>
+			<key>Answer 4</key>
+			<string>Billywigg</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the only beverage that Madame Maxime&apos;s horses will drink?</string>
+			<key>Correct Answer</key>
+			<string>Whiskey</string>
+			<key>Answer 1</key>
+			<string>Champagne</string>
+			<key>Answer 2</key>
+			<string>Whiskey</string>
+			<key>Answer 3</key>
+			<string>Brandy</string>
+			<key>Answer 4</key>
+			<string>Water</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not an ingredient in the Cure for Boils potion?</string>
+			<key>Correct Answer</key>
+			<string>Rat Spleen</string>
+			<key>Answer 1</key>
+			<string>Rat Spleen</string>
+			<key>Answer 2</key>
+			<string>Snake Fangs</string>
+			<key>Answer 3</key>
+			<string>Dried Nettles</string>
+			<key>Answer 4</key>
+			<string>Porcupine Quills</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not an ingredient in the Draught of Peace?</string>
+			<key>Correct Answer</key>
+			<string>Infusion of Wormwood</string>
+			<key>Answer 1</key>
+			<string>Powdered Moonstone</string>
+			<key>Answer 2</key>
+			<string>Syrup of Hellebore</string>
+			<key>Answer 3</key>
+			<string>Infusion of Wormwood</string>
+			<key>Answer 4</key>
+			<string>Powdered Unicorn Horn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What ingredient did Harry add to his Elixar to Induce Euphoria that Slughorn said was &quot;unorthodox&quot;?</string>
+			<key>Correct Answer</key>
+			<string>Peppermint</string>
+			<key>Answer 1</key>
+			<string>Mint</string>
+			<key>Answer 2</key>
+			<string>Peppermint</string>
+			<key>Answer 3</key>
+			<string>Pomegranate juice</string>
+			<key>Answer 4</key>
+			<string>Sugar</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is an ingredient in a Strengthening Solution?</string>
+			<key>Correct Answer</key>
+			<string>Powdered Griffin Claw</string>
+			<key>Answer 1</key>
+			<string>Powdered Griffin Claw</string>
+			<key>Answer 2</key>
+			<string>Pomegranate Juice</string>
+			<key>Answer 3</key>
+			<string>Powdered Root of Asphodel</string>
+			<key>Answer 4</key>
+			<string>Bicorn Horn</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What spell or potion did Snape claim Black cast or give to Harry, Ron and Hermione in the Prisoner of Azkaban?</string>
+			<key>Correct Answer</key>
+			<string>Confundus Charm</string>
+			<key>Answer 1</key>
+			<string>Befuddlement Draught</string>
+			<key>Answer 2</key>
+			<string>Confundus Charm</string>
+			<key>Answer 3</key>
+			<string>Memory Charm</string>
+			<key>Answer 4</key>
+			<string>Confusing Concoction</string>
+		</dict>
 	</array>
 </dict>
 </plist>

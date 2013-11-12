@@ -723,6 +723,118 @@
 	<array>
 		<dict>
 			<key>Question</key>
+			<string>Where is the Hufflepuff common room and dormitories located?</string>
+			<key>Correct Answer</key>
+			<string>Near the kitchens on the 1st floor</string>
+			<key>Answer 1</key>
+			<string>2nd floor near the Transfiguration classroom</string>
+			<key>Answer 2</key>
+			<string>7th floor near the Room of Requirement</string>
+			<key>Answer 3</key>
+			<string>Near the kitchens on the 1st floor</string>
+			<key>Answer 4</key>
+			<string>Hufflepuff Tower</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What coloured robes do Wizengamot members wear?</string>
+			<key>Correct Answer</key>
+			<string>Plum</string>
+			<key>Answer 1</key>
+			<string>Scarlett</string>
+			<key>Answer 2</key>
+			<string>Black</string>
+			<key>Answer 3</key>
+			<string>Maroon</string>
+			<key>Answer 4</key>
+			<string>Plum</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not a name proposed for Dumbledore’s Army?</string>
+			<key>Correct Answer</key>
+			<string>Potter’s Army</string>
+			<key>Answer 1</key>
+			<string>Defence Association</string>
+			<key>Answer 2</key>
+			<string>Ministry of Magic are Morons Group</string>
+			<key>Answer 3</key>
+			<string>Anti Umbridge League</string>
+			<key>Answer 4</key>
+			<string>Potter’s Army</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What Educational Degree created the post of High Inquisitor?</string>
+			<key>Correct Answer</key>
+			<string>23</string>
+			<key>Answer 1</key>
+			<string>22</string>
+			<key>Answer 2</key>
+			<string>24</string>
+			<key>Answer 3</key>
+			<string>23</string>
+			<key>Answer 4</key>
+			<string>25</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What name is given to the charm placed on underage wizards to monitor magic use?</string>
+			<key>Correct Answer</key>
+			<string>The Trace</string>
+			<key>Answer 1</key>
+			<string>The Tracker</string>
+			<key>Answer 2</key>
+			<string>The Trace</string>
+			<key>Answer 3</key>
+			<string>The Underage Magic Monitoring Charm</string>
+			<key>Answer 4</key>
+			<string>The Charm</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>On what level is the Wizengamot Courtrooms in the Ministry?</string>
+			<key>Correct Answer</key>
+			<string>Level 10</string>
+			<key>Answer 1</key>
+			<string>Level 9</string>
+			<key>Answer 2</key>
+			<string>Level 1</string>
+			<key>Answer 3</key>
+			<string>Ground Floor</string>
+			<key>Answer 4</key>
+			<string>Level 10</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is an activity that the Headless Hunt participates in?</string>
+			<key>Correct Answer</key>
+			<string>Head Polo</string>
+			<key>Answer 1</key>
+			<string>Head Football</string>
+			<key>Answer 2</key>
+			<string>Head Tennis</string>
+			<key>Answer 3</key>
+			<string>Head Quidditch</string>
+			<key>Answer 4</key>
+			<string>Head Polo</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How do you gain access to Ravenclaw tower</string>
+			<key>Correct Answer</key>
+			<string>Answering a Riddle</string>
+			<key>Answer 1</key>
+			<string>With a Password</string>
+			<key>Answer 2</key>
+			<string>Answering a Question</string>
+			<key>Answer 3</key>
+			<string>Answering a Riddle</string>
+			<key>Answer 4</key>
+			<string>Recommending a Book</string>
+		</dict>
+		<dict>
+			<key>Question</key>
 			<string>What vault number is the Philosophers stone kept in at Gringotts?</string>
 			<key>Correct Answer</key>
 			<string>713</string>
@@ -734,6 +846,258 @@
 			<string>713</string>
 			<key>Answer 4</key>
 			<string>641</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When was the Whomping Willow planted at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>1971</string>
+			<key>Answer 1</key>
+			<string>1973</string>
+			<key>Answer 2</key>
+			<string>1970</string>
+			<key>Answer 3</key>
+			<string>1972</string>
+			<key>Answer 4</key>
+			<string>1971</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How long ago was the Triwizard Tournament established?</string>
+			<key>Correct Answer</key>
+			<string>700 hundred years ago</string>
+			<key>Answer 1</key>
+			<string>1000 years ago</string>
+			<key>Answer 2</key>
+			<string>700 hundred years ago</string>
+			<key>Answer 3</key>
+			<string>500 years ago</string>
+			<key>Answer 4</key>
+			<string>800 years ago</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a Dark Detector?</string>
+			<key>Correct Answer</key>
+			<string>Intention Indicator</string>
+			<key>Answer 1</key>
+			<string>Foe Glass</string>
+			<key>Answer 2</key>
+			<string>Secrecy Sensor</string>
+			<key>Answer 3</key>
+			<string>Sneakoscope</string>
+			<key>Answer 4</key>
+			<string>Intention Indicator</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a tradition of the Triwizard Tournament?</string>
+			<key>Correct Answer</key>
+			<string>Age Limit</string>
+			<key>Answer 1</key>
+			<string>Yule Ball</string>
+			<key>Answer 2</key>
+			<string>Cheating</string>
+			<key>Answer 3</key>
+			<string>Age Limit</string>
+			<key>Answer 4</key>
+			<string>Presentation Ceremony</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How many House elves work at Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>Over 100</string>
+			<key>Answer 1</key>
+			<string>Over 150</string>
+			<key>Answer 2</key>
+			<string>Over 200</string>
+			<key>Answer 3</key>
+			<string>Over 100</string>
+			<key>Answer 4</key>
+			<string>Over 125</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not a professional Quidditch team?</string>
+			<key>Correct Answer</key>
+			<string>Wigtown Warriers</string>
+			<key>Answer 1</key>
+			<string>Wimborne Wasps</string>
+			<key>Answer 2</key>
+			<string>Appleby Arrows</string>
+			<key>Answer 3</key>
+			<string>Wigtown Warriers</string>
+			<key>Answer 4</key>
+			<string>Puddlemere United</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does the term splinched mean?</string>
+			<key>Correct Answer</key>
+			<string>Apparated but left body parts behind</string>
+			<key>Answer 1</key>
+			<string>Cursed by the Splinch hex which causes body parts to fall off</string>
+			<key>Answer 2</key>
+			<string>Experimental breeding of new species</string>
+			<key>Answer 3</key>
+			<string>Incorrectly cast switching spells</string>
+			<key>Answer 4</key>
+			<string>Apparated but left body parts behind</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>On what road is the Leaky Cauldron?</string>
+			<key>Correct Answer</key>
+			<string>Charing Cross Road</string>
+			<key>Answer 1</key>
+			<string>Charing Cross Road</string>
+			<key>Answer 2</key>
+			<string>Bloomsbury Road</string>
+			<key>Answer 3</key>
+			<string>Farringdon Road</string>
+			<key>Answer 4</key>
+			<string>Piccadily</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When Harry is in the elevator in the Ministry before his hearing, what is in the box that is possibly a breach of the ban on experimental breeding?</string>
+			<key>Correct Answer</key>
+			<string>A Fire Breathing Chicken</string>
+			<key>Answer 1</key>
+			<string>A Fire Breathing Chicken</string>
+			<key>Answer 2</key>
+			<string>A Blast Ended Skrewt</string>
+			<key>Answer 3</key>
+			<string>A Flying Cow</string>
+			<key>Answer 4</key>
+			<string>An Invisible Goat</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what village did Harry lose his parents?</string>
+			<key>Correct Answer</key>
+			<string>Godric’s Hollow</string>
+			<key>Answer 1</key>
+			<string>Hogsmeade</string>
+			<key>Answer 2</key>
+			<string>Ottery St Catchpole</string>
+			<key>Answer 3</key>
+			<string>Godric’s Hollow</string>
+			<key>Answer 4</key>
+			<string>Appleby</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In Minstry of Magic what level is Misuse of Muggle Artifacts on?</string>
+			<key>Correct Answer</key>
+			<string>2</string>
+			<key>Answer 1</key>
+			<string>3</string>
+			<key>Answer 2</key>
+			<string>4</string>
+			<key>Answer 3</key>
+			<string>5</string>
+			<key>Answer 4</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what village did Harry lose his parents?</string>
+			<key>Correct Answer</key>
+			<string>Godric’s Hollow</string>
+			<key>Answer 1</key>
+			<string>Hogsmeade</string>
+			<key>Answer 2</key>
+			<string>Ottery St Catchpole</string>
+			<key>Answer 3</key>
+			<string>Godric’s Hollow</string>
+			<key>Answer 4</key>
+			<string>Appleby</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How often does Gringotts check anyone is inside the high security vaults?</string>
+			<key>Correct Answer</key>
+			<string>Once a Decade</string>
+			<key>Answer 1</key>
+			<string>Annually</string>
+			<key>Answer 2</key>
+			<string>Once every 5 years</string>
+			<key>Answer 3</key>
+			<string>Once a Decade</string>
+			<key>Answer 4</key>
+			<string>Once every century</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what year do Beauxbatons students take their first set of exams?</string>
+			<key>Correct Answer</key>
+			<string>6</string>
+			<key>Answer 1</key>
+			<string>5</string>
+			<key>Answer 2</key>
+			<string>4</string>
+			<key>Answer 3</key>
+			<string>6</string>
+			<key>Answer 4</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does the acronym N.E.W.T stand for?</string>
+			<key>Correct Answer</key>
+			<string>Nastily Exhausting Wizarding Test</string>
+			<key>Answer 1</key>
+			<string>Nasty Enchantment and Wizarding Tests </string>
+			<key>Answer 2</key>
+			<string>New Exams in Wizarding Theory</string>
+			<key>Answer 3</key>
+			<string>Nastily Exhausting Wizarding Test</string>
+			<key>Answer 4</key>
+			<string>Necromancy, Enchantments and Wizarding Tests</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Where do Quidditch referees tend to turn up after disappearing?</string>
+			<key>Correct Answer</key>
+			<string>Sahara Desert</string>
+			<key>Answer 1</key>
+			<string>Australia</string>
+			<key>Answer 2</key>
+			<string>Siberia</string>
+			<key>Answer 3</key>
+			<string>Sahara Desert</string>
+			<key>Answer 4</key>
+			<string>Outer Mongolia</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What organization titles it head Supreme Mugwump?</string>
+			<key>Correct Answer</key>
+			<string>International Confederation of Wizards</string>
+			<key>Answer 1</key>
+			<string>International Confederation of Wizards</string>
+			<key>Answer 2</key>
+			<string>Wizengamot</string>
+			<key>Answer 3</key>
+			<string>International Confederation of Wizardry</string>
+			<key>Answer 4</key>
+			<string>Union of Magical European States</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What year was the Statute of Secrecy Created?</string>
+			<key>Correct Answer</key>
+			<string>1689</string>
+			<key>Answer 1</key>
+			<string>1692</string>
+			<key>Answer 2</key>
+			<string>1698</string>
+			<key>Answer 3</key>
+			<string>1689</string>
+			<key>Answer 4</key>
+			<string>1683</string>
 		</dict>
 		<dict>
 			<key>Question</key>
@@ -1043,6 +1407,20 @@
 			<key>Answer 4</key>
 			<string>Emeralds</string>
 		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What shop is not  present in Hogsmeade?</string>
+			<key>Correct Answer</key>
+			<string>Albert’s Apothecary</string>
+			<key>Answer 1</key>
+			<string>The Magic Neep</string>
+			<key>Answer 2</key>
+			<string>Dominic Maestro’s</string>
+			<key>Answer 3</key>
+			<string>Albert’s Apothecary</string>
+			<key>Answer 4</key>
+			<string>Devrish and Banges</string>
+		</dict>
 	</array>
 	<key>Hard</key>
 	<array>
@@ -1300,7 +1678,7 @@
 		</dict>
 		<dict>
 			<key>Question</key>
-			<string>On which floor of St. Mungo&apos;s are patients with Dragon Pox treated?</string>
+			<string>On which floor of St. Mungo’s are patients with Dragon Pox treated?</string>
 			<key>Correct Answer</key>
 			<string>Second</string>
 			<key>Answer 1</key>
@@ -1314,7 +1692,7 @@
 		</dict>
 		<dict>
 			<key>Question</key>
-			<string>Before cauldron thicknesses were standardized, leakages were increasing at a rate of what percent anually?</string>
+			<string>Before cauldron thicknesses were standardized, leakages were increasing at a rate of what percent annually?</string>
 			<key>Correct Answer</key>
 			<string>3%</string>
 			<key>Answer 1</key>
@@ -1339,6 +1717,440 @@
 			<string>Dragon</string>
 			<key>Answer 4</key>
 			<string>Basilisk</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Dumbledore has been offered the post of Minister of Magic at least how many times?</string>
+			<key>Correct Answer</key>
+			<string>4</string>
+			<key>Answer 1</key>
+			<string>5</string>
+			<key>Answer 2</key>
+			<string>2</string>
+			<key>Answer 3</key>
+			<string>4</string>
+			<key>Answer 4</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What grades do you need to be Healer?</string>
+			<key>Correct Answer</key>
+			<string>E’s in Transfiguration, Charms, Herbology, Potions and Defense Against the Dark Arts at NEWT level</string>
+			<key>Answer 1</key>
+			<string>O’s in Transfiguration, Charms, Potions and Defence Against the Dark Arts and an E in Herbology at NEWT level</string>
+			<key>Answer 2</key>
+			<string>O’s in Transfiguration, Charms, Herbology, Potions and Defence Against the Dark Arts at NEWT level</string>
+			<key>Answer 3</key>
+			<string>O’s in Transfiguration, Charms and Potions and E’s in Herbology and Defense Against the Dark Arts  at NEWT level </string>
+			<key>Answer 4</key>
+			<string>E’s in Transfiguration, Charms, Herbology, Potions and Defense Against the Dark Arts at NEWT level</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a career leaflet given to the 5th years in the Order of the Phoenix?</string>
+			<key>Correct Answer</key>
+			<string>Obliviator for the Ministry of Magic</string>
+			<key>Answer 1</key>
+			<string>Training Security Trolls</string>
+			<key>Answer 2</key>
+			<string>Gringotts Bank Cursebreaker</string>
+			<key>Answer 3</key>
+			<string>Obliviator for the Ministry of Magic</string>
+			<key>Answer 4</key>
+			<string>Department of Magical Bangs and Catastrophes</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which witch is famous for being burnt at the stake over 47 times?</string>
+			<key>Correct Answer</key>
+			<string>Wendelin the Weird</string>
+			<key>Answer 1</key>
+			<string>Poppy the Pyromaniac</string>
+			<key>Answer 2</key>
+			<string>Wendelin the Weird</string>
+			<key>Answer 3</key>
+			<string>Frieda the Flammable</string>
+			<key>Answer 4</key>
+			<string>Uric the Oddball</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who was the first Supreme Mugwump of the International Confederation of Wizards</string>
+			<key>Correct Answer</key>
+			<string>Pierre Bonaccord</string>
+			<key>Answer 1</key>
+			<string>Jean Gourdon</string>
+			<key>Answer 2</key>
+			<string>Pierre Bonaccord</string>
+			<key>Answer 3</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 4</key>
+			<string>Dilys Derwent</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How long has Ollivander’s been in business?</string>
+			<key>Correct Answer</key>
+			<string>Since 382BC</string>
+			<key>Answer 1</key>
+			<string>Since 382BC</string>
+			<key>Answer 2</key>
+			<string>Since 1AD</string>
+			<key>Answer 3</key>
+			<string>Since 1000AD</string>
+			<key>Answer 4</key>
+			<string>Since 44BC</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what year was Borgin and Burke’s established?</string>
+			<key>Correct Answer</key>
+			<string>1863</string>
+			<key>Answer 1</key>
+			<string>1863</string>
+			<key>Answer 2</key>
+			<string>1613</string>
+			<key>Answer 3</key>
+			<string>1914</string>
+			<key>Answer 4</key>
+			<string>1831</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who forged the first Golden Snitch?</string>
+			<key>Correct Answer</key>
+			<string>Bowman Wright</string>
+			<key>Answer 1</key>
+			<string>Pierre Bonacchard</string>
+			<key>Answer 2</key>
+			<string>Steven Snitch</string>
+			<key>Answer 3</key>
+			<string>Bowman Wright</string>
+			<key>Answer 4</key>
+			<string>Matthew Smith</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which family is not a resident of Godric’s Hollow?</string>
+			<key>Correct Answer</key>
+			<string>Macmillian</string>
+			<key>Answer 1</key>
+			<string>Dumbledore</string>
+			<key>Answer 2</key>
+			<string>Potter</string>
+			<key>Answer 3</key>
+			<string>Bagshot</string>
+			<key>Answer 4</key>
+			<string>Macmillian</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What family is not resident in Otter St Catchpole?</string>
+			<key>Correct Answer</key>
+			<string>Finch-Fletchly</string>
+			<key>Answer 1</key>
+			<string>Weasley</string>
+			<key>Answer 2</key>
+			<string>Lovegood</string>
+			<key>Answer 3</key>
+			<string>Fawcetts</string>
+			<key>Answer 4</key>
+			<string>Finch-Fletchly</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In what year is the Werewolf Code of Conduct developed?</string>
+			<key>Correct Answer</key>
+			<string>1637</string>
+			<key>Answer 1</key>
+			<string>1952</string>
+			<key>Answer 2</key>
+			<string>1637</string>
+			<key>Answer 3</key>
+			<string>1741</string>
+			<key>Answer 4</key>
+			<string>1812</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What happened to the Manticore that savaged someone in 1296? </string>
+			<key>Correct Answer</key>
+			<string>Nothing as no one wanted to go near it</string>
+			<key>Answer 1</key>
+			<string>Executed</string>
+			<key>Answer 2</key>
+			<string>Nothing as no one wanted to go near it</string>
+			<key>Answer 3</key>
+			<string>It escaped before execution</string>
+			<key>Answer 4</key>
+			<string>Nothing as it wasn’t caught</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which is not a Chocolate Frog Card Harry got on the train in first year? </string>
+			<key>Correct Answer</key>
+			<string>Bertie Bott</string>
+			<key>Answer 1</key>
+			<string>Hengist of Woodcroft</string>
+			<key>Answer 2</key>
+			<string>Albus Dumbledore</string>
+			<key>Answer 3</key>
+			<string>Bertie Bott</string>
+			<key>Answer 4</key>
+			<string>Paracelsus</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the price of Dragon Liver?</string>
+			<key>Correct Answer</key>
+			<string>17 Sickles per Ounce</string>
+			<key>Answer 1</key>
+			<string>15 Sickles per Ounce</string>
+			<key>Answer 2</key>
+			<string>1 Galleon per Ounce</string>
+			<key>Answer 3</key>
+			<string>16 Sickles per Ounce</string>
+			<key>Answer 4</key>
+			<string>17 Sickles per Ounce</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the price of a Unicorn’s horn?</string>
+			<key>Correct Answer</key>
+			<string>21 Galleons</string>
+			<key>Answer 1</key>
+			<string>50 Galleons</string>
+			<key>Answer 2</key>
+			<string>16 Galleons</string>
+			<key>Answer 3</key>
+			<string>11 Galleons</string>
+			<key>Answer 4</key>
+			<string>21 Galleons</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the price of a scope of Beatle eyes?</string>
+			<key>Correct Answer</key>
+			<string>5 Knuts</string>
+			<key>Answer 1</key>
+			<string>3 Knuts</string>
+			<key>Answer 2</key>
+			<string>5 Knuts</string>
+			<key>Answer 3</key>
+			<string>7 Knuts</string>
+			<key>Answer 4</key>
+			<string>8 Knuts</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>In which Quidditch World Cup Final where all possible fouls committed?</string>
+			<key>Correct Answer</key>
+			<string>1473</string>
+			<key>Answer 1</key>
+			<string>1473</string>
+			<key>Answer 2</key>
+			<string>1933</string>
+			<key>Answer 3</key>
+			<string>1684</string>
+			<key>Answer 4</key>
+			<string>1702</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a gift found in Wizarding Crackers?</string>
+			<key>Correct Answer</key>
+			<string>Ever Floating Ballons</string>
+			<key>Answer 1</key>
+			<string>Grow Your Own Warts Kit</string>
+			<key>Answer 2</key>
+			<string>Wizarding Chess set</string>
+			<key>Answer 3</key>
+			<string>Admirals Hat</string>
+			<key>Answer 4</key>
+			<string>Ever Floating Ballons</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Dragon Breeding was outlawed in what year?</string>
+			<key>Correct Answer</key>
+			<string>1709</string>
+			<key>Answer 1</key>
+			<string>1613</string>
+			<key>Answer 2</key>
+			<string>1813</string>
+			<key>Answer 3</key>
+			<string>1717</string>
+			<key>Answer 4</key>
+			<string>1709</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Through what condemned department store do you have to step through to enter St Mungo’s?</string>
+			<key>Correct Answer</key>
+			<string>Purge and Dowse</string>
+			<key>Answer 1</key>
+			<string>Bonham and Bones</string>
+			<key>Answer 2</key>
+			<string>Purge and Dowse</string>
+			<key>Answer 3</key>
+			<string>Poole and Downes</string>
+			<key>Answer 4</key>
+			<string>Derwent and Bones</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>The inn in Hogsmeade was the headquarters for which Goblin Rebellion?</string>
+			<key>Correct Answer</key>
+			<string>1612</string>
+			<key>Answer 1</key>
+			<string>1663</string>
+			<key>Answer 2</key>
+			<string>1921</string>
+			<key>Answer 3</key>
+			<string>1612</string>
+			<key>Answer 4</key>
+			<string>1804</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>On what floor is a map of Argyllshire in Hogwarts?</string>
+			<key>Correct Answer</key>
+			<string>2nd</string>
+			<key>Answer 1</key>
+			<string>3rd</string>
+			<key>Answer 2</key>
+			<string>4th</string>
+			<key>Answer 3</key>
+			<string>2nd</string>
+			<key>Answer 4</key>
+			<string>5th</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does clause 3 of the Code of Wand Use say?</string>
+			<key>Correct Answer</key>
+			<string>Non-human creatures are not permitted to use or carry wands</string>
+			<key>Answer 1</key>
+			<string>Non-human creatures are not permitted to use or carry wands</string>
+			<key>Answer 2</key>
+			<string>The use of a wand to threaten muggles is illegal</string>
+			<key>Answer 3</key>
+			<string>The sale of wands to Muggles is forbidden</string>
+			<key>Answer 4</key>
+			<string>The wielding of wands in view of muggles is forbidden except in self defense</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What floor is the prefects bathroom on?</string>
+			<key>Correct Answer</key>
+			<string>4th</string>
+			<key>Answer 1</key>
+			<string>5th</string>
+			<key>Answer 2</key>
+			<string>3rd</string>
+			<key>Answer 3</key>
+			<string>4th</string>
+			<key>Answer 4</key>
+			<string>6th</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What floor is the entrance to the Chamber of Secrets on?</string>
+			<key>Correct Answer</key>
+			<string>1st</string>
+			<key>Answer 1</key>
+			<string>2nd</string>
+			<key>Answer 2</key>
+			<string>Dungeons</string>
+			<key>Answer 3</key>
+			<string>1st</string>
+			<key>Answer 4</key>
+			<string>3rd</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Which one is a ward in St Mungo’s Hospital?</string>
+			<key>Correct Answer</key>
+			<string>Janus Thickey Ward</string>
+			<key>Answer 1</key>
+			<string>Janus Thickey Ward</string>
+			<key>Answer 2</key>
+			<string>Hippocrates Ward</string>
+			<key>Answer 3</key>
+			<string>Dilys Derwent Ward</string>
+			<key>Answer 4</key>
+			<string>Malfoy Ward</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>When was the Degree for Reasonable Restriction of Under-age Sorcery created?</string>
+			<key>Correct Answer</key>
+			<string>1875</string>
+			<key>Answer 1</key>
+			<string>1613</string>
+			<key>Answer 2</key>
+			<string>1756</string>
+			<key>Answer 3</key>
+			<string>1875</string>
+			<key>Answer 4</key>
+			<string>1639</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is the name of a course for Squibs to learn magic?</string>
+			<key>Correct Answer</key>
+			<string>Kwikspell</string>
+			<key>Answer 1</key>
+			<string>Magic for Dummies</string>
+			<key>Answer 2</key>
+			<string>Igor’s Magicial Introduction</string>
+			<key>Answer 3</key>
+			<string>Kwikspell</string>
+			<key>Answer 4</key>
+			<string>Easy Enchantments</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who founded the Most Extraordinary Society of Potioneers?</string>
+			<key>Correct Answer</key>
+			<string>Hector Dagworth Granger</string>
+			<key>Answer 1</key>
+			<string>Horace Slughorn</string>
+			<key>Answer 2</key>
+			<string>Henry Cornelius Ganges</string>
+			<key>Answer 3</key>
+			<string>Hector Dagworth Granger</string>
+			<key>Answer 4</key>
+			<string>Percival Samuel Garange</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What is not a room in the Department of Mysteries?</string>
+			<key>Correct Answer</key>
+			<string>Hate Chamber</string>
+			<key>Answer 1</key>
+			<string>Space Room</string>
+			<key>Answer 2</key>
+			<string>Love Room</string>
+			<key>Answer 3</key>
+			<string>Death Chamber</string>
+			<key>Answer 4</key>
+			<string>Hate Chamber</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What wizard used pronounced Wingardium Leviosa incorrectly and ended up with a buffalo on his chest?</string>
+			<key>Correct Answer</key>
+			<string>Baruffio</string>
+			<key>Answer 1</key>
+			<string>Baruffio</string>
+			<key>Answer 2</key>
+			<string>Wendel</string>
+			<key>Answer 3</key>
+			<string>Markus</string>
+			<key>Answer 4</key>
+			<string>Filius</string>
 		</dict>
 	</array>
 </dict>
