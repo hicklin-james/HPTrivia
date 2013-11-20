@@ -14,7 +14,7 @@
 
 @implementation MainMenuViewController
 
-#define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_PHONEPOD5() ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
 
 @synthesize imageView;
 
@@ -32,8 +32,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
   if(!IS_PHONEPOD5()) {
+    //NSLog(@"We used the smaller picture");
     imageView.image = [UIImage imageNamed:@"parchment.png"];
   } else {
+    //NSLog(@"We used the bigger picture");
     imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
   }
   

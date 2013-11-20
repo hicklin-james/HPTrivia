@@ -280,7 +280,7 @@
 			<key>Answer 2</key>
 			<string>5</string>
 			<key>Answer 3</key>
-			<string>10</string>
+			<string>11</string>
 			<key>Answer 4</key>
 			<string>21</string>
 		</dict>
@@ -428,7 +428,7 @@
 			<key>Question</key>
 			<string>Who won the 1994 Quidditch World Cup?</string>
 			<key>Correct Answer</key>
-			<string>Bulgaria</string>
+			<string>Ireland</string>
 			<key>Answer 1</key>
 			<string>Bulgaria</string>
 			<key>Answer 2</key>
@@ -1243,7 +1243,7 @@
 			<key>Question</key>
 			<string>How much prize money is awarded to the winner of the Triwizard Tournament?</string>
 			<key>Correct Answer</key>
-			<string>10000 Galleons</string>
+			<string>1000 Galleons</string>
 			<key>Answer 1</key>
 			<string>10000 Galleons</string>
 			<key>Answer 2</key>
@@ -1846,7 +1846,7 @@
 		</dict>
 		<dict>
 			<key>Question</key>
-			<string>What family is not resident in Otter St Catchpole?</string>
+			<string>What family is not resident in Ottery St Catchpole?</string>
 			<key>Correct Answer</key>
 			<string>Finch-Fletchly</string>
 			<key>Answer 1</key>

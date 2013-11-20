@@ -1,19 +1,39 @@
 {
   "images" : [
     {
+      "size" : "57x57",
       "idiom" : "iphone",
-      "size" : "29x29",
-      "scale" : "2x"
+      "filename" : "Icon.png",
+      "scale" : "1x"
     },
     {
+      "size" : "57x57",
       "idiom" : "iphone",
-      "size" : "40x40",
+      "filename" : "Icon@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "HarryPotterAppIcon-iOS7.png",
+      "filename" : "triviagamelogoSmall-120.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "Icon-Small.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "Icon-Small@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "triviagamelogoSmall-80.png",
       "scale" : "2x"
     }
   ],

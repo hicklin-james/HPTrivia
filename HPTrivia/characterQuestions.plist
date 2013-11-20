@@ -230,7 +230,7 @@
 		</dict>
 		<dict>
 			<key>Question</key>
-			<string>What Harry Potter&apos;s middle name?</string>
+			<string>What is Harry Potter&apos;s middle name?</string>
 			<key>Correct Answer</key>
 			<string>James</string>
 			<key>Answer 1</key>

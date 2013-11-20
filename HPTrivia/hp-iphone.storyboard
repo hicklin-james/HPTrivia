@@ -951,7 +951,7 @@
         <image name="buttonBackground_medium.png" width="462" height="120"/>
         <image name="buttonBackground_small.png" width="291" height="87"/>
         <image name="buttonBackground_tiny.png" width="177" height="123"/>
-        <image name="parchment.png" width="320" height="480"/>
+        <image name="parchment.png" width="480" height="320"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -959,7 +959,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="VFd-85-OHh"/>
         <segue reference="x5f-Yv-3VH"/>
-        <segue reference="dgP-W4-9DQ"/>
     </inferredMetricsTieBreakers>
 </document>
