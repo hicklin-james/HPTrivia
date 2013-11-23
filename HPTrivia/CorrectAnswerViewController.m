@@ -17,6 +17,8 @@
 @implementation CorrectAnswerViewController
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 @synthesize imageView;
 @synthesize gameController;
@@ -37,14 +39,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
-  }
   
   correctAnswerLabel.text = @"Correct!";
-  correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
+  if (IDIOM == IPAD) {
+     correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:100];
+  }
+  else {
+     correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
+  }
   
   currentScoreLabel.text = [NSString stringWithFormat:@"Current Score: \n%d/%d", [gameController correctAnswers], [gameController questionNumber]-1];
   

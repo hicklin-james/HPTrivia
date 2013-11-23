@@ -19,7 +19,7 @@
 @property (strong, nonatomic) IBOutlet URBSegmentedControl *difficultySegControl;
 @property (strong, nonatomic) IBOutlet UITableView *highScoresTable;
 @property (strong, nonatomic) NSString *difficulty;
-@property (strong, nonatomic)NSString *category;
+@property (strong, nonatomic) NSString *category;
 
 - (IBAction)updateHighScoresTable:(id)sender;
 

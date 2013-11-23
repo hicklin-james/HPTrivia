@@ -7,16 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1FDBB818345231009EFD64 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBB718345231009EFD64 /* Icon-Small.png */; };
-		CB1FDBBB1834524F009EFD64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBB91834524F009EFD64 /* Icon.png */; };
-		CB1FDBBC1834524F009EFD64 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBBA1834524F009EFD64 /* Icon@2x.png */; };
-		CB1FDBBE18345275009EFD64 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBBD18345275009EFD64 /* Icon-Small@2x.png */; };
-		CB1FDBC0183452DF009EFD64 /* triviagamelogoSmall-120.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBBF183452DF009EFD64 /* triviagamelogoSmall-120.png */; };
-		CB1FDBC2183452ED009EFD64 /* triviagamelogoSmall-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1FDBC1183452ED009EFD64 /* triviagamelogoSmall-80.png */; };
 		CB30FB4417C6F3E600D90211 /* NumberOfQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30FB4317C6F3E600D90211 /* NumberOfQuestionsViewController.m */; };
 		CB51CA9217C40D75002CDED0 /* hp-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB51CA9117C40D75002CDED0 /* hp-iphone.storyboard */; };
 		CB51CA9517C40D96002CDED0 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB51CA9417C40D96002CDED0 /* MainMenuViewController.m */; };
-		CB51CA9A17C40EC6002CDED0 /* HPParchment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB51CA9917C40EC6002CDED0 /* HPParchment@2x.png */; };
 		CB51CAAB17C42077002CDED0 /* CategorySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB51CAAA17C42077002CDED0 /* CategorySelectionViewController.m */; };
 		CB51CAB917C43E97002CDED0 /* DifficultySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB51CAB817C43E97002CDED0 /* DifficultySelectionViewController.m */; };
 		CB57E60117C845F400490D9D /* buttonBackground_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = CB57E60017C845F400490D9D /* buttonBackground_medium.png */; };
@@ -34,9 +27,9 @@
 		CB5DECD6180C52DC0099F29D /* harryp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5DECD5180C52DC0099F29D /* harryp.ttf */; };
 		CB5DECD9180C55AA0099F29D /* NSString+fitFontToButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DECD8180C55AA0099F29D /* NSString+fitFontToButton.m */; };
 		CB64B42F17E3734C00BF1A6D /* hp-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB64B42E17E3734C00BF1A6D /* hp-ipad.storyboard */; };
-		CB64B43B17E37C5600BF1A6D /* parchment-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43817E37C5600BF1A6D /* parchment-568h@2x.png */; };
-		CB64B43C17E37C5600BF1A6D /* parchment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43917E37C5600BF1A6D /* parchment@2x.png */; };
-		CB64B43D17E37C5600BF1A6D /* parchment.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43A17E37C5600BF1A6D /* parchment.png */; };
+		CB64B43B17E37C5600BF1A6D /* parchment-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43817E37C5600BF1A6D /* parchment-568h@2x~iphone.png */; };
+		CB64B43C17E37C5600BF1A6D /* parchment@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43917E37C5600BF1A6D /* parchment@2x~iphone.png */; };
+		CB64B43D17E37C5600BF1A6D /* parchment~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64B43A17E37C5600BF1A6D /* parchment~iphone.png */; };
 		CB7BB5DF17CEE0DE00F80A27 /* wizardingWorldQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB7BB5DE17CEE0DE00F80A27 /* wizardingWorldQuestions.plist */; };
 		CBA726B01833236E00CF9405 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA726AE1833236E00CF9405 /* Default~iphone.png */; };
 		CBA726B11833236E00CF9405 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA726AF1833236E00CF9405 /* Default.png */; };
@@ -58,6 +51,8 @@
 		CBD6E2AA17C4565E007A6773 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2A917C4565E007A6773 /* QuestionViewController.m */; };
 		CBD6E2B117C46006007A6773 /* GameQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2B017C46006007A6773 /* GameQuestion.m */; };
 		CBD6E2B217C46413007A6773 /* characterQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E2A317C44FFB007A6773 /* characterQuestions.plist */; };
+		CBDB4B08183FB2DF003089E0 /* parchment@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDB4B06183FB2DF003089E0 /* parchment@2x~ipad.png */; };
+		CBDB4B09183FB2DF003089E0 /* parchment~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDB4B07183FB2DF003089E0 /* parchment~ipad.png */; };
 		CBEF9D041808E36500ABE180 /* highScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF9D031808E36500ABE180 /* highScore.plist */; };
 		CBEF9D0A1808F04F00ABE180 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF9D091808F04F00ABE180 /* HighScoresViewController.m */; };
 		CBEF9D0D1808F2E400ABE180 /* HighScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF9D0C1808F2E400ABE180 /* HighScoreCell.m */; };
@@ -75,18 +70,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB1FDBB718345231009EFD64 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		CB1FDBB91834524F009EFD64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		CB1FDBBA1834524F009EFD64 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		CB1FDBBD18345275009EFD64 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		CB1FDBBF183452DF009EFD64 /* triviagamelogoSmall-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triviagamelogoSmall-120.png"; sourceTree = "<group>"; };
-		CB1FDBC1183452ED009EFD64 /* triviagamelogoSmall-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triviagamelogoSmall-80.png"; sourceTree = "<group>"; };
 		CB30FB4217C6F3E600D90211 /* NumberOfQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsViewController.h; sourceTree = "<group>"; };
 		CB30FB4317C6F3E600D90211 /* NumberOfQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsViewController.m; sourceTree = "<group>"; };
 		CB51CA9117C40D75002CDED0 /* hp-iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "hp-iphone.storyboard"; sourceTree = "<group>"; };
 		CB51CA9317C40D96002CDED0 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		CB51CA9417C40D96002CDED0 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		CB51CA9917C40EC6002CDED0 /* HPParchment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HPParchment@2x.png"; sourceTree = "<group>"; };
 		CB51CAA917C42077002CDED0 /* CategorySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySelectionViewController.h; sourceTree = "<group>"; };
 		CB51CAAA17C42077002CDED0 /* CategorySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySelectionViewController.m; sourceTree = "<group>"; };
 		CB51CAB717C43E97002CDED0 /* DifficultySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifficultySelectionViewController.h; sourceTree = "<group>"; };
@@ -113,9 +101,9 @@
 		CB5DECD7180C55AA0099F29D /* NSString+fitFontToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+fitFontToButton.h"; sourceTree = "<group>"; };
 		CB5DECD8180C55AA0099F29D /* NSString+fitFontToButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+fitFontToButton.m"; sourceTree = "<group>"; };
 		CB64B42E17E3734C00BF1A6D /* hp-ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "hp-ipad.storyboard"; sourceTree = "<group>"; };
-		CB64B43817E37C5600BF1A6D /* parchment-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment-568h@2x.png"; sourceTree = "<group>"; };
-		CB64B43917E37C5600BF1A6D /* parchment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment@2x.png"; sourceTree = "<group>"; };
-		CB64B43A17E37C5600BF1A6D /* parchment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parchment.png; sourceTree = "<group>"; };
+		CB64B43817E37C5600BF1A6D /* parchment-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		CB64B43917E37C5600BF1A6D /* parchment@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment@2x~iphone.png"; sourceTree = "<group>"; };
+		CB64B43A17E37C5600BF1A6D /* parchment~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment~iphone.png"; sourceTree = "<group>"; };
 		CB7BB5DE17CEE0DE00F80A27 /* wizardingWorldQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wizardingWorldQuestions.plist; sourceTree = "<group>"; };
 		CBA726AE1833236E00CF9405 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
 		CBA726AF1833236E00CF9405 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -144,6 +132,8 @@
 		CBD6E2A917C4565E007A6773 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 		CBD6E2AF17C46006007A6773 /* GameQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameQuestion.h; sourceTree = "<group>"; };
 		CBD6E2B017C46006007A6773 /* GameQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameQuestion.m; sourceTree = "<group>"; };
+		CBDB4B06183FB2DF003089E0 /* parchment@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment@2x~ipad.png"; sourceTree = "<group>"; };
+		CBDB4B07183FB2DF003089E0 /* parchment~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parchment~ipad.png"; sourceTree = "<group>"; };
 		CBEF9D031808E36500ABE180 /* highScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = highScore.plist; sourceTree = "<group>"; };
 		CBEF9D081808F04F00ABE180 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoresViewController.h; path = ../HighScoresViewController.h; sourceTree = "<group>"; };
 		CBEF9D091808F04F00ABE180 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoresViewController.m; path = ../HighScoresViewController.m; sourceTree = "<group>"; };
@@ -180,24 +170,19 @@
 		CB51CA9617C40E12002CDED0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CB1FDBC1183452ED009EFD64 /* triviagamelogoSmall-80.png */,
-				CB1FDBBF183452DF009EFD64 /* triviagamelogoSmall-120.png */,
-				CB1FDBBD18345275009EFD64 /* Icon-Small@2x.png */,
-				CB1FDBB91834524F009EFD64 /* Icon.png */,
-				CB1FDBBA1834524F009EFD64 /* Icon@2x.png */,
-				CB1FDBB718345231009EFD64 /* Icon-Small.png */,
+				CBDB4B06183FB2DF003089E0 /* parchment@2x~ipad.png */,
+				CBDB4B07183FB2DF003089E0 /* parchment~ipad.png */,
 				CBD5D5141833D10800696A7E /* Default@2x.png */,
 				CBA726AE1833236E00CF9405 /* Default~iphone.png */,
 				CBA726AF1833236E00CF9405 /* Default.png */,
-				CB64B43817E37C5600BF1A6D /* parchment-568h@2x.png */,
-				CB64B43917E37C5600BF1A6D /* parchment@2x.png */,
-				CB64B43A17E37C5600BF1A6D /* parchment.png */,
+				CB64B43817E37C5600BF1A6D /* parchment-568h@2x~iphone.png */,
+				CB64B43917E37C5600BF1A6D /* parchment@2x~iphone.png */,
+				CB64B43A17E37C5600BF1A6D /* parchment~iphone.png */,
 				CB5D49BD17CBA42A0079BDB6 /* SettingsTabIcon@2x.png */,
 				CB57E60617C84E6E00490D9D /* buttonBackground_large.png */,
 				CB57E60417C8486D00490D9D /* buttonBackground_tiny.png */,
 				CB57E60217C846EE00490D9D /* buttonBackground_small.png */,
 				CB57E60017C845F400490D9D /* buttonBackground_medium.png */,
-				CB51CA9917C40EC6002CDED0 /* HPParchment@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -458,9 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1FDBBC1834524F009EFD64 /* Icon@2x.png in Resources */,
 				CBA726B01833236E00CF9405 /* Default~iphone.png in Resources */,
-				CB1FDBBE18345275009EFD64 /* Icon-Small@2x.png in Resources */,
 				CBCCB36B17C408FA00777E71 /* InfoPlist.strings in Resources */,
 				CBD6E2B217C46413007A6773 /* characterQuestions.plist in Resources */,
 				CB5D49BE17CBA42A0079BDB6 /* SettingsTabIcon@2x.png in Resources */,
@@ -469,19 +452,16 @@
 				CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */,
 				CB57E60517C8486D00490D9D /* buttonBackground_tiny.png in Resources */,
 				CBEF9D041808E36500ABE180 /* highScore.plist in Resources */,
-				CB1FDBBB1834524F009EFD64 /* Icon.png in Resources */,
-				CB51CA9A17C40EC6002CDED0 /* HPParchment@2x.png in Resources */,
-				CB64B43B17E37C5600BF1A6D /* parchment-568h@2x.png in Resources */,
+				CBDB4B09183FB2DF003089E0 /* parchment~ipad.png in Resources */,
+				CB64B43B17E37C5600BF1A6D /* parchment-568h@2x~iphone.png in Resources */,
 				CB5DECD6180C52DC0099F29D /* harryp.ttf in Resources */,
-				CB64B43D17E37C5600BF1A6D /* parchment.png in Resources */,
-				CB1FDBC0183452DF009EFD64 /* triviagamelogoSmall-120.png in Resources */,
-				CB1FDBB818345231009EFD64 /* Icon-Small.png in Resources */,
+				CB64B43D17E37C5600BF1A6D /* parchment~iphone.png in Resources */,
 				CBD5D5151833D10800696A7E /* Default@2x.png in Resources */,
 				CB7BB5DF17CEE0DE00F80A27 /* wizardingWorldQuestions.plist in Resources */,
 				CBCCB37317C408FA00777E71 /* Images.xcassets in Resources */,
-				CB1FDBC2183452ED009EFD64 /* triviagamelogoSmall-80.png in Resources */,
-				CB64B43C17E37C5600BF1A6D /* parchment@2x.png in Resources */,
+				CB64B43C17E37C5600BF1A6D /* parchment@2x~iphone.png in Resources */,
 				CB57E60117C845F400490D9D /* buttonBackground_medium.png in Resources */,
+				CBDB4B08183FB2DF003089E0 /* parchment@2x~ipad.png in Resources */,
 				CBCD588117C44EFE00584596 /* ParryHotter.ttf in Resources */,
 				CB57E60317C846EE00490D9D /* buttonBackground_small.png in Resources */,
 				CBA726B11833236E00CF9405 /* Default.png in Resources */,
@@ -642,10 +622,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
 				INFOPLIST_FILE = "HPTrivia/HPTrivia-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "83B471C7-466C-4DF0-98C9-05F0DDF153B3";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "46001C38-C607-4C07-AA60-B3EC2DDDD903";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -660,10 +640,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTrivia/HPTrivia-Prefix.pch";
 				INFOPLIST_FILE = "HPTrivia/HPTrivia-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "83B471C7-466C-4DF0-98C9-05F0DDF153B3";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "46001C38-C607-4C07-AA60-B3EC2DDDD903";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

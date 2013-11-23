@@ -21,6 +21,9 @@
 @synthesize wizardingWorldButton;
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -35,13 +38,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
   
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
+  if (IDIOM == IPAD) {
+    [self.titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:85]];
   }
-  
-  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  else {
+    [self. titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:55]];
+  }
   
 }
 

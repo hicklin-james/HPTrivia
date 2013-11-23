@@ -17,6 +17,8 @@
 @implementation DifficultySelectionViewController
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 @synthesize category;
 @synthesize imageView;
@@ -40,14 +42,15 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view.
   // Use correct image for screen size
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
+  if (IDIOM == IPAD) {
+    [self.titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:65]];
   }
+  else {
+    [self. titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:45]];
+  }
+  
   NSLog([NSString stringWithFormat:@"The category is %@", category], nil);
   [self setUpButtons];
-  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
   [instructionsLabel setFont:[UIFont fontWithName:@"ParryHotter" size:12]];
   
 }

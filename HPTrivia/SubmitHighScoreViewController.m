@@ -40,18 +40,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.nameTextField becomeFirstResponder];
 	// Do any additional setup after loading the view.
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
-  }
-  self.congratsLabel.text = [NSString stringWithFormat:@"Congratulations! You scored %d%% and made it to the high scores! Please enter your name below!", percentScore];
+    self.congratsLabel.text = [NSString stringWithFormat:@"Congratulations! You scored %d%% and made it to the high scores! Please enter your name below!", percentScore];
 }
 
 -(void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
-  [self.nameTextField becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,6 +66,7 @@
     NSMutableDictionary *thisScore = [highScores objectAtIndex:i];
     NSInteger thisScoreInteger = [[thisScore objectForKey:@"Score"] integerValue];
     if (percentScore >= thisScoreInteger) {
+     // NSLog(@"We got here!");
       NSString *name = self.nameTextField.text;
       NSMutableDictionary *newScore = [[NSMutableDictionary alloc] init];
       [newScore setObject:name forKey:@"Name"];

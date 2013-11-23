@@ -16,6 +16,8 @@
 @implementation GameCompleteViewController
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 @synthesize imageView;
 @synthesize gameController;
@@ -37,12 +39,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
   
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
-  }
-  
   [self setupLabels];
   [self setupButtons];
   
@@ -50,9 +46,17 @@
 
 -(void)setupLabels {
   
-  titleLabel.font = [UIFont fontWithName:@"ParryHotter" size:45];
-  unlockedLabel.font = [UIFont fontWithName:@"ParryHotter" size:14];
-  scoreLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
+  if (IDIOM == IPAD) {
+    titleLabel.font = [UIFont fontWithName:@"ParryHotter" size:90];
+    unlockedLabel.font = [UIFont fontWithName:@"ParryHotter" size:28];
+    scoreLabel.font = [UIFont fontWithName:@"ParryHotter" size:40];
+  }
+  else {
+    titleLabel.font = [UIFont fontWithName:@"ParryHotter" size:45];
+    unlockedLabel.font = [UIFont fontWithName:@"ParryHotter" size:14];
+    scoreLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
+  }
+
   scoreLabel.text = [NSString stringWithFormat:@"You scored %d/%d", gameController.correctAnswers, gameController.numOfQuestions];
   
   if ([gameController didPass]) { // You passed, so unlock next level in the category

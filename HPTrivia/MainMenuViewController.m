@@ -16,6 +16,9 @@
 
 #define IS_PHONEPOD5() ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
 
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+
 @synthesize imageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -31,15 +34,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-  if(!IS_PHONEPOD5()) {
-    //NSLog(@"We used the smaller picture");
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    //NSLog(@"We used the bigger picture");
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
-  }
   
-  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:50]];
+  if (IDIOM == IPAD) {
+    [self.titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:85]];
+  }
+  else {
+    [self. titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:55]];
+  }
   
 }
 

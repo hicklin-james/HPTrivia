@@ -16,6 +16,8 @@
 @implementation NumberOfQuestionsViewController
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 @synthesize category;
 @synthesize difficulty;
@@ -39,12 +41,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
+  if (IDIOM == IPAD) {
+    [self.titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:60]];
   }
-  [self.titleLabel setFont:[UIFont fontWithName:@"ParryHotter" size:30]];
+  else {
+    [self.titleLabel setFont:[UIFont fontWithName:@"Parry Hotter" size:30]];
+    //[self.titleLabel setText:@"How many questions \nwould you like?"];
+  }
 }
 
 - (void)didReceiveMemoryWarning

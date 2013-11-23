@@ -1792,15 +1792,15 @@
 			<key>Question</key>
 			<string>How long has Ollivander’s been in business?</string>
 			<key>Correct Answer</key>
-			<string>Since 382BC</string>
+			<string>Since 382 BC</string>
 			<key>Answer 1</key>
-			<string>Since 382BC</string>
+			<string>Since 382 BC</string>
 			<key>Answer 2</key>
-			<string>Since 1AD</string>
+			<string>Since 1 AD</string>
 			<key>Answer 3</key>
-			<string>Since 1000AD</string>
+			<string>Since 1000 AD</string>
 			<key>Answer 4</key>
-			<string>Since 44BC</string>
+			<string>Since 44 BC</string>
 		</dict>
 		<dict>
 			<key>Question</key>

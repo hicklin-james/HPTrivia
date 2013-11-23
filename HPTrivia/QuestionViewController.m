@@ -34,6 +34,8 @@ NSTimer *countdownTimer;
 UIColor *blueTextColor;
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -50,12 +52,7 @@ UIColor *blueTextColor;
     [super viewDidLoad];
     [self setBlueTextColor];
 	// Do any additional setup after loading the view.
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
-  }
-  self.timerLabel.textColor = blueTextColor;
+    self.timerLabel.textColor = blueTextColor;
   //[self setupCurrentQuestion];
 }
 
@@ -108,9 +105,25 @@ UIColor *blueTextColor;
 -(void)setupCurrentQuestion {
   
   currentQuestion = [gameController fetchRandomQuestion];
-  questionLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
-  questionLabel.text = [currentQuestion question];
-  questionLabel.adjustsFontSizeToFitWidth = YES;
+  CGFloat fontSize;
+  //questionLabel.text = [currentQuestion question];
+  
+  CGRect frame = questionLabel.frame;
+  frame.size.width -= 25; //l + r padding
+  frame.size.height -= 25;
+  
+  if (IDIOM == IPAD) {
+    fontSize = [[currentQuestion question] fontSizeWithFont:[UIFont fontWithName:@"Harry P" size:50] constrainedToSize: frame.size];
+    //questionLabel.font = [UIFont fontWithName:@"ParryHotter" size:40];
+  }
+  else {
+    //questionLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
+    fontSize = [[currentQuestion question] fontSizeWithFont:[UIFont fontWithName:@"Harry P" size:30] constrainedToSize: frame.size];
+  }
+  //questionLabel.font = [UIFont fontWithName:@"Harry P" size:fontSize];
+  //questionLabel.adjustsFontSizeToFitWidth = YES;
+  [questionLabel setFont:[UIFont fontWithName:@"Harry P" size:fontSize]];
+  [questionLabel setText:[currentQuestion question]];
   NSMutableArray *buttonArray = [NSMutableArray arrayWithObjects:answerOneButton, answerTwoButton, answerThreeButton, answerFourButton, nil];
   [buttonArray shuffle];
   
@@ -127,15 +140,28 @@ UIColor *blueTextColor;
   theButton.titleLabel.textAlignment = NSTextAlignmentCenter;
  // [theButton.titleLabel sizeToFit];
   CGRect frame = theButton.frame;
-  frame.size.width -= 25; //l + r padding
-  frame.size.height -= 25;
+  if (IDIOM == IPAD) {
+    frame.size.width -= 55; //l + r padding
+    frame.size.height -= 55;
+  }
+  else {
+    frame.size.width -= 25; //l + r padding
+    frame.size.height -= 25;
+  }
   //theButton.titleLabel.frame = frame;
   //NSLog(answerString);
   //[theButton.titleLabel setFont:[UIFont fontWithName:@"harryp" size:25]];
   theButton.titleLabel.numberOfLines = 0;
   //theButton.titleLabel.adjustsFontSizeToFitWidth = YES;
-  CGFloat fontSize = [answerString fontSizeWithFont:[UIFont fontWithName:@"harryp" size:24] constrainedToSize: frame.size];
-  [theButton.titleLabel setFont:[UIFont fontWithName:@"harryp" size:fontSize]];
+  CGFloat fontSize;
+  if (IDIOM == IPAD) {
+    fontSize = [answerString fontSizeWithFont:[UIFont fontWithName:@"Harry P" size:44] constrainedToSize: frame.size];
+  }
+  else {
+    fontSize = [answerString fontSizeWithFont:[UIFont fontWithName:@"Harry P" size:24] constrainedToSize: frame.size];
+  }
+  
+  [theButton.titleLabel setFont:[UIFont fontWithName:@"Harry P" size:fontSize]];
   [theButton setTitle:answerString forState:UIControlStateNormal];
 }
 

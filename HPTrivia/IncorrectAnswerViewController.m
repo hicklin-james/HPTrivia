@@ -9,6 +9,7 @@
 #import "IncorrectAnswerViewController.h"
 #import "QuestionViewController.h"
 #import "GameCompleteViewController.h"
+#import "NSString+fitFontToButton.h"
 
 @interface IncorrectAnswerViewController ()
 
@@ -17,6 +18,8 @@
 @implementation IncorrectAnswerViewController
 
 #define IS_PHONEPOD5() ([UIScreen mainScreen].bounds.size.height == 568.0f && [UIScreen mainScreen].scale == 2.f && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
 
 @synthesize imageView;
 @synthesize gameController;
@@ -43,17 +46,29 @@
   layer.cornerRadius = 8.0f;
   layer.borderWidth = 1.0f;
   
-  if(!IS_PHONEPOD5()) {
-    imageView.image = [UIImage imageNamed:@"parchment.png"];
-  } else {
-    imageView.image = [UIImage imageNamed:@"parchment-568h@2x.png"];
+  incorrectAnswerLabel.text = @"Incorrect!";
+  //correctAnswerLabel.text = correctAnswer;
+  
+  CGRect frame = correctAnswerLabel.frame;
+  //frame.size.width -= 25; //l + r padding
+  //frame.size.height -= 25;
+  
+  CGFloat fontSize;
+  
+  if (IDIOM == IPAD) {
+    incorrectAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:100];
+    fontSize = [correctAnswer fontSizeWithFont:[UIFont fontWithName:@"ParryHotter" size:65] constrainedToSize: frame.size];
+    //correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:55];
+  }
+  else {
+    incorrectAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
+    fontSize = [correctAnswer fontSizeWithFont:[UIFont fontWithName:@"ParryHotter" size:20] constrainedToSize: frame.size];
+    //correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:20];
   }
   
-  incorrectAnswerLabel.text = @"Incorrect!";
-  incorrectAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:60];
-  correctAnswerLabel.text = correctAnswer;
-  correctAnswerLabel.font = [UIFont fontWithName:@"ParryHotter" size:20
-                             ];
+  [correctAnswerLabel setFont:[UIFont fontWithName:@"ParryHotter" size:fontSize]];
+  [correctAnswerLabel setText:correctAnswer];
+  
   correctAnswerLabel.adjustsFontSizeToFitWidth = YES;
   if ([gameController questionNumber] > [gameController numOfQuestions]) {
     [nextViewButton setTitle:@"Finish Game" forState:UIControlStateNormal];
