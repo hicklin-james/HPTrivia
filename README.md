@@ -7,6 +7,8 @@ Built for fun - See screenshots below - Contact me for more information
 
 Now available on the app store!
 
+<a href="https://itunes.apple.com/us/app/harry-potter-mega-trivia/id746972897?ls=1&mt=8" target="_blank">
+<img src="HPTrivia/App_Store_Badge.png"></a>
 ![Alt text](/HPTrivia/HPTrivia Screenshots/4 Inch Screenshots/IMG_8924.png "Screenshot 1")
 ![Alt text](/HPTrivia/HPTrivia Screenshots/4 Inch Screenshots/IMG_4398.png "Screenshot 2")
 ![Alt text](/HPTrivia/HPTrivia Screenshots/4 Inch Screenshots/IMG_4145.png "Screenshot 3")
