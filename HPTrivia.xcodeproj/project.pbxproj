@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB2CAEEA1847BCD200B8BF72 /* App_Store_Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2CAEE91847BCD200B8BF72 /* App_Store_Badge.png */; };
 		CB30FB4417C6F3E600D90211 /* NumberOfQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30FB4317C6F3E600D90211 /* NumberOfQuestionsViewController.m */; };
 		CB51CA9217C40D75002CDED0 /* hp-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB51CA9117C40D75002CDED0 /* hp-iphone.storyboard */; };
 		CB51CA9517C40D96002CDED0 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB51CA9417C40D96002CDED0 /* MainMenuViewController.m */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB2CAEE91847BCD200B8BF72 /* App_Store_Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Store_Badge.png; sourceTree = "<group>"; };
 		CB30FB4217C6F3E600D90211 /* NumberOfQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsViewController.h; sourceTree = "<group>"; };
 		CB30FB4317C6F3E600D90211 /* NumberOfQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsViewController.m; sourceTree = "<group>"; };
 		CB51CA9117C40D75002CDED0 /* hp-iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "hp-iphone.storyboard"; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 		CBCCB36717C408FA00777E71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB2CAEE91847BCD200B8BF72 /* App_Store_Badge.png */,
 				CB5DECD5180C52DC0099F29D /* harryp.ttf */,
 				CBCD588017C44DC600584596 /* ParryHotter.ttf */,
 				CB51CA9617C40E12002CDED0 /* Images */,
@@ -448,6 +451,7 @@
 				CBD6E2B217C46413007A6773 /* characterQuestions.plist in Resources */,
 				CB5D49BE17CBA42A0079BDB6 /* SettingsTabIcon@2x.png in Resources */,
 				CB57E60717C84E6E00490D9D /* buttonBackground_large.png in Resources */,
+				CB2CAEEA1847BCD200B8BF72 /* App_Store_Badge.png in Resources */,
 				CB64B42F17E3734C00BF1A6D /* hp-ipad.storyboard in Resources */,
 				CB592F9517C53D6E00622D5D /* spellQuestions.plist in Resources */,
 				CB57E60517C8486D00490D9D /* buttonBackground_tiny.png in Resources */,
