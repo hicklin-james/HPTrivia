@@ -114,7 +114,7 @@
     [defaults setInteger:2 forKey:[NSString stringWithFormat:@"%@ Difficulty Allowed", category]];
 }
 
-// Check if player passed - set at 70%
+// Check if player passed - set at 60%
 -(BOOL)didPass {
   
   NSInteger score = [self calculatePercentageScore];
